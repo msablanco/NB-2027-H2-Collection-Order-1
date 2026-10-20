@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: "Montserrat", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Official New Balance E-commerce Brand Palette (newbalance.com) */
+  --color-nb-red: #CF0A2C;       /* Official New Balance Red */
+  --color-nb-red-hover: #B00824; /* Darker red on hover */
+  --color-nb-black: #111111;     /* Primary core dark */
+  --color-nb-dark: #1E1E1E;      /* Secondary dark */
+  --color-nb-gray: #707072;      /* Official cool neutral slate */
+  --color-nb-light: #F4F4F6;     /* Clean light section background */
+  --color-nb-border: #E5E5E7;    /* Sleek 1px border */
+
+  /* Map standard reds to official New Balance Red */
+  --color-red-50: #fdf2f4;
+  --color-red-100: #fce8eb;
+  --color-red-200: #f9c7cf;
+  --color-red-300: #f496a5;
+  --color-red-400: #ec5972;
+  --color-red-500: #CF0A2C;
+  --color-red-600: #CF0A2C;
+  --color-red-700: #B00824;
+  --color-red-800: #8c061d;
+  --color-red-900: #6d0517;
+  --color-red-950: #42020d;
+
+  /* Keep legacy blue aliases mapped to New Balance Red */
+  --color-blue-50: #fdf2f4;
+  --color-blue-100: #fce8eb;
+  --color-blue-150: #f9c7cf;
+  --color-blue-200: #f9c7cf;
+  --color-blue-300: #f496a5;
+  --color-blue-400: #ec5972;
+  --color-blue-500: #CF0A2C;
+  --color-blue-600: #CF0A2C;
+  --color-blue-700: #B00824;
+  --color-blue-800: #8c061d;
+  --color-blue-900: #6d0517;
+  --color-blue-950: #42020d;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAFAFB;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+/* New Balance Red buttons and accents */
+.bg-nb-red {
+  background-color: #CF0A2C;
+}
+
+.bg-nb-red:hover {
+  background-color: #B00824;
+}
+
+.text-nb-red {
+  color: #CF0A2C;
+}
+
+.border-nb-red {
+  border-color: #CF0A2C;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

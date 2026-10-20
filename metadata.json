@@ -1,0 +1,8 @@
+{
+  "name": "NB 2027-H2 Footwear Collection Order",
+  "description": "Plataforma de preventa y pedidos mayoristas de la colección New Balance H2-2027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
