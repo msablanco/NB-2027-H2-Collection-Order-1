@@ -3,6 +3,7 @@ import { ArrowLeft, CheckCircle2, Building2, MapPin, Mail, Phone, User, FileText
 import { AppView, CustomerData, OrderDetails } from '../types';
 import { useCart } from '../context/CartContext';
 import { submitOrder, getNextCorrelativeOrderId, getItemDivision } from '../services/googleSheetService';
+import { safeGetJSON, safeSetJSON } from '../utils/storage';
 
 export const SALES_REPRESENTATIVES = [
   { name: 'Camila De Almeida', email: 'cdealmeida@grupodass.com.ar' },
@@ -19,10 +20,7 @@ interface CheckoutViewProps {
 export const CheckoutView: React.FC<CheckoutViewProps> = ({ setView, setLastOrder, initialData }) => {
   const { cartItems, totalPrice, clearCart } = useCart();
   const [customer, setCustomer] = useState<CustomerData>(() => {
-    let saved: any = null;
-    try {
-      saved = JSON.parse(localStorage.getItem('fila_customer_data') || 'null');
-    } catch {}
+    const saved = safeGetJSON<any>('fila_customer_data', null);
 
     const initialVendedor = initialData?.vendedor || saved?.vendedor || SALES_REPRESENTATIVES[0].name;
     const initialRep = SALES_REPRESENTATIVES.find(r => r.name === initialVendedor) || SALES_REPRESENTATIVES[0];
@@ -94,20 +92,12 @@ export const CheckoutView: React.FC<CheckoutViewProps> = ({ setView, setLastOrde
       };
 
       // Persist customer profile for future auto-fill
-      try {
-        localStorage.setItem('fila_customer_data', JSON.stringify(customer));
-      } catch (err) {
-        console.error('Error saving customer data:', err);
-      }
+      safeSetJSON('fila_customer_data', customer);
 
       // Persist order in local history for OrderLookupView & branch duplication
-      try {
-        const existingHistory = JSON.parse(localStorage.getItem('fila_orders_history') || '[]');
-        const updatedHistory = [newOrder, ...existingHistory.filter((o: any) => o.orderId !== newOrder.orderId)];
-        localStorage.setItem('fila_orders_history', JSON.stringify(updatedHistory));
-      } catch (err) {
-        console.error('Error saving order history:', err);
-      }
+      const existingHistory = safeGetJSON<any[]>('fila_orders_history', []);
+      const updatedHistory = [newOrder, ...existingHistory.filter((o: any) => o.orderId !== newOrder.orderId)];
+      safeSetJSON('fila_orders_history', updatedHistory);
 
       setLastOrder(newOrder);
       clearCart();

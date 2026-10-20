@@ -9,6 +9,7 @@ import * as ExcelJS from 'exceljs';
 import { getCachedImage } from './TransparentImage';
 import { getProxiedUrl } from './mediaHelper';
 import { getCleanProductColor } from '../utils/colorHelper';
+import { safeGetJSON } from '../utils/storage';
 
 interface OrderConfirmationViewProps {
   order: OrderDetails | null;
@@ -218,7 +219,7 @@ const OrderConfirmationView: React.FC<OrderConfirmationViewProps> = ({ order, se
     let totalPrecioGeneral = 0;
     let rowIndex = 0;
     
-    const favorites = JSON.parse(localStorage.getItem('fila_favorites') || '[]');
+    const favorites = safeGetJSON<number[]>('fila_favorites', []);
  
     // Group items by period
     for (const item of order.items) {
@@ -426,7 +427,7 @@ const OrderConfirmationView: React.FC<OrderConfirmationViewProps> = ({ order, se
 
     let totalUnidadesGeneral = 0;
     let totalPrecioGeneral = 0;
-    const favorites = JSON.parse(localStorage.getItem('fila_favorites') || '[]');
+    const favorites = safeGetJSON<number[]>('fila_favorites', []);
 
     // Group items by period
     const groupedByPeriod: Record<string, {item: typeof order.items[0], size: string, units: number, orderId: string, totalPrice: number}[]> = {};

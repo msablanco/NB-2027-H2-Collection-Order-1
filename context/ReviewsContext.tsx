@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { safeGetJSON, safeSetJSON, safeRemoveItem } from '../utils/storage';
 
 type Review = {
   comment: string;
@@ -16,12 +17,11 @@ const ReviewsContext = createContext<ReviewsContextType | undefined>(undefined);
 
 export const ReviewsProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [reviews, setReviews] = useState<Record<string, Review>>(() => {
-    const saved = localStorage.getItem('fila_reviews');
-    return saved ? JSON.parse(saved) : {};
+    return safeGetJSON<Record<string, Review>>('fila_reviews', {});
   });
 
   useEffect(() => {
-    localStorage.setItem('fila_reviews', JSON.stringify(reviews));
+    safeSetJSON('fila_reviews', reviews);
   }, [reviews]);
 
   const addReview = (productId: string, comment: string, rating: number) => {
@@ -37,7 +37,7 @@ export const ReviewsProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   const clearReviews = () => {
     setReviews({});
-    localStorage.removeItem('fila_reviews');
+    safeRemoveItem('fila_reviews');
   };
 
   return (

@@ -1,6 +1,8 @@
+import './index.css';
 import React, { Component, ReactNode, ErrorInfo } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { safeRemoveItem } from './utils/storage';
 
 interface ErrorBoundaryProps {
   children: ReactNode;
@@ -27,7 +29,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
     try {
       const msg = error ? (error.message || (typeof error === 'string' ? error : 'App error')) : 'Unknown error';
-      console.error('App runtime error caught by ErrorBoundary:', msg);
+      console.error('App runtime error caught by ErrorBoundary:', msg, errorInfo);
     } catch {
       // safe fallback
     }
@@ -35,9 +37,11 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
 
   handleReset = () => {
     try {
-      localStorage.removeItem('fila_cart');
-      localStorage.removeItem('fila_favorites');
-      localStorage.removeItem('fila_reviews');
+      safeRemoveItem('fila_cart');
+      safeRemoveItem('fila_favorites');
+      safeRemoveItem('fila_reviews');
+      safeRemoveItem('fila_customer_data');
+      safeRemoveItem('fila_orders_history');
     } catch (e) {
       console.error(e);
     }

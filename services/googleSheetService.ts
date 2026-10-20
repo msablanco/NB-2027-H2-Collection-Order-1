@@ -3,6 +3,7 @@ import { createExcelBase64 } from "./excelService";
 import { createPdfBase64 } from "./pdfService";
 import { expandSizeRange } from "../utils/sizeCurveHelper";
 import { getCleanProductColor } from "../utils/colorHelper";
+import { safeGetItem, safeSetItem, safeGetJSON } from "../utils/storage";
 
 const GOOGLE_SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbyxAbFj4OufAiYhHfjXKwD_7ZbXwtXUEP7w74RRpa67p8o5jdnhPcPWu_JdbVxPnaotLg/exec';
 
@@ -58,43 +59,38 @@ export const getNextCorrelativeOrderId = (division: 'CALZADO' | 'INDUMENTARIA'):
     
     let currentSeq = isCalzado ? inMemoryCalzadoSeq : inMemoryIndumSeq;
     try {
-        if (typeof localStorage !== 'undefined') {
-            const stored = localStorage.getItem(storageKey);
-            if (stored) {
-                const parsed = parseInt(stored, 10);
-                if (!isNaN(parsed) && parsed > currentSeq) {
-                    currentSeq = parsed;
-                }
+        const stored = safeGetItem(storageKey);
+        if (stored) {
+            const parsed = parseInt(stored, 10);
+            if (!isNaN(parsed) && parsed > currentSeq) {
+                currentSeq = parsed;
             }
-            
-            // Also inspect orders history to prevent resetting if localStorage counter was cleared
-            const historyRaw = localStorage.getItem('fila_orders_history');
-            if (historyRaw) {
-                const history = JSON.parse(historyRaw);
-                if (Array.isArray(history)) {
-                    const regex = new RegExp(`${prefix}(\\d{4,})`, 'i');
-                    for (const ord of history) {
-                        if (ord?.orderId) {
-                            const matches = ord.orderId.match(new RegExp(`${prefix}(\\d{4,})`, 'gi'));
-                            if (matches) {
-                                for (const m of matches) {
-                                    const numMatch = m.match(new RegExp(`${prefix}(\\d{4,})`, 'i'));
-                                    if (numMatch && numMatch[1]) {
-                                        const num = parseInt(numMatch[1], 10);
-                                        if (!isNaN(num) && num > currentSeq) currentSeq = num;
-                                    }
-                                }
+        }
+        
+        // Also inspect orders history to prevent resetting if counter was cleared
+        const history = safeGetJSON<any[]>('fila_orders_history', []);
+        if (Array.isArray(history)) {
+            const regex = new RegExp(`${prefix}(\\d{4,})`, 'i');
+            for (const ord of history) {
+                if (ord?.orderId) {
+                    const matches = ord.orderId.match(new RegExp(`${prefix}(\\d{4,})`, 'gi'));
+                    if (matches) {
+                        for (const m of matches) {
+                            const numMatch = m.match(new RegExp(`${prefix}(\\d{4,})`, 'i'));
+                            if (numMatch && numMatch[1]) {
+                                const num = parseInt(numMatch[1], 10);
+                                if (!isNaN(num) && num > currentSeq) currentSeq = num;
                             }
                         }
-                        if (ord?.periodOrderIds) {
-                            for (const val of Object.values(ord.periodOrderIds)) {
-                                if (typeof val === 'string') {
-                                    const match = val.match(regex);
-                                    if (match && match[1]) {
-                                        const num = parseInt(match[1], 10);
-                                        if (!isNaN(num) && num > currentSeq) currentSeq = num;
-                                    }
-                                }
+                    }
+                }
+                if (ord?.periodOrderIds) {
+                    for (const val of Object.values(ord.periodOrderIds)) {
+                        if (typeof val === 'string') {
+                            const match = val.match(regex);
+                            if (match && match[1]) {
+                                const num = parseInt(match[1], 10);
+                                if (!isNaN(num) && num > currentSeq) currentSeq = num;
                             }
                         }
                     }
@@ -113,9 +109,7 @@ export const getNextCorrelativeOrderId = (division: 'CALZADO' | 'INDUMENTARIA'):
     }
     
     try {
-        if (typeof localStorage !== 'undefined') {
-            localStorage.setItem(storageKey, nextSeq.toString());
-        }
+        safeSetItem(storageKey, nextSeq.toString());
     } catch (e) {
         console.warn("Could not save updated order sequence:", e);
     }
@@ -225,7 +219,7 @@ export const submitOrder = async (customerData: CustomerData, cartItems: CartIte
                             'Email': customerData.email,
                             'Telefono': customerData.phone,
                             'Observaciones': customerData.observations || '',
-                            'Favoritos': JSON.parse(localStorage.getItem('fila_favorites') || '[]').includes(item.id) ? 'Sí' : 'No',
+                            'Favoritos': safeGetJSON<number[]>('fila_favorites', []).includes(item.id) ? 'Sí' : 'No',
                             'Comentarios de producto': commentText,
                             'Valoracion': ratingValue,
                             'Vendedor': customerData.vendedor || customerData.salesRepEmail || '',
@@ -257,7 +251,7 @@ export const submitOrder = async (customerData: CustomerData, cartItems: CartIte
                                 'Email': customerData.email,
                                 'Telefono': customerData.phone,
                                 'Observaciones': customerData.observations || '',
-                                'Favoritos': JSON.parse(localStorage.getItem('fila_favorites') || '[]').includes(item.id) ? 'Sí' : 'No',
+                                'Favoritos': safeGetJSON<number[]>('fila_favorites', []).includes(item.id) ? 'Sí' : 'No',
                                 'Comentarios de producto': commentText,
                                 'Valoracion': ratingValue,
                                 'Vendedor': customerData.vendedor || customerData.salesRepEmail || '',

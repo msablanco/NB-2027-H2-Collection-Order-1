@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AppView, OrderDetails } from '../types';
 import { ArrowLeft, Search, Package, Clock } from 'lucide-react';
+import { safeGetJSON } from '../utils/storage';
 
 interface OrderLookupViewProps {
   setView: (view: AppView) => void;
@@ -14,7 +15,7 @@ const OrderLookupView: React.FC<OrderLookupViewProps> = ({ setView, setLastOrder
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const history = JSON.parse(localStorage.getItem('fila_orders_history') || '[]');
+    const history = safeGetJSON<OrderDetails[]>('fila_orders_history', []);
     setLocalOrders(history);
   }, []);
 

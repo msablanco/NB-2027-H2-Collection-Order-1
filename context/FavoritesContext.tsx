@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { safeGetJSON, safeSetJSON, safeRemoveItem } from '../utils/storage';
 
 interface FavoritesContextType {
   favorites: number[];
@@ -11,12 +12,11 @@ const FavoritesContext = createContext<FavoritesContextType | undefined>(undefin
 
 export const FavoritesProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [favorites, setFavorites] = useState<number[]>(() => {
-    const saved = localStorage.getItem('fila_favorites');
-    return saved ? JSON.parse(saved) : [];
+    return safeGetJSON<number[]>('fila_favorites', []);
   });
 
   useEffect(() => {
-    localStorage.setItem('fila_favorites', JSON.stringify(favorites));
+    safeSetJSON('fila_favorites', favorites);
   }, [favorites]);
 
   const toggleFavorite = (productId: number) => {
@@ -35,7 +35,7 @@ export const FavoritesProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
   const clearFavorites = () => {
     setFavorites([]);
-    localStorage.removeItem('fila_favorites');
+    safeRemoveItem('fila_favorites');
   };
 
   return (

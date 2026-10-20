@@ -123,7 +123,7 @@ async function startServer() {
   const app = express();
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // API route for chat
   app.use("/api", (req, res, next) => {

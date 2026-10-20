@@ -4,6 +4,7 @@ import autoTable from 'jspdf-autotable';
 import { getCachedImage } from '../components/TransparentImage';
 import { getProxiedUrl } from '../components/mediaHelper';
 import { getCleanProductColor } from '../utils/colorHelper';
+import { safeGetJSON } from '../utils/storage';
 
 const resizeBase64Image = (base64Str: string, maxDim = 120): Promise<string> => {
     return new Promise((resolve) => {
@@ -241,7 +242,7 @@ export const createPdfBase64 = async (order: OrderDetails): Promise<string> => {
     let totalPrecioGeneral = 0;
     let rowIndex = 0;
     
-    const favorites = JSON.parse(localStorage.getItem('fila_favorites') || '[]');
+    const favorites = safeGetJSON<number[]>('fila_favorites', []);
  
     // Group items by period
     for (const item of order.items) {

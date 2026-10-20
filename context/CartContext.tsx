@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Product, CartItem, DeliveryRequirement } from '../types';
 import { products } from '../data/products';
+import { safeGetJSON, safeSetJSON, safeRemoveItem } from '../utils/storage';
 
 interface CartContextType {
   cartItems: CartItem[];
@@ -122,8 +123,7 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [cartItems, setCartItems] = useState<CartItem[]>(() => {
     try {
-      const saved = localStorage.getItem('fila_cart');
-      const parsed: CartItem[] = saved ? JSON.parse(saved) : [];
+      const parsed = safeGetJSON<CartItem[]>('fila_cart', []);
       return Array.isArray(parsed) ? parsed.map(syncCartItemWithCatalog) : [];
     } catch {
       return [];
@@ -131,7 +131,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
   });
 
   useEffect(() => {
-    localStorage.setItem('fila_cart', JSON.stringify(cartItems));
+    safeSetJSON('fila_cart', cartItems);
   }, [cartItems]);
 
   const addToCart = (product: Product, quantity = 1, size?: string, deliveryPlan?: DeliveryRequirement[]) => {
@@ -191,7 +191,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const clearCart = () => {
     setCartItems([]);
-    localStorage.removeItem('fila_cart');
+    safeRemoveItem('fila_cart');
   };
 
   const restoreCart = (items: CartItem[]) => {
