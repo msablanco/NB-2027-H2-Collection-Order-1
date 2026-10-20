@@ -331,10 +331,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
                         <span className="font-medium text-gray-800 break-words" title={product.curve}>{product.curve}</span>
                     </div>
                 </div>
-                {product.allowedPeriods && product.allowedPeriods.length < 6 && (
-                  <div className="flex items-center justify-between text-[9px] mb-1.5 px-0.5">
-                    <span className="text-gray-400 uppercase text-[8px] font-sans font-bold tracking-wider">Entregas:</span>
-                    <span className="text-gray-600 font-medium text-right">{product.allowedPeriods.join(' · ')}</span>
+                {product.allowedPeriods && product.allowedPeriods.length > 0 && (
+                  <div className="flex items-start justify-between gap-2 text-[9px] mb-1.5 px-0.5">
+                    <span className="text-gray-400 uppercase text-[8px] font-sans font-bold tracking-wider shrink-0 mt-0.5">Entregas:</span>
+                    <span className="text-gray-600 font-medium text-right leading-tight">{product.allowedPeriods.join(' / ')}</span>
                   </div>
                 )}
               </>
@@ -555,6 +555,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
                           </div>
                       </div>
 
+                      <div className="border-b border-gray-100 pb-2.5">
+                          <p className="text-xs text-gray-400 font-semibold uppercase mb-0.5">Entregas Habilitadas</p>
+                          <p className="text-xs font-semibold text-gray-800">{product.allowedPeriods?.join(' / ') || 'Julio / Agosto / Septiembre / Octubre / Noviembre / Diciembre'}</p>
+                      </div>
+
                       {((product.division || '').toUpperCase() === 'INDUMENTARIA' || product.composition || product.technologies) && (
                         <>
                           {product.composition && (
@@ -576,7 +581,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                           <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-0.5">Precio Sugerido</p>
                           <p className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">${product.price.toLocaleString('es-AR', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}</p>
                           <div className="inline-block mt-0.5 text-xs text-[#CF0A2C] font-semibold bg-red-50 border border-red-100 px-2.5 py-1 rounded">
-                              Wholesale: ${product.wholesalePrice.toLocaleString('es-AR', { minimumFractionDigits: 2 })}
+                              Wholesale: ${product.wholesalePrice.toLocaleString('es-AR', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
                           </div>
                       </div>
                   </div>

@@ -250,10 +250,10 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                       <span className="font-mono font-bold text-gray-900">{product.curve}</span>
                     </div>
                   )}
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-400 font-medium">Entregas Habilitadas:</span>
-                    <span className="font-semibold text-gray-700 text-xs">
-                      {product.allowedPeriods?.join(' · ') || 'Julio · Agosto · Septiembre · Octubre · Noviembre · Diciembre'}
+                  <div className="flex justify-between items-start gap-2">
+                    <span className="text-gray-400 font-medium shrink-0">Entregas Habilitadas:</span>
+                    <span className="font-semibold text-gray-700 text-xs text-right">
+                      {product.allowedPeriods?.join(' / ') || 'Julio / Agosto / Septiembre / Octubre / Noviembre / Diciembre'}
                     </span>
                   </div>
                   {product.origin && (
@@ -288,7 +288,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   </div>
                   {product.wholesalePrice > 0 && (
                     <div className="mt-1 text-xs text-[#CF0A2C] font-bold">
-                      Wholesale (Mayorista): ${(product.wholesalePrice || 0).toLocaleString('es-AR', { minimumFractionDigits: 2 })}
+                      Wholesale (Mayorista): ${(product.wholesalePrice || 0).toLocaleString('es-AR', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
                     </div>
                   )}
                 </div>

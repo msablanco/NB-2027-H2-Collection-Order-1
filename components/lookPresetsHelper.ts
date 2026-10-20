@@ -142,7 +142,7 @@ export function buildAllPresetLooks(products: Product[]): PresetLook[] {
       category: 'RUNNING',
       categories: ['RUNNING', 'PERFORMANCE'],
       photoWithLayer: '/src/assets/images/camp_look2_con_abrigo.jpg',
-      photoSoloRemera: '/src/assets/images/camp_look2_solo_remera.jpg',
+      photoSoloRemera: '/src/assets/images/gen_look2_solo_remera_1792250911256.jpg',
     },
     {
       id: 'camp-look-3',
