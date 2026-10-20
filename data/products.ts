@@ -31,14 +31,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -48,7 +48,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 1
+    "generalOrder": 1,
+    "displayOrder": 1
   },
   {
     "id": 2,
@@ -78,14 +79,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -95,7 +96,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 2
+    "generalOrder": 2,
+    "displayOrder": 2
   },
   {
     "id": 3,
@@ -125,14 +127,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -142,7 +144,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 3
+    "generalOrder": 3,
+    "displayOrder": 3
   },
   {
     "id": 4,
@@ -172,14 +175,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -189,7 +192,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 4
+    "generalOrder": 4,
+    "displayOrder": 4
   },
   {
     "id": 5,
@@ -219,14 +223,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -236,7 +240,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 5
+    "generalOrder": 5,
+    "displayOrder": 5
   },
   {
     "id": 6,
@@ -266,14 +271,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -283,7 +288,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 6
+    "generalOrder": 6,
+    "displayOrder": 6
   },
   {
     "id": 7,
@@ -309,14 +315,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -327,7 +333,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 35
+    "generalOrder": 35,
+    "displayOrder": 35
   },
   {
     "id": 8,
@@ -353,14 +360,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -371,7 +378,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 36
+    "generalOrder": 36,
+    "displayOrder": 36
   },
   {
     "id": 9,
@@ -401,14 +409,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -419,7 +427,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 37
+    "generalOrder": 37,
+    "displayOrder": 37
   },
   {
     "id": 10,
@@ -449,14 +458,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -467,7 +476,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 38
+    "generalOrder": 38,
+    "displayOrder": 38
   },
   {
     "id": 11,
@@ -499,14 +509,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -517,7 +527,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 7
+    "generalOrder": 7,
+    "displayOrder": 7
   },
   {
     "id": 12,
@@ -544,14 +555,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -562,7 +573,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 8
+    "generalOrder": 8,
+    "displayOrder": 8
   },
   {
     "id": 13,
@@ -589,14 +601,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -607,7 +619,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 107
+    "generalOrder": 107,
+    "displayOrder": 107
   },
   {
     "id": 14,
@@ -634,14 +647,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -652,7 +665,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 108
+    "generalOrder": 108,
+    "displayOrder": 108
   },
   {
     "id": 15,
@@ -679,14 +693,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -697,7 +711,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 109
+    "generalOrder": 109,
+    "displayOrder": 109
   },
   {
     "id": 16,
@@ -724,14 +739,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -742,7 +757,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 110
+    "generalOrder": 110,
+    "displayOrder": 110
   },
   {
     "id": 17,
@@ -774,14 +790,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -792,7 +808,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 111
+    "generalOrder": 111,
+    "displayOrder": 111
   },
   {
     "id": 18,
@@ -824,14 +841,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -841,7 +858,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 98
+    "generalOrder": 98,
+    "displayOrder": 98
   },
   {
     "id": 19,
@@ -873,14 +891,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -890,7 +908,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 99
+    "generalOrder": 99,
+    "displayOrder": 99
   },
   {
     "id": 20,
@@ -922,14 +941,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -939,7 +958,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 100
+    "generalOrder": 100,
+    "displayOrder": 100
   },
   {
     "id": 21,
@@ -969,14 +989,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -987,7 +1007,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 112
+    "generalOrder": 112,
+    "displayOrder": 112
   },
   {
     "id": 22,
@@ -1019,14 +1040,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1037,7 +1058,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 113
+    "generalOrder": 113,
+    "displayOrder": 113
   },
   {
     "id": 23,
@@ -1069,14 +1091,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1087,7 +1109,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 114
+    "generalOrder": 114,
+    "displayOrder": 114
   },
   {
     "id": 24,
@@ -1119,14 +1142,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1137,7 +1160,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 115
+    "generalOrder": 115,
+    "displayOrder": 115
   },
   {
     "id": 25,
@@ -1169,14 +1193,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1187,7 +1211,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 116
+    "generalOrder": 116,
+    "displayOrder": 116
   },
   {
     "id": 26,
@@ -1219,14 +1244,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1237,7 +1262,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 117
+    "generalOrder": 117,
+    "displayOrder": 117
   },
   {
     "id": 27,
@@ -1269,14 +1295,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1287,7 +1313,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 118
+    "generalOrder": 118,
+    "displayOrder": 118
   },
   {
     "id": 28,
@@ -1319,14 +1346,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1335,7 +1362,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 9
+    "generalOrder": 9,
+    "displayOrder": 9
   },
   {
     "id": 29,
@@ -1366,14 +1394,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1382,7 +1410,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 10
+    "generalOrder": 10,
+    "displayOrder": 10
   },
   {
     "id": 30,
@@ -1414,14 +1443,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1431,7 +1460,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 11
+    "generalOrder": 11,
+    "displayOrder": 11
   },
   {
     "id": 31,
@@ -1463,14 +1493,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1480,7 +1510,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 12
+    "generalOrder": 12,
+    "displayOrder": 12
   },
   {
     "id": 32,
@@ -1512,14 +1543,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1529,7 +1560,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 105
+    "generalOrder": 105,
+    "displayOrder": 105
   },
   {
     "id": 33,
@@ -1561,14 +1593,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1578,7 +1610,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 106
+    "generalOrder": 106,
+    "displayOrder": 106
   },
   {
     "id": 34,
@@ -1605,14 +1638,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1623,7 +1656,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 101
+    "generalOrder": 101,
+    "displayOrder": 101
   },
   {
     "id": 35,
@@ -1650,14 +1684,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1668,7 +1702,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 102
+    "generalOrder": 102,
+    "displayOrder": 102
   },
   {
     "id": 36,
@@ -1700,14 +1735,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1718,7 +1753,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 103
+    "generalOrder": 103,
+    "displayOrder": 103
   },
   {
     "id": 37,
@@ -1749,14 +1785,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1767,7 +1803,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 104
+    "generalOrder": 104,
+    "displayOrder": 104
   },
   {
     "id": 38,
@@ -1793,14 +1830,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1811,7 +1848,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 39
+    "generalOrder": 39,
+    "displayOrder": 39
   },
   {
     "id": 39,
@@ -1843,14 +1881,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1861,7 +1899,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 40
+    "generalOrder": 40,
+    "displayOrder": 40
   },
   {
     "id": 40,
@@ -1888,14 +1927,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1905,7 +1944,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 41
+    "generalOrder": 41,
+    "displayOrder": 41
   },
   {
     "id": 41,
@@ -1932,14 +1972,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -1950,7 +1990,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 42
+    "generalOrder": 42,
+    "displayOrder": 42
   },
   {
     "id": 42,
@@ -1980,14 +2021,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 3",
     "driver": "",
     "silhouette": "",
@@ -1996,7 +2037,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 43
+    "generalOrder": 43,
+    "displayOrder": 43
   },
   {
     "id": 43,
@@ -2026,14 +2068,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 4",
     "driver": "",
     "silhouette": "",
@@ -2042,7 +2084,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 44
+    "generalOrder": 44,
+    "displayOrder": 44
   },
   {
     "id": 44,
@@ -2068,14 +2111,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2085,7 +2128,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 45
+    "generalOrder": 45,
+    "displayOrder": 45
   },
   {
     "id": 45,
@@ -2112,14 +2156,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2130,7 +2174,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 46
+    "generalOrder": 46,
+    "displayOrder": 46
   },
   {
     "id": 46,
@@ -2156,14 +2201,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2172,7 +2217,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 47
+    "generalOrder": 47,
+    "displayOrder": 47
   },
   {
     "id": 47,
@@ -2198,14 +2244,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2216,7 +2262,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 48
+    "generalOrder": 48,
+    "displayOrder": 48
   },
   {
     "id": 48,
@@ -2243,14 +2290,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2260,7 +2307,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 49
+    "generalOrder": 49,
+    "displayOrder": 49
   },
   {
     "id": 49,
@@ -2286,14 +2334,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2304,7 +2352,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 50
+    "generalOrder": 50,
+    "displayOrder": 50
   },
   {
     "id": 50,
@@ -2331,14 +2380,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2348,7 +2397,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 51
+    "generalOrder": 51,
+    "displayOrder": 51
   },
   {
     "id": 51,
@@ -2374,14 +2424,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2391,7 +2441,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 52
+    "generalOrder": 52,
+    "displayOrder": 52
   },
   {
     "id": 52,
@@ -2427,14 +2478,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2445,7 +2496,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 53
+    "generalOrder": 53,
+    "displayOrder": 53
   },
   {
     "id": 53,
@@ -2471,14 +2523,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2489,7 +2541,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 54
+    "generalOrder": 54,
+    "displayOrder": 54
   },
   {
     "id": 54,
@@ -2524,14 +2577,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2542,7 +2595,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 88
+    "generalOrder": 88,
+    "displayOrder": 88
   },
   {
     "id": 55,
@@ -2569,14 +2623,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2587,7 +2641,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 92
+    "generalOrder": 92,
+    "displayOrder": 92
   },
   {
     "id": 56,
@@ -2614,14 +2669,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2632,7 +2687,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 89
+    "generalOrder": 89,
+    "displayOrder": 89
   },
   {
     "id": 57,
@@ -2659,14 +2715,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2677,7 +2733,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 93
+    "generalOrder": 93,
+    "displayOrder": 93
   },
   {
     "id": 58,
@@ -2704,14 +2761,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2721,7 +2778,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 94
+    "generalOrder": 94,
+    "displayOrder": 94
   },
   {
     "id": 59,
@@ -2748,14 +2806,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2766,7 +2824,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 95
+    "generalOrder": 95,
+    "displayOrder": 95
   },
   {
     "id": 60,
@@ -2793,14 +2852,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2811,7 +2870,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 96
+    "generalOrder": 96,
+    "displayOrder": 96
   },
   {
     "id": 61,
@@ -2838,14 +2898,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2856,7 +2916,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 90
+    "generalOrder": 90,
+    "displayOrder": 90
   },
   {
     "id": 62,
@@ -2883,14 +2944,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2901,7 +2962,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 97
+    "generalOrder": 97,
+    "displayOrder": 97
   },
   {
     "id": 63,
@@ -2928,14 +2990,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2946,7 +3008,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 91
+    "generalOrder": 91,
+    "displayOrder": 91
   },
   {
     "id": 64,
@@ -2976,14 +3039,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -2992,7 +3055,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 72
+    "generalOrder": 72,
+    "displayOrder": 72
   },
   {
     "id": 65,
@@ -3022,14 +3086,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3040,7 +3104,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 73
+    "generalOrder": 73,
+    "displayOrder": 73
   },
   {
     "id": 66,
@@ -3070,14 +3135,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3088,7 +3153,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 74
+    "generalOrder": 74,
+    "displayOrder": 74
   },
   {
     "id": 67,
@@ -3118,14 +3184,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3134,7 +3200,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 75
+    "generalOrder": 75,
+    "displayOrder": 75
   },
   {
     "id": 68,
@@ -3164,14 +3231,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3182,7 +3249,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 76
+    "generalOrder": 76,
+    "displayOrder": 76
   },
   {
     "id": 69,
@@ -3212,14 +3280,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3229,7 +3297,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 77
+    "generalOrder": 77,
+    "displayOrder": 77
   },
   {
     "id": 70,
@@ -3259,14 +3328,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3276,7 +3345,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 78
+    "generalOrder": 78,
+    "displayOrder": 78
   },
   {
     "id": 71,
@@ -3302,14 +3372,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3320,7 +3390,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 80
+    "generalOrder": 80,
+    "displayOrder": 80
   },
   {
     "id": 72,
@@ -3347,14 +3418,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3364,7 +3435,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 81
+    "generalOrder": 81,
+    "displayOrder": 81
   },
   {
     "id": 73,
@@ -3391,14 +3463,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3408,7 +3480,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 82
+    "generalOrder": 82,
+    "displayOrder": 82
   },
   {
     "id": 74,
@@ -3435,14 +3508,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3453,7 +3526,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 83
+    "generalOrder": 83,
+    "displayOrder": 83
   },
   {
     "id": 75,
@@ -3480,14 +3554,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3496,7 +3570,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 84
+    "generalOrder": 84,
+    "displayOrder": 84
   },
   {
     "id": 76,
@@ -3523,14 +3598,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3541,7 +3616,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 85
+    "generalOrder": 85,
+    "displayOrder": 85
   },
   {
     "id": 77,
@@ -3568,14 +3644,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3586,7 +3662,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 86
+    "generalOrder": 86,
+    "displayOrder": 86
   },
   {
     "id": 78,
@@ -3613,14 +3690,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3629,7 +3706,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 87
+    "generalOrder": 87,
+    "displayOrder": 87
   },
   {
     "id": 79,
@@ -3661,14 +3739,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3679,7 +3757,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 23
+    "generalOrder": 23,
+    "displayOrder": 23
   },
   {
     "id": 80,
@@ -3708,14 +3787,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3726,7 +3805,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 24
+    "generalOrder": 24,
+    "displayOrder": 24
   },
   {
     "id": 81,
@@ -3755,14 +3835,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3773,7 +3853,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 25
+    "generalOrder": 25,
+    "displayOrder": 25
   },
   {
     "id": 82,
@@ -3805,14 +3886,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3823,7 +3904,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 26
+    "generalOrder": 26,
+    "displayOrder": 26
   },
   {
     "id": 83,
@@ -3850,14 +3932,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3868,7 +3950,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 13
+    "generalOrder": 13,
+    "displayOrder": 13
   },
   {
     "id": 84,
@@ -3894,14 +3977,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3912,7 +3995,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 14
+    "generalOrder": 14,
+    "displayOrder": 14
   },
   {
     "id": 85,
@@ -3942,14 +4026,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -3960,7 +4044,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 55
+    "generalOrder": 55,
+    "displayOrder": 55
   },
   {
     "id": 86,
@@ -3990,14 +4075,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4008,7 +4093,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 56
+    "generalOrder": 56,
+    "displayOrder": 56
   },
   {
     "id": 87,
@@ -4038,14 +4124,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4056,7 +4142,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 57
+    "generalOrder": 57,
+    "displayOrder": 57
   },
   {
     "id": 88,
@@ -4086,14 +4173,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4104,7 +4191,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 58
+    "generalOrder": 58,
+    "displayOrder": 58
   },
   {
     "id": 89,
@@ -4136,14 +4224,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4154,7 +4242,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 59
+    "generalOrder": 59,
+    "displayOrder": 59
   },
   {
     "id": 90,
@@ -4184,14 +4273,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4202,7 +4291,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 60
+    "generalOrder": 60,
+    "displayOrder": 60
   },
   {
     "id": 91,
@@ -4232,14 +4322,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4250,7 +4340,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 61
+    "generalOrder": 61,
+    "displayOrder": 61
   },
   {
     "id": 92,
@@ -4284,14 +4375,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4302,7 +4393,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 27
+    "generalOrder": 27,
+    "displayOrder": 27
   },
   {
     "id": 93,
@@ -4329,14 +4421,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4347,7 +4439,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 28
+    "generalOrder": 28,
+    "displayOrder": 28
   },
   {
     "id": 94,
@@ -4374,14 +4467,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4392,7 +4485,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 29
+    "generalOrder": 29,
+    "displayOrder": 29
   },
   {
     "id": 95,
@@ -4426,14 +4520,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4444,7 +4538,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 30
+    "generalOrder": 30,
+    "displayOrder": 30
   },
   {
     "id": 96,
@@ -4471,14 +4566,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4489,7 +4584,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 31
+    "generalOrder": 31,
+    "displayOrder": 31
   },
   {
     "id": 97,
@@ -4522,14 +4618,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4540,7 +4636,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 32
+    "generalOrder": 32,
+    "displayOrder": 32
   },
   {
     "id": 98,
@@ -4567,14 +4664,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4585,7 +4682,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 33
+    "generalOrder": 33,
+    "displayOrder": 33
   },
   {
     "id": 99,
@@ -4612,14 +4710,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4630,7 +4728,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 34
+    "generalOrder": 34,
+    "displayOrder": 34
   },
   {
     "id": 100,
@@ -4657,14 +4756,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4675,7 +4774,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 62
+    "generalOrder": 62,
+    "displayOrder": 62
   },
   {
     "id": 101,
@@ -4706,14 +4806,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4724,7 +4824,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 63
+    "generalOrder": 63,
+    "displayOrder": 63
   },
   {
     "id": 102,
@@ -4753,14 +4854,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4771,7 +4872,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 64
+    "generalOrder": 64,
+    "displayOrder": 64
   },
   {
     "id": 103,
@@ -4802,14 +4904,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4820,7 +4922,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 65
+    "generalOrder": 65,
+    "displayOrder": 65
   },
   {
     "id": 104,
@@ -4851,14 +4954,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4869,7 +4972,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 66
+    "generalOrder": 66,
+    "displayOrder": 66
   },
   {
     "id": 105,
@@ -4898,14 +5002,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4916,7 +5020,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 67
+    "generalOrder": 67,
+    "displayOrder": 67
   },
   {
     "id": 106,
@@ -4947,14 +5052,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -4965,7 +5070,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 68
+    "generalOrder": 68,
+    "displayOrder": 68
   },
   {
     "id": 107,
@@ -4994,14 +5100,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5012,7 +5118,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 69
+    "generalOrder": 69,
+    "displayOrder": 69
   },
   {
     "id": 108,
@@ -5041,14 +5148,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5059,7 +5166,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 70
+    "generalOrder": 70,
+    "displayOrder": 70
   },
   {
     "id": 109,
@@ -5090,14 +5198,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5108,7 +5216,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 71
+    "generalOrder": 71,
+    "displayOrder": 71
   },
   {
     "id": 110,
@@ -5137,14 +5246,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5155,7 +5264,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 119
+    "generalOrder": 119,
+    "displayOrder": 119
   },
   {
     "id": 111,
@@ -5187,14 +5297,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5205,7 +5315,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 120
+    "generalOrder": 120,
+    "displayOrder": 120
   },
   {
     "id": 112,
@@ -5237,14 +5348,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5255,7 +5366,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 121
+    "generalOrder": 121,
+    "displayOrder": 121
   },
   {
     "id": 113,
@@ -5287,14 +5399,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5305,7 +5417,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 122
+    "generalOrder": 122,
+    "displayOrder": 122
   },
   {
     "id": 114,
@@ -5337,14 +5450,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5355,7 +5468,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 123
+    "generalOrder": 123,
+    "displayOrder": 123
   },
   {
     "id": 115,
@@ -5389,14 +5503,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5407,7 +5521,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 124
+    "generalOrder": 124,
+    "displayOrder": 124
   },
   {
     "id": 116,
@@ -5439,14 +5554,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5457,7 +5572,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 125
+    "generalOrder": 125,
+    "displayOrder": 125
   },
   {
     "id": 117,
@@ -5492,14 +5608,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5510,7 +5626,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 15
+    "generalOrder": 15,
+    "displayOrder": 15
   },
   {
     "id": 118,
@@ -5546,14 +5663,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5564,7 +5681,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 16
+    "generalOrder": 16,
+    "displayOrder": 16
   },
   {
     "id": 119,
@@ -5600,14 +5718,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5618,7 +5736,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 17
+    "generalOrder": 17,
+    "displayOrder": 17
   },
   {
     "id": 120,
@@ -5645,14 +5764,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5663,7 +5782,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 18
+    "generalOrder": 18,
+    "displayOrder": 18
   },
   {
     "id": 121,
@@ -5686,14 +5806,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5704,7 +5824,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 19
+    "generalOrder": 19,
+    "displayOrder": 19
   },
   {
     "id": 122,
@@ -5727,14 +5848,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5745,7 +5866,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 20
+    "generalOrder": 20,
+    "displayOrder": 20
   },
   {
     "id": 123,
@@ -5777,14 +5899,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5795,7 +5917,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 21
+    "generalOrder": 21,
+    "displayOrder": 21
   },
   {
     "id": 124,
@@ -5818,14 +5941,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5836,7 +5959,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 22
+    "generalOrder": 22,
+    "displayOrder": 22
   },
   {
     "id": 125,
@@ -5859,14 +5983,14 @@ export const products: Product[] = [
     "sizeRange": "19-26",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5877,7 +6001,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 308
+    "generalOrder": 308,
+    "displayOrder": 308
   },
   {
     "id": 126,
@@ -5907,14 +6032,14 @@ export const products: Product[] = [
     "sizeRange": "19-26",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5925,7 +6050,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 309
+    "generalOrder": 309,
+    "displayOrder": 309
   },
   {
     "id": 127,
@@ -5955,14 +6081,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -5973,7 +6099,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 305
+    "generalOrder": 305,
+    "displayOrder": 305
   },
   {
     "id": 128,
@@ -5996,14 +6123,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6013,7 +6140,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 306
+    "generalOrder": 306,
+    "displayOrder": 306
   },
   {
     "id": 129,
@@ -6036,14 +6164,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6054,7 +6182,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 307
+    "generalOrder": 307,
+    "displayOrder": 307
   },
   {
     "id": 130,
@@ -6081,14 +6210,14 @@ export const products: Product[] = [
     "sizeRange": "19-26",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6099,7 +6228,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 315
+    "generalOrder": 315,
+    "displayOrder": 315
   },
   {
     "id": 131,
@@ -6126,14 +6256,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6144,7 +6274,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 312
+    "generalOrder": 312,
+    "displayOrder": 312
   },
   {
     "id": 132,
@@ -6170,14 +6301,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6188,7 +6319,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 313
+    "generalOrder": 313,
+    "displayOrder": 313
   },
   {
     "id": 133,
@@ -6217,14 +6349,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6235,7 +6367,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 304
+    "generalOrder": 304,
+    "displayOrder": 304
   },
   {
     "id": 134,
@@ -6258,14 +6391,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6276,7 +6409,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 310
+    "generalOrder": 310,
+    "displayOrder": 310
   },
   {
     "id": 135,
@@ -6299,14 +6433,14 @@ export const products: Product[] = [
     "sizeRange": "27-34",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6317,7 +6451,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 311
+    "generalOrder": 311,
+    "displayOrder": 311
   },
   {
     "id": 136,
@@ -6349,14 +6484,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6367,7 +6502,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 128
+    "generalOrder": 128,
+    "displayOrder": 128
   },
   {
     "id": 137,
@@ -6399,14 +6535,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6417,7 +6553,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 129
+    "generalOrder": 129,
+    "displayOrder": 129
   },
   {
     "id": 138,
@@ -6449,14 +6586,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6467,7 +6604,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 130
+    "generalOrder": 130,
+    "displayOrder": 130
   },
   {
     "id": 139,
@@ -6495,14 +6633,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6513,7 +6651,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 131
+    "generalOrder": 131,
+    "displayOrder": 131
   },
   {
     "id": 140,
@@ -6540,14 +6679,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6558,7 +6697,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 126
+    "generalOrder": 126,
+    "displayOrder": 126
   },
   {
     "id": 141,
@@ -6585,14 +6725,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6603,7 +6743,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 127
+    "generalOrder": 127,
+    "displayOrder": 127
   },
   {
     "id": 142,
@@ -6633,14 +6774,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6651,7 +6792,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 132
+    "generalOrder": 132,
+    "displayOrder": 132
   },
   {
     "id": 143,
@@ -6678,14 +6820,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6696,7 +6838,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 133
+    "generalOrder": 133,
+    "displayOrder": 133
   },
   {
     "id": 144,
@@ -6719,14 +6862,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6737,7 +6880,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 134
+    "generalOrder": 134,
+    "displayOrder": 134
   },
   {
     "id": 145,
@@ -6760,14 +6904,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6778,7 +6922,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 265
+    "generalOrder": 265,
+    "displayOrder": 265
   },
   {
     "id": 146,
@@ -6801,14 +6946,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6819,7 +6964,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 266
+    "generalOrder": 266,
+    "displayOrder": 266
   },
   {
     "id": 147,
@@ -6842,14 +6988,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6860,7 +7006,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 267
+    "generalOrder": 267,
+    "displayOrder": 267
   },
   {
     "id": 148,
@@ -6883,14 +7030,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6901,7 +7048,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 268
+    "generalOrder": 268,
+    "displayOrder": 268
   },
   {
     "id": 149,
@@ -6924,14 +7072,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6942,7 +7090,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 269
+    "generalOrder": 269,
+    "displayOrder": 269
   },
   {
     "id": 150,
@@ -6968,14 +7117,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -6984,7 +7133,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 270
+    "generalOrder": 270,
+    "displayOrder": 270
   },
   {
     "id": 151,
@@ -7011,14 +7161,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7028,7 +7178,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 271
+    "generalOrder": 271,
+    "displayOrder": 271
   },
   {
     "id": 152,
@@ -7055,14 +7206,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7072,7 +7223,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 272
+    "generalOrder": 272,
+    "displayOrder": 272
   },
   {
     "id": 153,
@@ -7095,14 +7247,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7112,7 +7264,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 273
+    "generalOrder": 273,
+    "displayOrder": 273
   },
   {
     "id": 154,
@@ -7139,14 +7292,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7157,7 +7310,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 274
+    "generalOrder": 274,
+    "displayOrder": 274
   },
   {
     "id": 155,
@@ -7184,14 +7338,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7201,7 +7355,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 262
+    "generalOrder": 262,
+    "displayOrder": 262
   },
   {
     "id": 156,
@@ -7228,14 +7383,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7245,7 +7400,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 263
+    "generalOrder": 263,
+    "displayOrder": 263
   },
   {
     "id": 157,
@@ -7272,14 +7428,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7289,7 +7445,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 264
+    "generalOrder": 264,
+    "displayOrder": 264
   },
   {
     "id": 158,
@@ -7315,14 +7472,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7333,7 +7490,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 254
+    "generalOrder": 254,
+    "displayOrder": 254
   },
   {
     "id": 159,
@@ -7359,14 +7517,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7376,7 +7534,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 255
+    "generalOrder": 255,
+    "displayOrder": 255
   },
   {
     "id": 160,
@@ -7402,14 +7561,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7419,7 +7578,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 256
+    "generalOrder": 256,
+    "displayOrder": 256
   },
   {
     "id": 161,
@@ -7445,14 +7605,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7462,7 +7622,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 257
+    "generalOrder": 257,
+    "displayOrder": 257
   },
   {
     "id": 162,
@@ -7488,14 +7649,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7506,7 +7667,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 260
+    "generalOrder": 260,
+    "displayOrder": 260
   },
   {
     "id": 163,
@@ -7532,14 +7694,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7549,7 +7711,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 261
+    "generalOrder": 261,
+    "displayOrder": 261
   },
   {
     "id": 164,
@@ -7575,14 +7738,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7593,7 +7756,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 229
+    "generalOrder": 229,
+    "displayOrder": 229
   },
   {
     "id": 165,
@@ -7620,14 +7784,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7638,7 +7802,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 230
+    "generalOrder": 230,
+    "displayOrder": 230
   },
   {
     "id": 166,
@@ -7664,14 +7829,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7681,7 +7846,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 231
+    "generalOrder": 231,
+    "displayOrder": 231
   },
   {
     "id": 167,
@@ -7707,14 +7873,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7724,7 +7890,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 232
+    "generalOrder": 232,
+    "displayOrder": 232
   },
   {
     "id": 168,
@@ -7750,14 +7917,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7767,7 +7934,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 233
+    "generalOrder": 233,
+    "displayOrder": 233
   },
   {
     "id": 169,
@@ -7805,14 +7973,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7823,7 +7991,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 234
+    "generalOrder": 234,
+    "displayOrder": 234
   },
   {
     "id": 170,
@@ -7861,14 +8030,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7879,7 +8048,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 235
+    "generalOrder": 235,
+    "displayOrder": 235
   },
   {
     "id": 171,
@@ -7917,14 +8087,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7935,7 +8105,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 236
+    "generalOrder": 236,
+    "displayOrder": 236
   },
   {
     "id": 172,
@@ -7966,14 +8137,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -7984,7 +8155,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 237
+    "generalOrder": 237,
+    "displayOrder": 237
   },
   {
     "id": 173,
@@ -8010,14 +8182,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8028,7 +8200,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 220
+    "generalOrder": 220,
+    "displayOrder": 220
   },
   {
     "id": 174,
@@ -8054,14 +8227,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 7",
     "driver": "",
     "silhouette": "",
@@ -8071,7 +8244,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 221
+    "generalOrder": 221,
+    "displayOrder": 221
   },
   {
     "id": 175,
@@ -8097,14 +8271,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8114,7 +8288,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 222
+    "generalOrder": 222,
+    "displayOrder": 222
   },
   {
     "id": 176,
@@ -8140,14 +8315,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "AC - For Her",
     "driver": "",
     "silhouette": "",
@@ -8157,7 +8332,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 223
+    "generalOrder": 223,
+    "displayOrder": 223
   },
   {
     "id": 177,
@@ -8183,14 +8359,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8200,7 +8376,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 224
+    "generalOrder": 224,
+    "displayOrder": 224
   },
   {
     "id": 178,
@@ -8223,14 +8400,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8240,7 +8417,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 225
+    "generalOrder": 225,
+    "displayOrder": 225
   },
   {
     "id": 179,
@@ -8263,14 +8441,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8280,7 +8458,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 226
+    "generalOrder": 226,
+    "displayOrder": 226
   },
   {
     "id": 180,
@@ -8306,14 +8485,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8323,7 +8502,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 227
+    "generalOrder": 227,
+    "displayOrder": 227
   },
   {
     "id": 181,
@@ -8349,14 +8529,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8366,7 +8546,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 228
+    "generalOrder": 228,
+    "displayOrder": 228
   },
   {
     "id": 182,
@@ -8389,14 +8570,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8407,7 +8588,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 213
+    "generalOrder": 213,
+    "displayOrder": 213
   },
   {
     "id": 183,
@@ -8433,14 +8615,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8450,7 +8632,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 214
+    "generalOrder": 214,
+    "displayOrder": 214
   },
   {
     "id": 184,
@@ -8476,14 +8659,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8493,7 +8676,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 215
+    "generalOrder": 215,
+    "displayOrder": 215
   },
   {
     "id": 185,
@@ -8519,14 +8703,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8536,7 +8720,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 216
+    "generalOrder": 216,
+    "displayOrder": 216
   },
   {
     "id": 186,
@@ -8559,14 +8744,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8576,7 +8761,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 217
+    "generalOrder": 217,
+    "displayOrder": 217
   },
   {
     "id": 187,
@@ -8599,14 +8785,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8616,7 +8802,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 218
+    "generalOrder": 218,
+    "displayOrder": 218
   },
   {
     "id": 188,
@@ -8639,14 +8826,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8656,7 +8843,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 219
+    "generalOrder": 219,
+    "displayOrder": 219
   },
   {
     "id": 189,
@@ -8682,14 +8870,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8699,7 +8887,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 211
+    "generalOrder": 211,
+    "displayOrder": 211
   },
   {
     "id": 190,
@@ -8725,14 +8914,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8742,7 +8931,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 212
+    "generalOrder": 212,
+    "displayOrder": 212
   },
   {
     "id": 191,
@@ -8768,14 +8958,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8786,7 +8976,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 248
+    "generalOrder": 248,
+    "displayOrder": 248
   },
   {
     "id": 192,
@@ -8812,14 +9003,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8829,7 +9020,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 249
+    "generalOrder": 249,
+    "displayOrder": 249
   },
   {
     "id": 193,
@@ -8867,14 +9059,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8885,7 +9077,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 250
+    "generalOrder": 250,
+    "displayOrder": 250
   },
   {
     "id": 194,
@@ -8908,14 +9101,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8925,7 +9118,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 251
+    "generalOrder": 251,
+    "displayOrder": 251
   },
   {
     "id": 195,
@@ -8948,14 +9142,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -8966,7 +9160,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 252
+    "generalOrder": 252,
+    "displayOrder": 252
   },
   {
     "id": 196,
@@ -8989,14 +9184,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9006,7 +9201,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 253
+    "generalOrder": 253,
+    "displayOrder": 253
   },
   {
     "id": 197,
@@ -9032,14 +9228,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9049,7 +9245,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 195
+    "generalOrder": 195,
+    "displayOrder": 195
   },
   {
     "id": 198,
@@ -9075,14 +9272,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9093,7 +9290,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 196
+    "generalOrder": 196,
+    "displayOrder": 196
   },
   {
     "id": 199,
@@ -9119,14 +9317,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9137,7 +9335,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 137
+    "generalOrder": 137,
+    "displayOrder": 137
   },
   {
     "id": 200,
@@ -9163,14 +9362,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9179,7 +9378,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 138
+    "generalOrder": 138,
+    "displayOrder": 138
   },
   {
     "id": 201,
@@ -9205,14 +9405,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9221,7 +9421,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 139
+    "generalOrder": 139,
+    "displayOrder": 139
   },
   {
     "id": 202,
@@ -9247,14 +9448,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9265,7 +9466,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 140
+    "generalOrder": 140,
+    "displayOrder": 140
   },
   {
     "id": 203,
@@ -9291,14 +9493,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9309,7 +9511,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 141
+    "generalOrder": 141,
+    "displayOrder": 141
   },
   {
     "id": 204,
@@ -9335,14 +9538,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9352,7 +9555,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 142
+    "generalOrder": 142,
+    "displayOrder": 142
   },
   {
     "id": 205,
@@ -9378,14 +9582,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9394,7 +9598,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 143
+    "generalOrder": 143,
+    "displayOrder": 143
   },
   {
     "id": 206,
@@ -9420,14 +9625,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9436,7 +9641,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 144
+    "generalOrder": 144,
+    "displayOrder": 144
   },
   {
     "id": 207,
@@ -9467,14 +9673,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9485,7 +9691,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 145
+    "generalOrder": 145,
+    "displayOrder": 145
   },
   {
     "id": 208,
@@ -9514,14 +9721,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9532,7 +9739,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 146
+    "generalOrder": 146,
+    "displayOrder": 146
   },
   {
     "id": 209,
@@ -9555,14 +9763,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9573,7 +9781,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 147
+    "generalOrder": 147,
+    "displayOrder": 147
   },
   {
     "id": 210,
@@ -9598,14 +9807,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9616,7 +9825,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 148
+    "generalOrder": 148,
+    "displayOrder": 148
   },
   {
     "id": 211,
@@ -9642,14 +9852,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9659,7 +9869,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 149
+    "generalOrder": 149,
+    "displayOrder": 149
   },
   {
     "id": 212,
@@ -9685,14 +9896,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9703,7 +9914,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 150
+    "generalOrder": 150,
+    "displayOrder": 150
   },
   {
     "id": 213,
@@ -9726,14 +9938,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9744,7 +9956,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 151
+    "generalOrder": 151,
+    "displayOrder": 151
   },
   {
     "id": 214,
@@ -9771,14 +9984,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9788,7 +10001,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 152
+    "generalOrder": 152,
+    "displayOrder": 152
   },
   {
     "id": 215,
@@ -9814,14 +10028,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9831,7 +10045,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 153
+    "generalOrder": 153,
+    "displayOrder": 153
   },
   {
     "id": 216,
@@ -9857,14 +10072,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9874,7 +10089,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 154
+    "generalOrder": 154,
+    "displayOrder": 154
   },
   {
     "id": 217,
@@ -9900,14 +10116,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9918,7 +10134,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 155
+    "generalOrder": 155,
+    "displayOrder": 155
   },
   {
     "id": 218,
@@ -9944,14 +10161,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -9961,7 +10178,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 156
+    "generalOrder": 156,
+    "displayOrder": 156
   },
   {
     "id": 219,
@@ -9987,14 +10205,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10005,7 +10223,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 177
+    "generalOrder": 177,
+    "displayOrder": 177
   },
   {
     "id": 220,
@@ -10031,14 +10250,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10049,7 +10268,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 178
+    "generalOrder": 178,
+    "displayOrder": 178
   },
   {
     "id": 221,
@@ -10075,14 +10295,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10093,7 +10313,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 179
+    "generalOrder": 179,
+    "displayOrder": 179
   },
   {
     "id": 222,
@@ -10119,14 +10340,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10137,7 +10358,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 180
+    "generalOrder": 180,
+    "displayOrder": 180
   },
   {
     "id": 223,
@@ -10163,14 +10385,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10181,7 +10403,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 181
+    "generalOrder": 181,
+    "displayOrder": 181
   },
   {
     "id": 224,
@@ -10207,14 +10430,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10224,7 +10447,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 182
+    "generalOrder": 182,
+    "displayOrder": 182
   },
   {
     "id": 225,
@@ -10250,14 +10474,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10267,7 +10491,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 183
+    "generalOrder": 183,
+    "displayOrder": 183
   },
   {
     "id": 226,
@@ -10293,14 +10518,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10310,7 +10535,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 184
+    "generalOrder": 184,
+    "displayOrder": 184
   },
   {
     "id": 227,
@@ -10336,14 +10562,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10353,7 +10579,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 185
+    "generalOrder": 185,
+    "displayOrder": 185
   },
   {
     "id": 228,
@@ -10376,14 +10603,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10394,7 +10621,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 186
+    "generalOrder": 186,
+    "displayOrder": 186
   },
   {
     "id": 229,
@@ -10420,14 +10648,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10438,7 +10666,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 167
+    "generalOrder": 167,
+    "displayOrder": 167
   },
   {
     "id": 230,
@@ -10464,14 +10693,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10482,7 +10711,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 168
+    "generalOrder": 168,
+    "displayOrder": 168
   },
   {
     "id": 231,
@@ -10508,14 +10738,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10526,7 +10756,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 169
+    "generalOrder": 169,
+    "displayOrder": 169
   },
   {
     "id": 232,
@@ -10552,14 +10783,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10570,7 +10801,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 170
+    "generalOrder": 170,
+    "displayOrder": 170
   },
   {
     "id": 233,
@@ -10596,14 +10828,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10613,7 +10845,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 171
+    "generalOrder": 171,
+    "displayOrder": 171
   },
   {
     "id": 234,
@@ -10639,14 +10872,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10656,7 +10889,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 172
+    "generalOrder": 172,
+    "displayOrder": 172
   },
   {
     "id": 235,
@@ -10682,14 +10916,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10698,7 +10932,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 173
+    "generalOrder": 173,
+    "displayOrder": 173
   },
   {
     "id": 236,
@@ -10724,14 +10959,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10740,7 +10975,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 174
+    "generalOrder": 174,
+    "displayOrder": 174
   },
   {
     "id": 237,
@@ -10767,14 +11003,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10785,7 +11021,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 175
+    "generalOrder": 175,
+    "displayOrder": 175
   },
   {
     "id": 238,
@@ -10811,14 +11048,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10828,7 +11065,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 197
+    "generalOrder": 197,
+    "displayOrder": 197
   },
   {
     "id": 239,
@@ -10866,14 +11104,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10884,7 +11122,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 198
+    "generalOrder": 198,
+    "displayOrder": 198
   },
   {
     "id": 240,
@@ -10917,14 +11156,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10935,7 +11174,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 199
+    "generalOrder": 199,
+    "displayOrder": 199
   },
   {
     "id": 241,
@@ -10973,14 +11213,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -10991,7 +11231,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 200
+    "generalOrder": 200,
+    "displayOrder": 200
   },
   {
     "id": 242,
@@ -11018,14 +11259,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11036,7 +11277,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 201
+    "generalOrder": 201,
+    "displayOrder": 201
   },
   {
     "id": 243,
@@ -11063,14 +11305,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11081,7 +11323,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 202
+    "generalOrder": 202,
+    "displayOrder": 202
   },
   {
     "id": 244,
@@ -11108,14 +11351,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11125,7 +11368,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 203
+    "generalOrder": 203,
+    "displayOrder": 203
   },
   {
     "id": 245,
@@ -11162,14 +11406,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11180,7 +11424,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 204
+    "generalOrder": 204,
+    "displayOrder": 204
   },
   {
     "id": 246,
@@ -11207,14 +11452,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11225,7 +11470,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 205
+    "generalOrder": 205,
+    "displayOrder": 205
   },
   {
     "id": 247,
@@ -11263,14 +11509,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11281,7 +11527,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 206
+    "generalOrder": 206,
+    "displayOrder": 206
   },
   {
     "id": 248,
@@ -11304,14 +11551,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11321,7 +11568,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 157
+    "generalOrder": 157,
+    "displayOrder": 157
   },
   {
     "id": 249,
@@ -11344,14 +11592,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11361,7 +11609,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 158
+    "generalOrder": 158,
+    "displayOrder": 158
   },
   {
     "id": 250,
@@ -11384,14 +11633,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11401,7 +11650,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 159
+    "generalOrder": 159,
+    "displayOrder": 159
   },
   {
     "id": 251,
@@ -11424,14 +11674,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11440,7 +11690,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 160
+    "generalOrder": 160,
+    "displayOrder": 160
   },
   {
     "id": 252,
@@ -11463,14 +11714,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11479,7 +11730,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 161
+    "generalOrder": 161,
+    "displayOrder": 161
   },
   {
     "id": 253,
@@ -11502,14 +11754,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11519,7 +11771,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 162
+    "generalOrder": 162,
+    "displayOrder": 162
   },
   {
     "id": 254,
@@ -11542,14 +11795,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11559,7 +11812,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 163
+    "generalOrder": 163,
+    "displayOrder": 163
   },
   {
     "id": 255,
@@ -11582,14 +11836,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11599,7 +11853,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 164
+    "generalOrder": 164,
+    "displayOrder": 164
   },
   {
     "id": 256,
@@ -11625,14 +11880,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11643,7 +11898,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 165
+    "generalOrder": 165,
+    "displayOrder": 165
   },
   {
     "id": 257,
@@ -11669,14 +11925,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11687,7 +11943,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 166
+    "generalOrder": 166,
+    "displayOrder": 166
   },
   {
     "id": 258,
@@ -11710,14 +11967,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11728,7 +11985,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 281
+    "generalOrder": 281,
+    "displayOrder": 281
   },
   {
     "id": 259,
@@ -11751,14 +12009,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11768,7 +12026,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 282
+    "generalOrder": 282,
+    "displayOrder": 282
   },
   {
     "id": 260,
@@ -11791,14 +12050,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11807,7 +12066,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 283
+    "generalOrder": 283,
+    "displayOrder": 283
   },
   {
     "id": 261,
@@ -11830,14 +12090,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11847,7 +12107,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 284
+    "generalOrder": 284,
+    "displayOrder": 284
   },
   {
     "id": 262,
@@ -11870,14 +12131,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11887,7 +12148,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 287
+    "generalOrder": 287,
+    "displayOrder": 287
   },
   {
     "id": 263,
@@ -11910,14 +12172,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11927,7 +12189,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 288
+    "generalOrder": 288,
+    "displayOrder": 288
   },
   {
     "id": 264,
@@ -11950,14 +12213,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -11966,7 +12229,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 285
+    "generalOrder": 285,
+    "displayOrder": 285
   },
   {
     "id": 265,
@@ -11989,14 +12253,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12005,7 +12269,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 286
+    "generalOrder": 286,
+    "displayOrder": 286
   },
   {
     "id": 266,
@@ -12032,14 +12297,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12050,7 +12315,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 276
+    "generalOrder": 276,
+    "displayOrder": 276
   },
   {
     "id": 267,
@@ -12077,14 +12343,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12095,7 +12361,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 277
+    "generalOrder": 277,
+    "displayOrder": 277
   },
   {
     "id": 268,
@@ -12122,14 +12389,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12140,7 +12407,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 278
+    "generalOrder": 278,
+    "displayOrder": 278
   },
   {
     "id": 269,
@@ -12167,14 +12435,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12183,7 +12451,8 @@ export const products: Product[] = [
     "allowedPeriods": [
       "Noviembre"
     ],
-    "generalOrder": 279
+    "generalOrder": 279,
+    "displayOrder": 279
   },
   {
     "id": 270,
@@ -12206,14 +12475,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12224,7 +12493,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 280
+    "generalOrder": 280,
+    "displayOrder": 280
   },
   {
     "id": 271,
@@ -12256,14 +12526,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12274,7 +12544,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 191
+    "generalOrder": 191,
+    "displayOrder": 191
   },
   {
     "id": 272,
@@ -12306,14 +12577,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12324,7 +12595,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 192
+    "generalOrder": 192,
+    "displayOrder": 192
   },
   {
     "id": 273,
@@ -12351,14 +12623,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12369,7 +12641,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 193
+    "generalOrder": 193,
+    "displayOrder": 193
   },
   {
     "id": 274,
@@ -12396,14 +12669,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12414,7 +12687,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 194
+    "generalOrder": 194,
+    "displayOrder": 194
   },
   {
     "id": 275,
@@ -12437,14 +12711,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12455,7 +12729,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 207
+    "generalOrder": 207,
+    "displayOrder": 207
   },
   {
     "id": 276,
@@ -12482,14 +12757,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12500,7 +12775,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 208
+    "generalOrder": 208,
+    "displayOrder": 208
   },
   {
     "id": 277,
@@ -12527,14 +12803,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12545,7 +12821,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 209
+    "generalOrder": 209,
+    "displayOrder": 209
   },
   {
     "id": 278,
@@ -12568,14 +12845,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12586,7 +12863,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 289
+    "generalOrder": 289,
+    "displayOrder": 289
   },
   {
     "id": 279,
@@ -12609,14 +12887,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12626,7 +12904,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 290
+    "generalOrder": 290,
+    "displayOrder": 290
   },
   {
     "id": 280,
@@ -12649,14 +12928,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12667,7 +12946,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 297
+    "generalOrder": 297,
+    "displayOrder": 297
   },
   {
     "id": 281,
@@ -12690,14 +12970,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12707,7 +12987,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 291
+    "generalOrder": 291,
+    "displayOrder": 291
   },
   {
     "id": 282,
@@ -12730,14 +13011,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12747,7 +13028,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 292
+    "generalOrder": 292,
+    "displayOrder": 292
   },
   {
     "id": 283,
@@ -12770,14 +13052,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12787,7 +13069,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 293
+    "generalOrder": 293,
+    "displayOrder": 293
   },
   {
     "id": 284,
@@ -12810,14 +13093,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12828,7 +13111,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 298
+    "generalOrder": 298,
+    "displayOrder": 298
   },
   {
     "id": 285,
@@ -12851,14 +13135,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12868,7 +13152,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 299
+    "generalOrder": 299,
+    "displayOrder": 299
   },
   {
     "id": 286,
@@ -12891,14 +13176,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12908,7 +13193,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 300
+    "generalOrder": 300,
+    "displayOrder": 300
   },
   {
     "id": 287,
@@ -12931,14 +13217,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12949,7 +13235,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 294
+    "generalOrder": 294,
+    "displayOrder": 294
   },
   {
     "id": 288,
@@ -12972,14 +13259,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -12989,7 +13276,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 295
+    "generalOrder": 295,
+    "displayOrder": 295
   },
   {
     "id": 289,
@@ -13012,14 +13300,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -13030,7 +13318,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 296
+    "generalOrder": 296,
+    "displayOrder": 296
   },
   {
     "id": 290,
@@ -13053,14 +13342,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -13070,7 +13359,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 301
+    "generalOrder": 301,
+    "displayOrder": 301
   },
   {
     "id": 291,
@@ -13093,14 +13383,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -13111,7 +13401,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 302
+    "generalOrder": 302,
+    "displayOrder": 302
   },
   {
     "id": 292,
@@ -13134,14 +13425,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -13152,7 +13443,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 303
+    "generalOrder": 303,
+    "displayOrder": 303
   },
   {
     "id": 293,
@@ -13175,14 +13467,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -13192,7 +13484,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 304
+    "generalOrder": 304,
+    "displayOrder": 304
   },
   {
     "id": 294,
@@ -13220,14 +13513,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / White (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -13238,7 +13531,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 272
+    "generalOrder": 272,
+    "displayOrder": 272
   },
   {
     "id": 295,
@@ -13266,14 +13560,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -13284,7 +13578,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 273
+    "generalOrder": 273,
+    "displayOrder": 273
   },
   {
     "id": 296,
@@ -13312,14 +13607,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -13330,7 +13625,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 274
+    "generalOrder": 274,
+    "displayOrder": 274
   },
   {
     "id": 297,
@@ -13358,14 +13654,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cxp",
     "colorDescription": "Crystal Pink (Cxp)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -13376,7 +13672,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 278
+    "generalOrder": 278,
+    "displayOrder": 278
   },
   {
     "id": 298,
@@ -13404,14 +13701,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -13422,7 +13719,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 276
+    "generalOrder": 276,
+    "displayOrder": 276
   },
   {
     "id": 299,
@@ -13445,14 +13743,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen (Lin)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -13463,7 +13761,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 277
+    "generalOrder": 277,
+    "displayOrder": 277
   },
   {
     "id": 300,
@@ -13491,14 +13790,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / White (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -13509,7 +13808,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 283
+    "generalOrder": 283,
+    "displayOrder": 283
   },
   {
     "id": 301,
@@ -13536,14 +13836,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen / White (Lin)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -13554,7 +13854,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 284
+    "generalOrder": 284,
+    "displayOrder": 284
   },
   {
     "id": 302,
@@ -13592,14 +13893,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -13610,7 +13911,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 285
+    "generalOrder": 285,
+    "displayOrder": 285
   },
   {
     "id": 303,
@@ -13648,14 +13950,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen (Lin)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 7",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -13666,7 +13968,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 286
+    "generalOrder": 286,
+    "displayOrder": 286
   },
   {
     "id": 304,
@@ -13704,14 +14007,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 9",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -13722,7 +14025,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 287
+    "generalOrder": 287,
+    "displayOrder": 287
   },
   {
     "id": 305,
@@ -13754,14 +14058,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -13772,7 +14076,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 288
+    "generalOrder": 288,
+    "displayOrder": 288
   },
   {
     "id": 306,
@@ -13800,14 +14105,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -13818,7 +14123,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 289
+    "generalOrder": 289,
+    "displayOrder": 289
   },
   {
     "id": 307,
@@ -13851,14 +14157,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -13869,7 +14175,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 290
+    "generalOrder": 290,
+    "displayOrder": 290
   },
   {
     "id": 308,
@@ -13897,14 +14204,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -13915,7 +14222,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 291
+    "generalOrder": 291,
+    "displayOrder": 291
   },
   {
     "id": 309,
@@ -13943,14 +14251,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -13961,7 +14269,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 292
+    "generalOrder": 292,
+    "displayOrder": 292
   },
   {
     "id": 310,
@@ -13989,14 +14298,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cxp",
     "colorDescription": "Crystal Pink (Cxp)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14007,7 +14316,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 299
+    "generalOrder": 299,
+    "displayOrder": 299
   },
   {
     "id": 311,
@@ -14035,14 +14345,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14053,7 +14363,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 293
+    "generalOrder": 293,
+    "displayOrder": 293
   },
   {
     "id": 312,
@@ -14081,14 +14392,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14099,7 +14410,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 294
+    "generalOrder": 294,
+    "displayOrder": 294
   },
   {
     "id": 313,
@@ -14127,14 +14439,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen (Lin)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14145,7 +14457,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 295
+    "generalOrder": 295,
+    "displayOrder": 295
   },
   {
     "id": 314,
@@ -14183,14 +14496,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14201,7 +14514,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 296
+    "generalOrder": 296,
+    "displayOrder": 296
   },
   {
     "id": 315,
@@ -14229,14 +14543,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14247,7 +14561,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 297
+    "generalOrder": 297,
+    "displayOrder": 297
   },
   {
     "id": 316,
@@ -14285,14 +14600,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14303,7 +14618,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 298
+    "generalOrder": 298,
+    "displayOrder": 298
   },
   {
     "id": 317,
@@ -14329,14 +14645,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -14347,7 +14663,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 242
+    "generalOrder": 242,
+    "displayOrder": 242
   },
   {
     "id": 318,
@@ -14374,14 +14691,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -14392,7 +14709,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 243
+    "generalOrder": 243,
+    "displayOrder": 243
   },
   {
     "id": 319,
@@ -14425,14 +14743,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -14443,7 +14761,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 246
+    "generalOrder": 246,
+    "displayOrder": 246
   },
   {
     "id": 320,
@@ -14479,14 +14798,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -14497,7 +14816,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 247
+    "generalOrder": 247,
+    "displayOrder": 247
   },
   {
     "id": 321,
@@ -14520,14 +14840,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14538,7 +14858,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 257
+    "generalOrder": 257,
+    "displayOrder": 257
   },
   {
     "id": 322,
@@ -14566,14 +14887,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14584,7 +14905,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 258
+    "generalOrder": 258,
+    "displayOrder": 258
   },
   {
     "id": 323,
@@ -14607,14 +14929,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14625,7 +14947,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 259
+    "generalOrder": 259,
+    "displayOrder": 259
   },
   {
     "id": 324,
@@ -14653,14 +14976,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14671,7 +14994,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 260
+    "generalOrder": 260,
+    "displayOrder": 260
   },
   {
     "id": 325,
@@ -14694,14 +15018,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lmr",
     "colorDescription": "Light Mushroom (Lmr)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14712,7 +15036,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 261
+    "generalOrder": 261,
+    "displayOrder": 261
   },
   {
     "id": 326,
@@ -14740,14 +15065,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14758,7 +15083,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 262
+    "generalOrder": 262,
+    "displayOrder": 262
   },
   {
     "id": 327,
@@ -14786,14 +15112,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14804,7 +15130,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 263
+    "generalOrder": 263,
+    "displayOrder": 263
   },
   {
     "id": 328,
@@ -14827,14 +15154,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14845,7 +15172,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 264
+    "generalOrder": 264,
+    "displayOrder": 264
   },
   {
     "id": 329,
@@ -14873,14 +15201,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14891,7 +15219,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 265
+    "generalOrder": 265,
+    "displayOrder": 265
   },
   {
     "id": 330,
@@ -14918,14 +15247,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "S/S Top",
@@ -14936,7 +15265,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 266
+    "generalOrder": 266,
+    "displayOrder": 266
   },
   {
     "id": 331,
@@ -14964,14 +15294,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Short",
@@ -14982,7 +15312,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 268
+    "generalOrder": 268,
+    "displayOrder": 268
   },
   {
     "id": 332,
@@ -15005,14 +15336,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lmr",
     "colorDescription": "Light Mushroom (Lmr)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Short",
@@ -15023,7 +15354,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 269
+    "generalOrder": 269,
+    "displayOrder": 269
   },
   {
     "id": 333,
@@ -15051,14 +15383,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Short",
@@ -15069,7 +15401,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 267
+    "generalOrder": 267,
+    "displayOrder": 267
   },
   {
     "id": 334,
@@ -15097,14 +15430,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Short",
@@ -15115,7 +15448,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 270
+    "generalOrder": 270,
+    "displayOrder": 270
   },
   {
     "id": 335,
@@ -15143,14 +15477,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Short",
@@ -15161,7 +15495,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 271
+    "generalOrder": 271,
+    "displayOrder": 271
   },
   {
     "id": 336,
@@ -15189,14 +15524,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 9",
     "driver": "Athletics Crafted",
     "silhouette": "L/S Top",
@@ -15207,7 +15542,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 235
+    "generalOrder": 235,
+    "displayOrder": 235
   },
   {
     "id": 337,
@@ -15245,14 +15581,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "S/S Top",
@@ -15263,7 +15599,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 237
+    "generalOrder": 237,
+    "displayOrder": 237
   },
   {
     "id": 338,
@@ -15301,14 +15638,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "S/S Top",
@@ -15319,7 +15656,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 238
+    "generalOrder": 238,
+    "displayOrder": 238
   },
   {
     "id": 339,
@@ -15347,14 +15685,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 10",
     "driver": "Athletics Crafted",
     "silhouette": "L/S Top",
@@ -15365,7 +15703,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 227
+    "generalOrder": 227,
+    "displayOrder": 227
   },
   {
     "id": 340,
@@ -15393,14 +15732,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "S/S Top",
@@ -15411,7 +15750,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 228
+    "generalOrder": 228,
+    "displayOrder": 228
   },
   {
     "id": 341,
@@ -15439,14 +15779,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "S/S Top",
@@ -15457,7 +15797,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 229
+    "generalOrder": 229,
+    "displayOrder": 229
   },
   {
     "id": 342,
@@ -15486,14 +15827,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -15504,7 +15845,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 232
+    "generalOrder": 232,
+    "displayOrder": 232
   },
   {
     "id": 343,
@@ -15532,14 +15874,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -15550,7 +15892,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 231
+    "generalOrder": 231,
+    "displayOrder": 231
   },
   {
     "id": 344,
@@ -15578,14 +15921,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -15596,7 +15939,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 233
+    "generalOrder": 233,
+    "displayOrder": 233
   },
   {
     "id": 345,
@@ -15624,14 +15968,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -15642,7 +15986,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 234
+    "generalOrder": 234,
+    "displayOrder": 234
   },
   {
     "id": 346,
@@ -15666,14 +16011,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -15684,7 +16029,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 346
+    "generalOrder": 346,
+    "displayOrder": 346
   },
   {
     "id": 347,
@@ -15708,14 +16054,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "White (Wt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -15726,7 +16072,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 347
+    "generalOrder": 347,
+    "displayOrder": 347
   },
   {
     "id": 348,
@@ -15750,14 +16097,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Dark Glide (Dgd)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -15768,7 +16115,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 348
+    "generalOrder": 348,
+    "displayOrder": 348
   },
   {
     "id": 349,
@@ -15791,14 +16139,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -15809,7 +16157,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 341
+    "generalOrder": 341,
+    "displayOrder": 341
   },
   {
     "id": 350,
@@ -15832,14 +16181,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -15850,7 +16199,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 342
+    "generalOrder": 342,
+    "displayOrder": 342
   },
   {
     "id": 351,
@@ -15873,14 +16223,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -15891,7 +16241,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 343
+    "generalOrder": 343,
+    "displayOrder": 343
   },
   {
     "id": 352,
@@ -15915,14 +16266,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -15933,7 +16284,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 344
+    "generalOrder": 344,
+    "displayOrder": 344
   },
   {
     "id": 353,
@@ -15957,14 +16309,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dgd",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -15975,7 +16327,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 345
+    "generalOrder": 345,
+    "displayOrder": 345
   },
   {
     "id": 354,
@@ -15998,14 +16351,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16016,7 +16369,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 349
+    "generalOrder": 349,
+    "displayOrder": 349
   },
   {
     "id": 355,
@@ -16040,14 +16394,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16058,7 +16412,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 350
+    "generalOrder": 350,
+    "displayOrder": 350
   },
   {
     "id": 356,
@@ -16081,14 +16436,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16099,7 +16454,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 304
+    "generalOrder": 304,
+    "displayOrder": 304
   },
   {
     "id": 357,
@@ -16122,14 +16478,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gle",
     "colorDescription": "Glide (Gle)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16140,7 +16496,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 305
+    "generalOrder": 305,
+    "displayOrder": 305
   },
   {
     "id": 358,
@@ -16163,14 +16520,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey Heather (Gml)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16181,7 +16538,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 306
+    "generalOrder": 306,
+    "displayOrder": 306
   },
   {
     "id": 359,
@@ -16204,14 +16562,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16222,7 +16580,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 300
+    "generalOrder": 300,
+    "displayOrder": 300
   },
   {
     "id": 360,
@@ -16245,14 +16604,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey Heather (Gml)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16263,7 +16622,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 301
+    "generalOrder": 301,
+    "displayOrder": 301
   },
   {
     "id": 361,
@@ -16286,14 +16646,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16304,7 +16664,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 302
+    "generalOrder": 302,
+    "displayOrder": 302
   },
   {
     "id": 362,
@@ -16327,14 +16688,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16345,7 +16706,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 303
+    "generalOrder": 303,
+    "displayOrder": 303
   },
   {
     "id": 363,
@@ -16369,14 +16731,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16387,7 +16749,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 307
+    "generalOrder": 307,
+    "displayOrder": 307
   },
   {
     "id": 364,
@@ -16410,14 +16773,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16428,7 +16791,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 308
+    "generalOrder": 308,
+    "displayOrder": 308
   },
   {
     "id": 365,
@@ -16452,14 +16816,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16470,7 +16834,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 309
+    "generalOrder": 309,
+    "displayOrder": 309
   },
   {
     "id": 366,
@@ -16494,14 +16859,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16512,7 +16877,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 310
+    "generalOrder": 310,
+    "displayOrder": 310
   },
   {
     "id": 367,
@@ -16536,14 +16902,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16554,7 +16920,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 311
+    "generalOrder": 311,
+    "displayOrder": 311
   },
   {
     "id": 368,
@@ -16578,14 +16945,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16596,7 +16963,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 312
+    "generalOrder": 312,
+    "displayOrder": 312
   },
   {
     "id": 369,
@@ -16620,14 +16988,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16638,7 +17006,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 313
+    "generalOrder": 313,
+    "displayOrder": 313
   },
   {
     "id": 370,
@@ -16662,14 +17031,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16680,7 +17049,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 314
+    "generalOrder": 314,
+    "displayOrder": 314
   },
   {
     "id": 371,
@@ -16703,14 +17073,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wm",
     "colorDescription": "White (Wm)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16721,7 +17091,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 315
+    "generalOrder": 315,
+    "displayOrder": 315
   },
   {
     "id": 372,
@@ -16745,14 +17116,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16763,7 +17134,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 318
+    "generalOrder": 318,
+    "displayOrder": 318
   },
   {
     "id": 373,
@@ -16787,14 +17159,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16805,7 +17177,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 319
+    "generalOrder": 319,
+    "displayOrder": 319
   },
   {
     "id": 374,
@@ -16829,14 +17202,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -16847,7 +17220,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 320
+    "generalOrder": 320,
+    "displayOrder": 320
   },
   {
     "id": 375,
@@ -16870,14 +17244,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16888,7 +17262,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 321
+    "generalOrder": 321,
+    "displayOrder": 321
   },
   {
     "id": 376,
@@ -16911,14 +17286,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16929,7 +17304,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 316
+    "generalOrder": 316,
+    "displayOrder": 316
   },
   {
     "id": 377,
@@ -16952,14 +17328,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -16970,7 +17346,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 317
+    "generalOrder": 317,
+    "displayOrder": 317
   },
   {
     "id": 378,
@@ -16993,14 +17370,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -17011,7 +17388,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 322
+    "generalOrder": 322,
+    "displayOrder": 322
   },
   {
     "id": 379,
@@ -17034,14 +17412,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -17052,7 +17430,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 323
+    "generalOrder": 323,
+    "displayOrder": 323
   },
   {
     "id": 380,
@@ -17075,14 +17454,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17093,7 +17472,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 325
+    "generalOrder": 325,
+    "displayOrder": 325
   },
   {
     "id": 381,
@@ -17116,14 +17496,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17134,7 +17514,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 326
+    "generalOrder": 326,
+    "displayOrder": 326
   },
   {
     "id": 382,
@@ -17157,14 +17538,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17175,7 +17556,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 327
+    "generalOrder": 327,
+    "displayOrder": 327
   },
   {
     "id": 383,
@@ -17199,14 +17581,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17217,7 +17599,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 328
+    "generalOrder": 328,
+    "displayOrder": 328
   },
   {
     "id": 384,
@@ -17240,14 +17623,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17258,7 +17641,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 329
+    "generalOrder": 329,
+    "displayOrder": 329
   },
   {
     "id": 385,
@@ -17281,14 +17665,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17299,7 +17683,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 330
+    "generalOrder": 330,
+    "displayOrder": 330
   },
   {
     "id": 386,
@@ -17322,14 +17707,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17340,7 +17725,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 331
+    "generalOrder": 331,
+    "displayOrder": 331
   },
   {
     "id": 387,
@@ -17365,14 +17751,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17383,7 +17769,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 332
+    "generalOrder": 332,
+    "displayOrder": 332
   },
   {
     "id": 388,
@@ -17406,14 +17793,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17424,7 +17811,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 333
+    "generalOrder": 333,
+    "displayOrder": 333
   },
   {
     "id": 389,
@@ -17447,14 +17835,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17465,7 +17853,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 334
+    "generalOrder": 334,
+    "displayOrder": 334
   },
   {
     "id": 390,
@@ -17488,14 +17877,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17506,7 +17895,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 335
+    "generalOrder": 335,
+    "displayOrder": 335
   },
   {
     "id": 391,
@@ -17530,14 +17920,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17548,7 +17938,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 336
+    "generalOrder": 336,
+    "displayOrder": 336
   },
   {
     "id": 392,
@@ -17571,14 +17962,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17589,7 +17980,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 337
+    "generalOrder": 337,
+    "displayOrder": 337
   },
   {
     "id": 393,
@@ -17612,14 +18004,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "S/S Top",
@@ -17630,7 +18022,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 338
+    "generalOrder": 338,
+    "displayOrder": 338
   },
   {
     "id": 394,
@@ -17654,14 +18047,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -17672,7 +18065,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 339
+    "generalOrder": 339,
+    "displayOrder": 339
   },
   {
     "id": 395,
@@ -17696,14 +18090,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Graphics",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -17714,7 +18108,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 340
+    "generalOrder": 340,
+    "displayOrder": 340
   },
   {
     "id": 396,
@@ -17742,14 +18137,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -17760,7 +18155,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 389
+    "generalOrder": 389,
+    "displayOrder": 389
   },
   {
     "id": 397,
@@ -17788,14 +18184,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Mlt",
     "colorDescription": "Linen (Mlt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -17806,7 +18202,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 390
+    "generalOrder": 390,
+    "displayOrder": 390
   },
   {
     "id": 398,
@@ -17834,14 +18231,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night / Cambridge Burgundy / Boylston Grey (Dnt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "On & Off Court",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -17852,7 +18249,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 392
+    "generalOrder": 392,
+    "displayOrder": 392
   },
   {
     "id": 399,
@@ -17880,14 +18278,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine / Dark Night / Angora (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -17898,7 +18296,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 393
+    "generalOrder": 393,
+    "displayOrder": 393
   },
   {
     "id": 400,
@@ -17926,14 +18325,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bm",
     "colorDescription": "Black / Angora (Bm)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -17944,7 +18343,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 402
+    "generalOrder": 402,
+    "displayOrder": 402
   },
   {
     "id": 401,
@@ -17972,14 +18372,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Mlt",
     "colorDescription": "Linen (Mlt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -17990,7 +18390,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 403
+    "generalOrder": 403,
+    "displayOrder": 403
   },
   {
     "id": 402,
@@ -18018,14 +18419,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18036,7 +18437,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 404
+    "generalOrder": 404,
+    "displayOrder": 404
   },
   {
     "id": 403,
@@ -18064,14 +18466,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18082,7 +18484,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 405
+    "generalOrder": 405,
+    "displayOrder": 405
   },
   {
     "id": 404,
@@ -18109,14 +18512,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18127,7 +18530,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 406
+    "generalOrder": 406,
+    "displayOrder": 406
   },
   {
     "id": 405,
@@ -18153,14 +18557,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18171,7 +18575,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 407
+    "generalOrder": 407,
+    "displayOrder": 407
   },
   {
     "id": 406,
@@ -18198,14 +18603,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gle",
     "colorDescription": "Glide (Gle)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 5",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18216,7 +18621,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 408
+    "generalOrder": 408,
+    "displayOrder": 408
   },
   {
     "id": 407,
@@ -18246,14 +18652,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -18264,7 +18670,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 411
+    "generalOrder": 411,
+    "displayOrder": 411
   },
   {
     "id": 408,
@@ -18287,14 +18694,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen (Lin)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -18305,7 +18712,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 412
+    "generalOrder": 412,
+    "displayOrder": 412
   },
   {
     "id": 409,
@@ -18333,14 +18741,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -18351,7 +18759,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 409
+    "generalOrder": 409,
+    "displayOrder": 409
   },
   {
     "id": 410,
@@ -18379,14 +18788,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen (Lin)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -18397,7 +18806,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 410
+    "generalOrder": 410,
+    "displayOrder": 410
   },
   {
     "id": 411,
@@ -18425,14 +18835,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -18443,7 +18853,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 351
+    "generalOrder": 351,
+    "displayOrder": 351
   },
   {
     "id": 412,
@@ -18466,14 +18877,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -18484,7 +18895,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 352
+    "generalOrder": 352,
+    "displayOrder": 352
   },
   {
     "id": 413,
@@ -18512,14 +18924,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -18530,7 +18942,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 354
+    "generalOrder": 354,
+    "displayOrder": 354
   },
   {
     "id": 414,
@@ -18564,14 +18977,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Boylston Grey / Dark Night (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -18582,7 +18995,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 355
+    "generalOrder": 355,
+    "displayOrder": 355
   },
   {
     "id": 415,
@@ -18611,14 +19025,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night / Dark Ivy Vine / Angora (Dnt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -18629,7 +19043,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 356
+    "generalOrder": 356,
+    "displayOrder": 356
   },
   {
     "id": 416,
@@ -18658,14 +19073,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 8",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18676,7 +19091,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 373
+    "generalOrder": 373,
+    "displayOrder": 373
   },
   {
     "id": 417,
@@ -18705,14 +19121,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18723,7 +19139,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 374
+    "generalOrder": 374,
+    "displayOrder": 374
   },
   {
     "id": 418,
@@ -18752,14 +19169,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18770,7 +19187,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 375
+    "generalOrder": 375,
+    "displayOrder": 375
   },
   {
     "id": 419,
@@ -18793,14 +19211,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 6",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18811,7 +19229,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 376
+    "generalOrder": 376,
+    "displayOrder": 376
   },
   {
     "id": 420,
@@ -18834,14 +19253,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18852,7 +19271,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 377
+    "generalOrder": 377,
+    "displayOrder": 377
   },
   {
     "id": 421,
@@ -18875,14 +19295,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -18893,7 +19313,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 378
+    "generalOrder": 378,
+    "displayOrder": 378
   },
   {
     "id": 422,
@@ -18928,14 +19349,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -18946,7 +19367,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 379
+    "generalOrder": 379,
+    "displayOrder": 379
   },
   {
     "id": 423,
@@ -18980,14 +19402,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -18998,7 +19420,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 380
+    "generalOrder": 380,
+    "displayOrder": 380
   },
   {
     "id": 424,
@@ -19026,14 +19449,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -19044,7 +19467,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 381
+    "generalOrder": 381,
+    "displayOrder": 381
   },
   {
     "id": 425,
@@ -19072,14 +19496,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -19090,7 +19514,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 383
+    "generalOrder": 383,
+    "displayOrder": 383
   },
   {
     "id": 426,
@@ -19118,14 +19543,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey (Gml)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -19136,7 +19561,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 382
+    "generalOrder": 382,
+    "displayOrder": 382
   },
   {
     "id": 427,
@@ -19164,14 +19590,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ack",
     "colorDescription": "Blacktop (Ack)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "Hoodies & Sweatshirts",
@@ -19182,7 +19608,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 413
+    "generalOrder": 413,
+    "displayOrder": 413
   },
   {
     "id": 428,
@@ -19210,14 +19637,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "Hoodies & Sweatshirts",
@@ -19228,7 +19655,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 414
+    "generalOrder": 414,
+    "displayOrder": 414
   },
   {
     "id": 429,
@@ -19256,14 +19684,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bs6",
     "colorDescription": "Bay State / Team Navy (Bs6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -19274,7 +19702,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 424
+    "generalOrder": 424,
+    "displayOrder": 424
   },
   {
     "id": 430,
@@ -19302,14 +19731,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Boylston Grey (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -19320,7 +19749,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 425
+    "generalOrder": 425,
+    "displayOrder": 425
   },
   {
     "id": 431,
@@ -19348,14 +19778,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Abg",
     "colorDescription": "Stucco (Abg)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "Pant",
@@ -19366,7 +19796,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 416
+    "generalOrder": 416,
+    "displayOrder": 416
   },
   {
     "id": 432,
@@ -19394,14 +19825,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "Pant",
@@ -19412,7 +19843,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 417
+    "generalOrder": 417,
+    "displayOrder": 417
   },
   {
     "id": 433,
@@ -19440,14 +19872,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 1",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -19458,7 +19890,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 31
+    "generalOrder": 31,
+    "displayOrder": 31
   },
   {
     "id": 434,
@@ -19486,14 +19919,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lup",
     "colorDescription": "Lucent Pink (Lup)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 3",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -19504,7 +19937,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 32
+    "generalOrder": 32,
+    "displayOrder": 32
   },
   {
     "id": 435,
@@ -19532,14 +19966,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Din",
     "colorDescription": "Dark Ivy Vine Heather (Din)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -19550,7 +19984,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 35
+    "generalOrder": 35,
+    "displayOrder": 35
   },
   {
     "id": 436,
@@ -19578,14 +20013,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tn2",
     "colorDescription": "Team Navy Heather (Tn2)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 3",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -19596,7 +20031,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 36
+    "generalOrder": 36,
+    "displayOrder": 36
   },
   {
     "id": 437,
@@ -19626,14 +20062,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -19644,7 +20080,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 45
+    "generalOrder": 45,
+    "displayOrder": 45
   },
   {
     "id": 438,
@@ -19672,14 +20109,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 1",
     "driver": "Rc",
     "silhouette": "Short",
@@ -19690,7 +20127,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 46
+    "generalOrder": 46,
+    "displayOrder": 46
   },
   {
     "id": 439,
@@ -19717,14 +20155,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 3",
     "driver": "Rc",
     "silhouette": "Short",
@@ -19735,7 +20173,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 49
+    "generalOrder": 49,
+    "displayOrder": 49
   },
   {
     "id": 440,
@@ -19762,14 +20201,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -19780,7 +20219,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 84
+    "generalOrder": 84,
+    "displayOrder": 84
   },
   {
     "id": 441,
@@ -19808,14 +20248,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -19826,7 +20266,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 86
+    "generalOrder": 86,
+    "displayOrder": 86
   },
   {
     "id": 442,
@@ -19849,14 +20290,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -19867,7 +20308,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 87
+    "generalOrder": 87,
+    "displayOrder": 87
   },
   {
     "id": 443,
@@ -19893,14 +20335,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -19911,7 +20353,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 89
+    "generalOrder": 89,
+    "displayOrder": 89
   },
   {
     "id": 444,
@@ -19937,14 +20380,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -19955,7 +20398,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 100
+    "generalOrder": 100,
+    "displayOrder": 100
   },
   {
     "id": 445,
@@ -19983,14 +20427,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -20001,7 +20445,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 101
+    "generalOrder": 101,
+    "displayOrder": 101
   },
   {
     "id": 446,
@@ -20029,14 +20474,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lup",
     "colorDescription": "Lucent Pink (Lup)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -20047,7 +20492,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 92
+    "generalOrder": 92,
+    "displayOrder": 92
   },
   {
     "id": 447,
@@ -20075,14 +20521,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -20093,7 +20539,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 93
+    "generalOrder": 93,
+    "displayOrder": 93
   },
   {
     "id": 448,
@@ -20121,14 +20568,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -20139,7 +20586,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 98
+    "generalOrder": 98,
+    "displayOrder": 98
   },
   {
     "id": 449,
@@ -20163,14 +20611,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -20181,7 +20629,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 139
+    "generalOrder": 139,
+    "displayOrder": 139
   },
   {
     "id": 450,
@@ -20204,14 +20653,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -20222,7 +20671,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 140
+    "generalOrder": 140,
+    "displayOrder": 140
   },
   {
     "id": 451,
@@ -20250,14 +20700,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 2",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -20268,7 +20718,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 3
+    "generalOrder": 3,
+    "displayOrder": 3
   },
   {
     "id": 452,
@@ -20296,14 +20747,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Iox",
     "colorDescription": "Iron Oxide (Iox)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -20314,7 +20765,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 4
+    "generalOrder": 4,
+    "displayOrder": 4
   },
   {
     "id": 453,
@@ -20342,14 +20794,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Black (Bkh)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -20360,7 +20812,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 6
+    "generalOrder": 6,
+    "displayOrder": 6
   },
   {
     "id": 454,
@@ -20388,14 +20841,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Din",
     "colorDescription": "Dark Ivy Vine Heather (Din)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -20406,7 +20859,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 8
+    "generalOrder": 8,
+    "displayOrder": 8
   },
   {
     "id": 455,
@@ -20436,14 +20890,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 4",
     "driver": "Rc",
     "silhouette": "Short",
@@ -20454,7 +20908,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 20
+    "generalOrder": 20,
+    "displayOrder": 20
   },
   {
     "id": 456,
@@ -20482,14 +20937,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 2",
     "driver": "Rc",
     "silhouette": "Short",
@@ -20500,7 +20955,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 22
+    "generalOrder": 22,
+    "displayOrder": 22
   },
   {
     "id": 457,
@@ -20528,14 +20984,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -20546,7 +21002,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 24
+    "generalOrder": 24,
+    "displayOrder": 24
   },
   {
     "id": 458,
@@ -20574,14 +21031,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20592,7 +21049,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 58
+    "generalOrder": 58,
+    "displayOrder": 58
   },
   {
     "id": 459,
@@ -20618,14 +21076,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20636,7 +21094,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 59
+    "generalOrder": 59,
+    "displayOrder": 59
   },
   {
     "id": 460,
@@ -20664,14 +21123,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20682,7 +21141,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 60
+    "generalOrder": 60,
+    "displayOrder": 60
   },
   {
     "id": 461,
@@ -20705,14 +21165,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20723,7 +21183,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 61
+    "generalOrder": 61,
+    "displayOrder": 61
   },
   {
     "id": 462,
@@ -20751,14 +21212,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20769,7 +21230,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 62
+    "generalOrder": 62,
+    "displayOrder": 62
   },
   {
     "id": 463,
@@ -20792,14 +21254,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20810,7 +21272,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 63
+    "generalOrder": 63,
+    "displayOrder": 63
   },
   {
     "id": 464,
@@ -20838,14 +21301,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20856,7 +21319,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 64
+    "generalOrder": 64,
+    "displayOrder": 64
   },
   {
     "id": 465,
@@ -20884,14 +21348,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20902,7 +21366,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 65
+    "generalOrder": 65,
+    "displayOrder": 65
   },
   {
     "id": 466,
@@ -20930,14 +21395,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -20948,7 +21413,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 66
+    "generalOrder": 66,
+    "displayOrder": 66
   },
   {
     "id": 467,
@@ -20976,14 +21442,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -20994,7 +21460,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 70
+    "generalOrder": 70,
+    "displayOrder": 70
   },
   {
     "id": 468,
@@ -21022,14 +21489,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21040,7 +21507,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 71
+    "generalOrder": 71,
+    "displayOrder": 71
   },
   {
     "id": 469,
@@ -21063,14 +21531,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21081,7 +21549,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 73
+    "generalOrder": 73,
+    "displayOrder": 73
   },
   {
     "id": 470,
@@ -21104,14 +21573,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21122,7 +21591,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 74
+    "generalOrder": 74,
+    "displayOrder": 74
   },
   {
     "id": 471,
@@ -21150,14 +21620,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21168,7 +21638,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 75
+    "generalOrder": 75,
+    "displayOrder": 75
   },
   {
     "id": 472,
@@ -21196,14 +21667,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21214,7 +21685,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 76
+    "generalOrder": 76,
+    "displayOrder": 76
   },
   {
     "id": 473,
@@ -21246,14 +21718,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21264,7 +21736,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 77
+    "generalOrder": 77,
+    "displayOrder": 77
   },
   {
     "id": 474,
@@ -21298,14 +21771,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21316,7 +21789,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 78
+    "generalOrder": 78,
+    "displayOrder": 78
   },
   {
     "id": 475,
@@ -21344,14 +21818,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21362,7 +21836,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 79
+    "generalOrder": 79,
+    "displayOrder": 79
   },
   {
     "id": 476,
@@ -21390,14 +21865,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -21408,7 +21883,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 80
+    "generalOrder": 80,
+    "displayOrder": 80
   },
   {
     "id": 477,
@@ -21434,14 +21910,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -21452,7 +21928,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 82
+    "generalOrder": 82,
+    "displayOrder": 82
   },
   {
     "id": 478,
@@ -21480,14 +21957,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Din",
     "colorDescription": "Dark Ivy Vine Heather (Din)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -21498,7 +21975,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 10
+    "generalOrder": 10,
+    "displayOrder": 10
   },
   {
     "id": 479,
@@ -21526,14 +22004,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Blacktop Heather (Bkh)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 4",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -21544,7 +22022,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 13
+    "generalOrder": 13,
+    "displayOrder": 13
   },
   {
     "id": 480,
@@ -21567,14 +22046,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -21585,7 +22064,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 134
+    "generalOrder": 134,
+    "displayOrder": 134
   },
   {
     "id": 481,
@@ -21608,14 +22088,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -21626,7 +22106,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 135
+    "generalOrder": 135,
+    "displayOrder": 135
   },
   {
     "id": 482,
@@ -21649,14 +22130,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -21667,7 +22148,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 136
+    "generalOrder": 136,
+    "displayOrder": 136
   },
   {
     "id": 483,
@@ -21690,14 +22172,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -21708,7 +22190,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 137
+    "generalOrder": 137,
+    "displayOrder": 137
   },
   {
     "id": 484,
@@ -21731,14 +22214,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -21749,7 +22232,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 138
+    "generalOrder": 138,
+    "displayOrder": 138
   },
   {
     "id": 485,
@@ -21777,14 +22261,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "S/S Top",
@@ -21795,7 +22279,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 192
+    "generalOrder": 192,
+    "displayOrder": 192
   },
   {
     "id": 486,
@@ -21823,14 +22308,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "S/S Top",
@@ -21841,7 +22326,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 193
+    "generalOrder": 193,
+    "displayOrder": 193
   },
   {
     "id": 487,
@@ -21869,14 +22355,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Short",
@@ -21887,7 +22373,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 180
+    "generalOrder": 180,
+    "displayOrder": 180
   },
   {
     "id": 488,
@@ -21915,14 +22402,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "On & Off Court",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Short",
@@ -21933,7 +22420,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 181
+    "generalOrder": 181,
+    "displayOrder": 181
   },
   {
     "id": 489,
@@ -21961,14 +22449,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 9",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Short",
@@ -21979,7 +22467,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 182
+    "generalOrder": 182,
+    "displayOrder": 182
   },
   {
     "id": 490,
@@ -22007,14 +22496,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Short",
@@ -22025,7 +22514,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 194
+    "generalOrder": 194,
+    "displayOrder": 194
   },
   {
     "id": 491,
@@ -22049,14 +22539,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Short",
@@ -22067,7 +22557,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 195
+    "generalOrder": 195,
+    "displayOrder": 195
   },
   {
     "id": 492,
@@ -22090,14 +22581,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Short",
@@ -22108,7 +22599,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 196
+    "generalOrder": 196,
+    "displayOrder": 196
   },
   {
     "id": 493,
@@ -22139,14 +22631,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Daily Run",
     "silhouette": "Sports Bra",
@@ -22157,7 +22649,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 173
+    "generalOrder": 173,
+    "displayOrder": 173
   },
   {
     "id": 494,
@@ -22185,14 +22678,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Sports Bra",
@@ -22203,7 +22696,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 183
+    "generalOrder": 183,
+    "displayOrder": 183
   },
   {
     "id": 495,
@@ -22231,14 +22725,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Sports Bra",
@@ -22249,7 +22743,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 184
+    "generalOrder": 184,
+    "displayOrder": 184
   },
   {
     "id": 496,
@@ -22277,14 +22772,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bm",
     "colorDescription": "Black (Bm)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Sports Bra",
@@ -22295,7 +22790,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 186
+    "generalOrder": 186,
+    "displayOrder": 186
   },
   {
     "id": 497,
@@ -22318,14 +22814,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bm",
     "colorDescription": "Black Multi (Bm)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Sports Bra",
@@ -22336,7 +22832,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 197
+    "generalOrder": 197,
+    "displayOrder": 197
   },
   {
     "id": 498,
@@ -22364,14 +22861,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Sports Bra",
@@ -22382,7 +22879,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 198
+    "generalOrder": 198,
+    "displayOrder": 198
   },
   {
     "id": 499,
@@ -22410,14 +22908,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Sports Bra",
@@ -22428,7 +22926,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 200
+    "generalOrder": 200,
+    "displayOrder": 200
   },
   {
     "id": 500,
@@ -22456,14 +22955,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Sports Bra",
@@ -22474,7 +22973,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 202
+    "generalOrder": 202,
+    "displayOrder": 202
   },
   {
     "id": 501,
@@ -22502,14 +23002,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Sports Bra",
@@ -22520,7 +23020,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 162
+    "generalOrder": 162,
+    "displayOrder": 162
   },
   {
     "id": 502,
@@ -22548,14 +23049,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Sports Bra",
@@ -22566,7 +23067,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 163
+    "generalOrder": 163,
+    "displayOrder": 163
   },
   {
     "id": 503,
@@ -22594,14 +23096,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Daily Run",
     "silhouette": "Tight",
@@ -22612,7 +23114,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 176
+    "generalOrder": 176,
+    "displayOrder": 176
   },
   {
     "id": 504,
@@ -22641,14 +23144,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Tight",
@@ -22659,7 +23162,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 188
+    "generalOrder": 188,
+    "displayOrder": 188
   },
   {
     "id": 505,
@@ -22687,14 +23191,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "AC - For Her",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Tight",
@@ -22705,7 +23209,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 190
+    "generalOrder": 190,
+    "displayOrder": 190
   },
   {
     "id": 506,
@@ -22733,14 +23238,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tight",
@@ -22751,7 +23256,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 207
+    "generalOrder": 207,
+    "displayOrder": 207
   },
   {
     "id": 507,
@@ -22774,14 +23280,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tight",
@@ -22792,7 +23298,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 208
+    "generalOrder": 208,
+    "displayOrder": 208
   },
   {
     "id": 508,
@@ -22820,14 +23327,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tight",
@@ -22838,7 +23345,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 209
+    "generalOrder": 209,
+    "displayOrder": 209
   },
   {
     "id": 509,
@@ -22872,14 +23380,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -22890,7 +23398,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 204
+    "generalOrder": 204,
+    "displayOrder": 204
   },
   {
     "id": 510,
@@ -22924,14 +23433,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -22942,7 +23451,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 205
+    "generalOrder": 205,
+    "displayOrder": 205
   },
   {
     "id": 511,
@@ -22976,14 +23486,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -22994,7 +23504,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 206
+    "generalOrder": 206,
+    "displayOrder": 206
   },
   {
     "id": 512,
@@ -23022,14 +23533,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -23040,7 +23551,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 157
+    "generalOrder": 157,
+    "displayOrder": 157
   },
   {
     "id": 513,
@@ -23066,14 +23578,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -23084,7 +23596,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 158
+    "generalOrder": 158,
+    "displayOrder": 158
   },
   {
     "id": 514,
@@ -23112,14 +23625,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -23130,7 +23643,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 159
+    "generalOrder": 159,
+    "displayOrder": 159
   },
   {
     "id": 515,
@@ -23158,14 +23672,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -23176,7 +23690,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 160
+    "generalOrder": 160,
+    "displayOrder": 160
   },
   {
     "id": 516,
@@ -23204,14 +23719,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -23222,7 +23737,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 161
+    "generalOrder": 161,
+    "displayOrder": 161
   },
   {
     "id": 517,
@@ -23255,14 +23771,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Din",
     "colorDescription": "Dark Ivy Vine Heather (Din)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -23273,7 +23789,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 145
+    "generalOrder": 145,
+    "displayOrder": 145
   },
   {
     "id": 518,
@@ -23300,14 +23817,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Caviar Heather / White (Bkh)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -23318,7 +23835,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 146
+    "generalOrder": 146,
+    "displayOrder": 146
   },
   {
     "id": 519,
@@ -23352,14 +23870,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23370,7 +23888,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 108
+    "generalOrder": 108,
+    "displayOrder": 108
   },
   {
     "id": 520,
@@ -23398,14 +23917,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23416,7 +23935,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 109
+    "generalOrder": 109,
+    "displayOrder": 109
   },
   {
     "id": 521,
@@ -23444,14 +23964,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23462,7 +23982,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 110
+    "generalOrder": 110,
+    "displayOrder": 110
   },
   {
     "id": 522,
@@ -23495,14 +24016,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23513,7 +24034,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 113
+    "generalOrder": 113,
+    "displayOrder": 113
   },
   {
     "id": 523,
@@ -23546,14 +24068,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23564,7 +24086,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 111
+    "generalOrder": 111,
+    "displayOrder": 111
   },
   {
     "id": 524,
@@ -23597,14 +24120,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23615,7 +24138,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 112
+    "generalOrder": 112,
+    "displayOrder": 112
   },
   {
     "id": 525,
@@ -23649,14 +24173,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23667,7 +24191,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 114
+    "generalOrder": 114,
+    "displayOrder": 114
   },
   {
     "id": 526,
@@ -23701,14 +24226,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23719,7 +24244,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 115
+    "generalOrder": 115,
+    "displayOrder": 115
   },
   {
     "id": 527,
@@ -23753,14 +24279,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "S/S Top",
@@ -23771,7 +24297,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 116
+    "generalOrder": 116,
+    "displayOrder": 116
   },
   {
     "id": 528,
@@ -23799,14 +24326,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -23817,7 +24344,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 147
+    "generalOrder": 147,
+    "displayOrder": 147
   },
   {
     "id": 529,
@@ -23840,14 +24368,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -23858,7 +24386,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 148
+    "generalOrder": 148,
+    "displayOrder": 148
   },
   {
     "id": 530,
@@ -23881,14 +24410,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -23899,7 +24428,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 124
+    "generalOrder": 124,
+    "displayOrder": 124
   },
   {
     "id": 531,
@@ -23922,14 +24452,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -23940,7 +24470,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 125
+    "generalOrder": 125,
+    "displayOrder": 125
   },
   {
     "id": 532,
@@ -23963,14 +24494,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -23981,7 +24512,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 151
+    "generalOrder": 151,
+    "displayOrder": 151
   },
   {
     "id": 533,
@@ -24009,14 +24541,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -24027,7 +24559,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 152
+    "generalOrder": 152,
+    "displayOrder": 152
   },
   {
     "id": 534,
@@ -24050,14 +24583,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cas",
     "colorDescription": "Castlerock (Cas)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -24068,7 +24601,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 153
+    "generalOrder": 153,
+    "displayOrder": 153
   },
   {
     "id": 535,
@@ -24091,14 +24625,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -24109,7 +24643,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 154
+    "generalOrder": 154,
+    "displayOrder": 154
   },
   {
     "id": 536,
@@ -24143,14 +24678,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Dark Glide (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Skirt",
@@ -24161,7 +24696,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 221
+    "generalOrder": 221,
+    "displayOrder": 221
   },
   {
     "id": 537,
@@ -24195,14 +24731,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy / White (Tnv)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Skirt",
@@ -24213,7 +24749,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 222
+    "generalOrder": 222,
+    "displayOrder": 222
   },
   {
     "id": 538,
@@ -24241,14 +24778,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -24259,7 +24796,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 223
+    "generalOrder": 223,
+    "displayOrder": 223
   },
   {
     "id": 539,
@@ -24287,14 +24825,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -24305,7 +24843,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 224
+    "generalOrder": 224,
+    "displayOrder": 224
   },
   {
     "id": 540,
@@ -24339,14 +24878,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Dark Glide (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -24357,7 +24896,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 225
+    "generalOrder": 225,
+    "displayOrder": 225
   },
   {
     "id": 541,
@@ -24391,14 +24931,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy / Cambridge Burgundy (Tnv)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -24409,7 +24949,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 226
+    "generalOrder": 226,
+    "displayOrder": 226
   },
   {
     "id": 542,
@@ -24437,14 +24978,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dgd",
     "colorDescription": "Dark Glide (Dgd)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "S/S Top",
@@ -24455,7 +24996,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 211
+    "generalOrder": 211,
+    "displayOrder": 211
   },
   {
     "id": 543,
@@ -24483,14 +25025,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "S/S Top",
@@ -24501,7 +25043,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 212
+    "generalOrder": 212,
+    "displayOrder": 212
   },
   {
     "id": 544,
@@ -24529,14 +25072,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "S/S Top",
@@ -24547,7 +25090,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 213
+    "generalOrder": 213,
+    "displayOrder": 213
   },
   {
     "id": 545,
@@ -24581,14 +25125,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy / White (Tnv)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Short",
@@ -24599,7 +25143,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 217
+    "generalOrder": 217,
+    "displayOrder": 217
   },
   {
     "id": 546,
@@ -24627,14 +25172,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -24645,7 +25190,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 230
+    "generalOrder": 230,
+    "displayOrder": 230
   },
   {
     "id": 547,
@@ -24683,14 +25229,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Pant",
@@ -24701,7 +25247,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 236
+    "generalOrder": 236,
+    "displayOrder": 236
   },
   {
     "id": 548,
@@ -24729,14 +25276,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -24747,7 +25294,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 239
+    "generalOrder": 239,
+    "displayOrder": 239
   },
   {
     "id": 549,
@@ -24775,14 +25323,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted",
     "silhouette": "Short",
@@ -24793,7 +25341,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 240
+    "generalOrder": 240,
+    "displayOrder": 240
   },
   {
     "id": 550,
@@ -24821,14 +25370,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -24839,7 +25388,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 241
+    "generalOrder": 241,
+    "displayOrder": 241
   },
   {
     "id": 551,
@@ -24867,14 +25417,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -24885,7 +25435,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 244
+    "generalOrder": 244,
+    "displayOrder": 244
   },
   {
     "id": 552,
@@ -24913,14 +25464,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lmr",
     "colorDescription": "Light Mushroom (Lmr)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -24931,7 +25482,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 245
+    "generalOrder": 245,
+    "displayOrder": 245
   },
   {
     "id": 553,
@@ -24959,14 +25511,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -24977,7 +25529,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 248
+    "generalOrder": 248,
+    "displayOrder": 248
   },
   {
     "id": 554,
@@ -25005,14 +25558,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25023,7 +25576,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 249
+    "generalOrder": 249,
+    "displayOrder": 249
   },
   {
     "id": 555,
@@ -25051,14 +25605,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25069,7 +25623,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 250
+    "generalOrder": 250,
+    "displayOrder": 250
   },
   {
     "id": 556,
@@ -25098,14 +25653,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lmr",
     "colorDescription": "Light Mushroom (Lmr)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25116,7 +25671,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 251
+    "generalOrder": 251,
+    "displayOrder": 251
   },
   {
     "id": 557,
@@ -25144,14 +25700,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25162,7 +25718,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 252
+    "generalOrder": 252,
+    "displayOrder": 252
   },
   {
     "id": 558,
@@ -25190,14 +25747,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night (Dnt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25208,7 +25765,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 253
+    "generalOrder": 253,
+    "displayOrder": 253
   },
   {
     "id": 559,
@@ -25236,14 +25794,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25254,7 +25812,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 254
+    "generalOrder": 254,
+    "displayOrder": 254
   },
   {
     "id": 560,
@@ -25282,14 +25841,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25300,7 +25859,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 255
+    "generalOrder": 255,
+    "displayOrder": 255
   },
   {
     "id": 561,
@@ -25328,14 +25888,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lmr",
     "colorDescription": "Light Mushroom (Lmr)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25346,7 +25906,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 256
+    "generalOrder": 256,
+    "displayOrder": 256
   },
   {
     "id": 562,
@@ -25374,14 +25935,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen / White (Lin)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Hoodies & Sweatshirts",
@@ -25392,7 +25953,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 275
+    "generalOrder": 275,
+    "displayOrder": 275
   },
   {
     "id": 563,
@@ -25420,14 +25982,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / White (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25438,7 +26000,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 279
+    "generalOrder": 279,
+    "displayOrder": 279
   },
   {
     "id": 564,
@@ -25466,14 +26029,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25484,7 +26047,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 280
+    "generalOrder": 280,
+    "displayOrder": 280
   },
   {
     "id": 565,
@@ -25512,14 +26076,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25530,7 +26094,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 281
+    "generalOrder": 281,
+    "displayOrder": 281
   },
   {
     "id": 566,
@@ -25558,14 +26123,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics",
     "silhouette": "Pant",
@@ -25576,7 +26141,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 282
+    "generalOrder": 282,
+    "displayOrder": 282
   },
   {
     "id": 567,
@@ -25599,14 +26165,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Athletics Crafted Graphics",
     "silhouette": "S/S Top",
@@ -25617,7 +26183,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 324
+    "generalOrder": 324,
+    "displayOrder": 324
   },
   {
     "id": 568,
@@ -25645,14 +26212,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -25663,7 +26230,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 353
+    "generalOrder": 353,
+    "displayOrder": 353
   },
   {
     "id": 569,
@@ -25691,14 +26259,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -25709,7 +26277,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 357
+    "generalOrder": 357,
+    "displayOrder": 357
   },
   {
     "id": 570,
@@ -25737,14 +26306,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine / Dark Night (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -25755,7 +26324,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 358
+    "generalOrder": 358,
+    "displayOrder": 358
   },
   {
     "id": 571,
@@ -25783,14 +26353,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -25801,7 +26371,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 359
+    "generalOrder": 359,
+    "displayOrder": 359
   },
   {
     "id": 572,
@@ -25829,14 +26400,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey / Black (Gml)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 8",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -25847,7 +26418,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 360
+    "generalOrder": 360,
+    "displayOrder": 360
   },
   {
     "id": 573,
@@ -25875,14 +26447,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -25893,7 +26465,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 361
+    "generalOrder": 361,
+    "displayOrder": 361
   },
   {
     "id": 574,
@@ -25921,14 +26494,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -25939,7 +26512,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 362
+    "generalOrder": 362,
+    "displayOrder": 362
   },
   {
     "id": 575,
@@ -25967,14 +26541,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -25985,7 +26559,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 363
+    "generalOrder": 363,
+    "displayOrder": 363
   },
   {
     "id": 576,
@@ -26013,14 +26588,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26031,7 +26606,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 364
+    "generalOrder": 364,
+    "displayOrder": 364
   },
   {
     "id": 577,
@@ -26054,14 +26630,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 8",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26072,7 +26648,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 365
+    "generalOrder": 365,
+    "displayOrder": 365
   },
   {
     "id": 578,
@@ -26100,14 +26677,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey (Gml)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26118,7 +26695,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 366
+    "generalOrder": 366,
+    "displayOrder": 366
   },
   {
     "id": 579,
@@ -26146,14 +26724,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26164,7 +26742,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 367
+    "generalOrder": 367,
+    "displayOrder": 367
   },
   {
     "id": 580,
@@ -26192,14 +26771,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey (Gml)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26210,7 +26789,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 368
+    "generalOrder": 368,
+    "displayOrder": 368
   },
   {
     "id": 581,
@@ -26238,14 +26818,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26256,7 +26836,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 369
+    "generalOrder": 369,
+    "displayOrder": 369
   },
   {
     "id": 582,
@@ -26287,14 +26868,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -26305,7 +26886,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 370
+    "generalOrder": 370,
+    "displayOrder": 370
   },
   {
     "id": 583,
@@ -26336,14 +26918,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -26354,7 +26936,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 371
+    "generalOrder": 371,
+    "displayOrder": 371
   },
   {
     "id": 584,
@@ -26386,14 +26969,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "S/S Top",
@@ -26404,7 +26987,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 372
+    "generalOrder": 372,
+    "displayOrder": 372
   },
   {
     "id": 585,
@@ -26432,14 +27016,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gml",
     "colorDescription": "Boylston Grey (Gml)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -26450,7 +27034,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 384
+    "generalOrder": 384,
+    "displayOrder": 384
   },
   {
     "id": 586,
@@ -26478,14 +27063,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Short",
@@ -26496,7 +27081,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 385
+    "generalOrder": 385,
+    "displayOrder": 385
   },
   {
     "id": 587,
@@ -26524,14 +27110,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -26542,7 +27128,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 386
+    "generalOrder": 386,
+    "displayOrder": 386
   },
   {
     "id": 588,
@@ -26570,14 +27157,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gle",
     "colorDescription": "Glide (Gle)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -26588,7 +27175,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 387
+    "generalOrder": 387,
+    "displayOrder": 387
   },
   {
     "id": 589,
@@ -26616,14 +27204,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -26634,7 +27222,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 388
+    "generalOrder": 388,
+    "displayOrder": 388
   },
   {
     "id": 590,
@@ -26668,14 +27257,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lin",
     "colorDescription": "Linen (Lin)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "AC - For Her",
     "driver": "Trackside",
     "silhouette": "Hoodies & Sweatshirts",
@@ -26686,7 +27275,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 391
+    "generalOrder": 391,
+    "displayOrder": 391
   },
   {
     "id": 591,
@@ -26714,14 +27304,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Jacket",
@@ -26732,7 +27322,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 394
+    "generalOrder": 394,
+    "displayOrder": 394
   },
   {
     "id": 592,
@@ -26770,14 +27361,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 7",
     "driver": "Trackside",
     "silhouette": "L/S Top",
@@ -26788,7 +27379,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 395
+    "generalOrder": 395,
+    "displayOrder": 395
   },
   {
     "id": 593,
@@ -26822,14 +27414,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gle",
     "colorDescription": "Glide (Gle)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26840,7 +27432,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 396
+    "generalOrder": 396,
+    "displayOrder": 396
   },
   {
     "id": 594,
@@ -26868,14 +27461,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26886,7 +27479,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 397
+    "generalOrder": 397,
+    "displayOrder": 397
   },
   {
     "id": 595,
@@ -26920,14 +27514,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bm",
     "colorDescription": "Black / Angora (Bm)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26938,7 +27532,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 398
+    "generalOrder": 398,
+    "displayOrder": 398
   },
   {
     "id": 596,
@@ -26966,14 +27561,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -26984,7 +27579,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 399
+    "generalOrder": 399,
+    "displayOrder": 399
   },
   {
     "id": 597,
@@ -27012,14 +27608,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -27030,7 +27626,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 400
+    "generalOrder": 400,
+    "displayOrder": 400
   },
   {
     "id": 598,
@@ -27058,14 +27655,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Trackside",
     "silhouette": "Pant",
@@ -27076,7 +27673,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 401
+    "generalOrder": 401,
+    "displayOrder": 401
   },
   {
     "id": 599,
@@ -27104,14 +27702,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ack",
     "colorDescription": "Blacktop (Ack)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "Jacket",
@@ -27122,7 +27720,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 415
+    "generalOrder": 415,
+    "displayOrder": 415
   },
   {
     "id": 600,
@@ -27150,14 +27749,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -27168,7 +27767,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 418
+    "generalOrder": 418,
+    "displayOrder": 418
   },
   {
     "id": 601,
@@ -27196,14 +27796,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -27214,7 +27814,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 419
+    "generalOrder": 419,
+    "displayOrder": 419
   },
   {
     "id": 602,
@@ -27237,14 +27838,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dso",
     "colorDescription": "Dark Soil (Dso)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -27255,7 +27856,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 420
+    "generalOrder": 420,
+    "displayOrder": 420
   },
   {
     "id": 603,
@@ -27283,14 +27885,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -27301,7 +27903,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 421
+    "generalOrder": 421,
+    "displayOrder": 421
   },
   {
     "id": 604,
@@ -27329,14 +27932,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Klp",
     "colorDescription": "Kelp (Klp)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -27347,7 +27950,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 422
+    "generalOrder": 422,
+    "displayOrder": 422
   },
   {
     "id": 605,
@@ -27375,14 +27979,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt (Sst)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Numeric",
     "silhouette": "S/S Top",
@@ -27393,7 +27997,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 423
+    "generalOrder": 423,
+    "displayOrder": 423
   },
   {
     "id": 606,
@@ -27421,14 +28026,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -27439,7 +28044,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 1
+    "generalOrder": 1,
+    "displayOrder": 1
   },
   {
     "id": 607,
@@ -27473,14 +28079,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -27491,7 +28097,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 2
+    "generalOrder": 2,
+    "displayOrder": 2
   },
   {
     "id": 608,
@@ -27529,14 +28136,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy (Cb8)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27547,7 +28154,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 5
+    "generalOrder": 5,
+    "displayOrder": 5
   },
   {
     "id": 609,
@@ -27575,14 +28183,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy Hthr (Cb8)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27593,7 +28201,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 7
+    "generalOrder": 7,
+    "displayOrder": 7
   },
   {
     "id": 610,
@@ -27621,14 +28230,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27639,7 +28248,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 9
+    "generalOrder": 9,
+    "displayOrder": 9
   },
   {
     "id": 611,
@@ -27667,14 +28277,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tn2",
     "colorDescription": "Team Navy Heather (Tn2)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27685,7 +28295,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 11
+    "generalOrder": 11,
+    "displayOrder": 11
   },
   {
     "id": 612,
@@ -27713,14 +28324,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27731,7 +28342,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 12
+    "generalOrder": 12,
+    "displayOrder": 12
   },
   {
     "id": 613,
@@ -27759,14 +28371,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 2",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27777,7 +28389,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 14
+    "generalOrder": 14,
+    "displayOrder": 14
   },
   {
     "id": 614,
@@ -27805,14 +28418,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -27823,7 +28436,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 15
+    "generalOrder": 15,
+    "displayOrder": 15
   },
   {
     "id": 615,
@@ -27851,14 +28465,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Iox",
     "colorDescription": "Iron Oxide (Iox)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -27869,7 +28483,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 16
+    "generalOrder": 16,
+    "displayOrder": 16
   },
   {
     "id": 616,
@@ -27897,14 +28512,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -27915,7 +28530,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 17
+    "generalOrder": 17,
+    "displayOrder": 17
   },
   {
     "id": 617,
@@ -27944,14 +28560,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -27962,7 +28578,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 18
+    "generalOrder": 18,
+    "displayOrder": 18
   },
   {
     "id": 618,
@@ -27990,14 +28607,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28008,7 +28625,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 19
+    "generalOrder": 19,
+    "displayOrder": 19
   },
   {
     "id": 619,
@@ -28042,14 +28660,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28060,7 +28678,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 21
+    "generalOrder": 21,
+    "displayOrder": 21
   },
   {
     "id": 620,
@@ -28083,14 +28702,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28101,7 +28720,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 23
+    "generalOrder": 23,
+    "displayOrder": 23
   },
   {
     "id": 621,
@@ -28124,14 +28744,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28142,7 +28762,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 25
+    "generalOrder": 25,
+    "displayOrder": 25
   },
   {
     "id": 622,
@@ -28170,14 +28791,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28188,7 +28809,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 26
+    "generalOrder": 26,
+    "displayOrder": 26
   },
   {
     "id": 623,
@@ -28216,14 +28838,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28234,7 +28856,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 27
+    "generalOrder": 27,
+    "displayOrder": 27
   },
   {
     "id": 624,
@@ -28262,14 +28885,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Black (Bkh)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -28280,7 +28903,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 28
+    "generalOrder": 28,
+    "displayOrder": 28
   },
   {
     "id": 625,
@@ -28308,14 +28932,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy Hthr (Cb8)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -28326,7 +28950,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 29
+    "generalOrder": 29,
+    "displayOrder": 29
   },
   {
     "id": 626,
@@ -28354,14 +28979,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -28372,7 +28997,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 30
+    "generalOrder": 30,
+    "displayOrder": 30
   },
   {
     "id": 627,
@@ -28400,14 +29026,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Jacket",
@@ -28418,7 +29044,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 33
+    "generalOrder": 33,
+    "displayOrder": 33
   },
   {
     "id": 628,
@@ -28446,14 +29073,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28464,7 +29091,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 34
+    "generalOrder": 34,
+    "displayOrder": 34
   },
   {
     "id": 629,
@@ -28492,14 +29120,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Blacktop Heather (Bkh)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28510,7 +29138,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 37
+    "generalOrder": 37,
+    "displayOrder": 37
   },
   {
     "id": 630,
@@ -28538,14 +29167,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy Hthr (Cb8)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28556,7 +29185,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 38
+    "generalOrder": 38,
+    "displayOrder": 38
   },
   {
     "id": 631,
@@ -28584,14 +29214,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lpk",
     "colorDescription": "Lucent Pink (Lpk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28602,7 +29232,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 39
+    "generalOrder": 39,
+    "displayOrder": 39
   },
   {
     "id": 632,
@@ -28636,14 +29267,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Black (Bkh)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28654,7 +29285,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 40
+    "generalOrder": 40,
+    "displayOrder": 40
   },
   {
     "id": 633,
@@ -28688,14 +29320,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28706,7 +29338,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 41
+    "generalOrder": 41,
+    "displayOrder": 41
   },
   {
     "id": 634,
@@ -28740,14 +29373,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy Hthr (Cb8)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28758,7 +29391,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 42
+    "generalOrder": 42,
+    "displayOrder": 42
   },
   {
     "id": 635,
@@ -28786,14 +29420,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28804,7 +29438,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 43
+    "generalOrder": 43,
+    "displayOrder": 43
   },
   {
     "id": 636,
@@ -28832,14 +29467,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "S/S Top",
@@ -28850,7 +29485,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 44
+    "generalOrder": 44,
+    "displayOrder": 44
   },
   {
     "id": 637,
@@ -28878,14 +29514,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28896,7 +29532,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 47
+    "generalOrder": 47,
+    "displayOrder": 47
   },
   {
     "id": 638,
@@ -28924,14 +29561,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lup",
     "colorDescription": "Lucent Pink (Lup)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28942,7 +29579,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 48
+    "generalOrder": 48,
+    "displayOrder": 48
   },
   {
     "id": 639,
@@ -28970,14 +29608,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -28988,7 +29626,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 50
+    "generalOrder": 50,
+    "displayOrder": 50
   },
   {
     "id": 640,
@@ -29017,14 +29656,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -29035,7 +29674,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 51
+    "generalOrder": 51,
+    "displayOrder": 51
   },
   {
     "id": 641,
@@ -29063,14 +29703,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Short",
@@ -29081,7 +29721,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 52
+    "generalOrder": 52,
+    "displayOrder": 52
   },
   {
     "id": 642,
@@ -29109,14 +29750,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bh0",
     "colorDescription": "Boylston Grey Heather (Bh0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29127,7 +29768,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 53
+    "generalOrder": 53,
+    "displayOrder": 53
   },
   {
     "id": 643,
@@ -29155,14 +29797,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy Hthr (Cb8)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29173,7 +29815,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 54
+    "generalOrder": 54,
+    "displayOrder": 54
   },
   {
     "id": 644,
@@ -29201,14 +29844,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Black (Bkh)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29219,7 +29862,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 55
+    "generalOrder": 55,
+    "displayOrder": 55
   },
   {
     "id": 645,
@@ -29247,14 +29891,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora (Aga)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 1",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29265,7 +29909,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 56
+    "generalOrder": 56,
+    "displayOrder": 56
   },
   {
     "id": 646,
@@ -29293,14 +29938,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Rc",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29311,7 +29956,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 57
+    "generalOrder": 57,
+    "displayOrder": 57
   },
   {
     "id": 647,
@@ -29339,14 +29985,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Pex",
     "colorDescription": "Pear Extract (Pex)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -29357,7 +30003,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 67
+    "generalOrder": 67,
+    "displayOrder": 67
   },
   {
     "id": 648,
@@ -29385,14 +30032,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29403,7 +30050,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 68
+    "generalOrder": 68,
+    "displayOrder": 68
   },
   {
     "id": 649,
@@ -29431,14 +30079,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ere",
     "colorDescription": "Electric Red (Ere)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29449,7 +30097,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 69
+    "generalOrder": 69,
+    "displayOrder": 69
   },
   {
     "id": 650,
@@ -29472,14 +30121,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29490,7 +30139,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 72
+    "generalOrder": 72,
+    "displayOrder": 72
   },
   {
     "id": 651,
@@ -29518,14 +30168,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ere",
     "colorDescription": "Electric Red (Ere)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29536,7 +30186,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 81
+    "generalOrder": 81,
+    "displayOrder": 81
   },
   {
     "id": 652,
@@ -29564,14 +30215,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29582,7 +30233,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 83
+    "generalOrder": 83,
+    "displayOrder": 83
   },
   {
     "id": 653,
@@ -29610,14 +30262,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ere",
     "colorDescription": "Electric Red (Ere)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -29628,7 +30280,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 85
+    "generalOrder": 85,
+    "displayOrder": 85
   },
   {
     "id": 654,
@@ -29656,14 +30309,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lup",
     "colorDescription": "Lucent Pink (Lup)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -29674,7 +30327,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 88
+    "generalOrder": 88,
+    "displayOrder": 88
   },
   {
     "id": 655,
@@ -29702,14 +30356,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Pex",
     "colorDescription": "Pear Extract (Pex)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "S/S Top",
@@ -29720,7 +30374,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 90
+    "generalOrder": 90,
+    "displayOrder": 90
   },
   {
     "id": 656,
@@ -29748,14 +30403,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29766,7 +30421,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 91
+    "generalOrder": 91,
+    "displayOrder": 91
   },
   {
     "id": 657,
@@ -29794,14 +30450,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29812,7 +30468,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 94
+    "generalOrder": 94,
+    "displayOrder": 94
   },
   {
     "id": 658,
@@ -29840,14 +30497,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ere",
     "colorDescription": "Electric Red (Ere)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29858,7 +30515,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 95
+    "generalOrder": 95,
+    "displayOrder": 95
   },
   {
     "id": 659,
@@ -29886,14 +30544,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29904,7 +30562,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 96
+    "generalOrder": 96,
+    "displayOrder": 96
   },
   {
     "id": 660,
@@ -29932,14 +30591,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Short",
@@ -29950,7 +30609,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 97
+    "generalOrder": 97,
+    "displayOrder": 97
   },
   {
     "id": 661,
@@ -29978,14 +30638,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ere",
     "colorDescription": "Electric Red (Ere)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Daily Run",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -29996,7 +30656,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 99
+    "generalOrder": 99,
+    "displayOrder": 99
   },
   {
     "id": 662,
@@ -30023,14 +30684,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Jacket",
@@ -30041,7 +30702,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 102
+    "generalOrder": 102,
+    "displayOrder": 102
   },
   {
     "id": 663,
@@ -30069,14 +30731,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Jacket",
@@ -30087,7 +30749,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 103
+    "generalOrder": 103,
+    "displayOrder": 103
   },
   {
     "id": 664,
@@ -30115,14 +30778,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Jacket",
@@ -30133,7 +30796,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 104
+    "generalOrder": 104,
+    "displayOrder": 104
   },
   {
     "id": 665,
@@ -30156,14 +30820,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "L/S Top",
@@ -30174,7 +30838,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 105
+    "generalOrder": 105,
+    "displayOrder": 105
   },
   {
     "id": 666,
@@ -30197,14 +30862,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "L/S Top",
@@ -30215,7 +30880,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 106
+    "generalOrder": 106,
+    "displayOrder": 106
   },
   {
     "id": 667,
@@ -30249,14 +30915,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Pant",
@@ -30267,7 +30933,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 107
+    "generalOrder": 107,
+    "displayOrder": 107
   },
   {
     "id": 668,
@@ -30295,14 +30962,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30313,7 +30980,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 117
+    "generalOrder": 117,
+    "displayOrder": 117
   },
   {
     "id": 669,
@@ -30343,14 +31011,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30361,7 +31029,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 118
+    "generalOrder": 118,
+    "displayOrder": 118
   },
   {
     "id": 670,
@@ -30388,14 +31057,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30406,7 +31075,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 119
+    "generalOrder": 119,
+    "displayOrder": 119
   },
   {
     "id": 671,
@@ -30433,14 +31103,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30451,7 +31121,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 120
+    "generalOrder": 120,
+    "displayOrder": 120
   },
   {
     "id": 672,
@@ -30479,14 +31150,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30497,7 +31168,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 121
+    "generalOrder": 121,
+    "displayOrder": 121
   },
   {
     "id": 673,
@@ -30525,14 +31197,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Electric Red (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 6",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30543,7 +31215,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 122
+    "generalOrder": 122,
+    "displayOrder": 122
   },
   {
     "id": 674,
@@ -30571,14 +31244,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30589,7 +31262,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 123
+    "generalOrder": 123,
+    "displayOrder": 123
   },
   {
     "id": 675,
@@ -30621,14 +31295,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Jacket",
@@ -30639,7 +31313,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 126
+    "generalOrder": 126,
+    "displayOrder": 126
   },
   {
     "id": 676,
@@ -30674,14 +31349,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 5",
     "driver": "Ac Training",
     "silhouette": "Jacket",
@@ -30692,7 +31367,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 127
+    "generalOrder": 127,
+    "displayOrder": 127
   },
   {
     "id": 677,
@@ -30720,14 +31396,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Pant",
@@ -30738,7 +31414,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 128
+    "generalOrder": 128,
+    "displayOrder": 128
   },
   {
     "id": 678,
@@ -30766,14 +31443,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Pant",
@@ -30784,7 +31461,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 129
+    "generalOrder": 129,
+    "displayOrder": 129
   },
   {
     "id": 679,
@@ -30812,14 +31490,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30830,7 +31508,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 130
+    "generalOrder": 130,
+    "displayOrder": 130
   },
   {
     "id": 680,
@@ -30853,14 +31532,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Caviar (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30871,7 +31550,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 131
+    "generalOrder": 131,
+    "displayOrder": 131
   },
   {
     "id": 681,
@@ -30899,14 +31579,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue (Aax)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30917,7 +31597,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 132
+    "generalOrder": 132,
+    "displayOrder": 132
   },
   {
     "id": 682,
@@ -30945,14 +31626,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey (Bg0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "Look 5",
     "driver": "Ac Training",
     "silhouette": "Short",
@@ -30963,7 +31644,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 133
+    "generalOrder": 133,
+    "displayOrder": 133
   },
   {
     "id": 683,
@@ -30991,14 +31673,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "L/S Top",
@@ -31009,7 +31691,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 141
+    "generalOrder": 141,
+    "displayOrder": 141
   },
   {
     "id": 684,
@@ -31043,14 +31726,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb8",
     "colorDescription": "Cambridge Burgundy Hthr (Cb8)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "L/S Top",
@@ -31061,7 +31744,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 142
+    "generalOrder": 142,
+    "displayOrder": 142
   },
   {
     "id": 685,
@@ -31095,14 +31779,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Din",
     "colorDescription": "Dark Ivy Vine Heather (Din)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "L/S Top",
@@ -31113,7 +31797,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 143
+    "generalOrder": 143,
+    "displayOrder": 143
   },
   {
     "id": 686,
@@ -31147,14 +31832,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb9",
     "colorDescription": "Cloud Blue Heather (Cb9)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "S/S Top",
@@ -31165,7 +31850,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 144
+    "generalOrder": 144,
+    "displayOrder": 144
   },
   {
     "id": 687,
@@ -31188,14 +31874,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay / Dark Night (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -31206,7 +31892,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 149
+    "generalOrder": 149,
+    "displayOrder": 149
   },
   {
     "id": 688,
@@ -31233,14 +31920,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / Slate Grey (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Short",
@@ -31251,7 +31938,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 150
+    "generalOrder": 150,
+    "displayOrder": 150
   },
   {
     "id": 689,
@@ -31285,14 +31973,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb9",
     "colorDescription": "Cloud Blue Heather (Cb9)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "L/S Top",
@@ -31303,7 +31991,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 155
+    "generalOrder": 155,
+    "displayOrder": 155
   },
   {
     "id": 690,
@@ -31331,14 +32020,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkh",
     "colorDescription": "Black Heather Bkh",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "L/S Top",
@@ -31349,7 +32038,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 156
+    "generalOrder": 156,
+    "displayOrder": 156
   },
   {
     "id": 691,
@@ -31383,14 +32073,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Sports Bra",
@@ -31401,7 +32091,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 164
+    "generalOrder": 164,
+    "displayOrder": 164
   },
   {
     "id": 692,
@@ -31429,14 +32120,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Tight",
@@ -31447,7 +32138,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 165
+    "generalOrder": 165,
+    "displayOrder": 165
   },
   {
     "id": 693,
@@ -31475,14 +32167,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Tight",
@@ -31493,7 +32185,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 166
+    "generalOrder": 166,
+    "displayOrder": 166
   },
   {
     "id": 694,
@@ -31519,14 +32212,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Multi Sport (Nb Sport)",
     "silhouette": "Tight",
@@ -31537,7 +32230,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 167
+    "generalOrder": 167,
+    "displayOrder": 167
   },
   {
     "id": 695,
@@ -31560,14 +32254,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Short",
@@ -31578,7 +32272,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 179
+    "generalOrder": 179,
+    "displayOrder": 179
   },
   {
     "id": 696,
@@ -31606,14 +32301,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ere",
     "colorDescription": "Electric Red (Ere)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "On & Off Court",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Sports Bra",
@@ -31624,7 +32319,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 185
+    "generalOrder": 185,
+    "displayOrder": 185
   },
   {
     "id": 697,
@@ -31656,14 +32352,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Tight",
@@ -31674,7 +32370,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 187
+    "generalOrder": 187,
+    "displayOrder": 187
   },
   {
     "id": 698,
@@ -31702,14 +32399,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Ac Bodywear Multisport",
     "silhouette": "Tight",
@@ -31720,7 +32417,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 189
+    "generalOrder": 189,
+    "displayOrder": 189
   },
   {
     "id": 699,
@@ -31743,14 +32441,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Jacket",
@@ -31761,7 +32459,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 191
+    "generalOrder": 191,
+    "displayOrder": 191
   },
   {
     "id": 700,
@@ -31789,14 +32488,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lla",
     "colorDescription": "Lilac Air (Lla)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Sports Bra",
@@ -31807,7 +32506,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 199
+    "generalOrder": 199,
+    "displayOrder": 199
   },
   {
     "id": 701,
@@ -31835,14 +32535,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Sports Bra",
@@ -31853,7 +32553,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 201
+    "generalOrder": 201,
+    "displayOrder": 201
   },
   {
     "id": 702,
@@ -31887,14 +32588,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tanks/Sleeveless/Singlet",
@@ -31905,7 +32606,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 203
+    "generalOrder": 203,
+    "displayOrder": 203
   },
   {
     "id": 703,
@@ -31933,14 +32635,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Everyday :Nb Essential",
     "silhouette": "Tight",
@@ -31951,7 +32653,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 210
+    "generalOrder": 210,
+    "displayOrder": 210
   },
   {
     "id": 704,
@@ -31982,14 +32685,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Rc",
     "silhouette": "Sports Bra",
@@ -32000,7 +32703,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 168
+    "generalOrder": 168,
+    "displayOrder": 168
   },
   {
     "id": 705,
@@ -32034,14 +32738,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine (Div)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Rc",
     "silhouette": "Tight",
@@ -32052,7 +32756,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 169
+    "generalOrder": 169,
+    "displayOrder": 169
   },
   {
     "id": 706,
@@ -32086,14 +32791,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Rc",
     "silhouette": "Tight",
@@ -32104,7 +32809,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 170
+    "generalOrder": 170,
+    "displayOrder": 170
   },
   {
     "id": 707,
@@ -32142,14 +32848,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Rc",
     "silhouette": "Tight",
@@ -32160,7 +32866,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 171
+    "generalOrder": 171,
+    "displayOrder": 171
   },
   {
     "id": 708,
@@ -32191,14 +32898,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Rc",
     "silhouette": "Tight",
@@ -32209,7 +32916,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 172
+    "generalOrder": 172,
+    "displayOrder": 172
   },
   {
     "id": 709,
@@ -32237,14 +32945,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay (Bb0)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Daily Run",
     "silhouette": "Sports Bra",
@@ -32255,7 +32963,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 174
+    "generalOrder": 174,
+    "displayOrder": 174
   },
   {
     "id": 710,
@@ -32283,14 +32992,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy (Cb6)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Daily Run",
     "silhouette": "Tight",
@@ -32301,7 +33010,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 175
+    "generalOrder": 175,
+    "displayOrder": 175
   },
   {
     "id": 711,
@@ -32329,14 +33039,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Daily Run",
     "silhouette": "Short",
@@ -32347,7 +33057,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 177
+    "generalOrder": 177,
+    "displayOrder": 177
   },
   {
     "id": 712,
@@ -32375,14 +33086,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Bodywear Run Daily Run",
     "silhouette": "Tight",
@@ -32393,7 +33104,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 178
+    "generalOrder": 178,
+    "displayOrder": 178
   },
   {
     "id": 713,
@@ -32421,14 +33133,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dgd",
     "colorDescription": "Dark Glide (Dgd)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Short",
@@ -32439,7 +33151,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 214
+    "generalOrder": 214,
+    "displayOrder": 214
   },
   {
     "id": 714,
@@ -32462,14 +33175,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy (Tnv)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Short",
@@ -32480,7 +33193,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 215
+    "generalOrder": 215,
+    "displayOrder": 215
   },
   {
     "id": 715,
@@ -32508,14 +33222,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "1-2-4-2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Short",
@@ -32526,7 +33240,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 216
+    "generalOrder": 216,
+    "displayOrder": 216
   },
   {
     "id": 716,
@@ -32560,14 +33275,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Dark Glide (Cb6)",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Dress",
@@ -32578,7 +33293,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 218
+    "generalOrder": 218,
+    "displayOrder": 218
   },
   {
     "id": 717,
@@ -32601,14 +33317,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black (Bk)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Skirt",
@@ -32619,7 +33335,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 219
+    "generalOrder": 219,
+    "displayOrder": 219
   },
   {
     "id": 718,
@@ -32647,14 +33364,14 @@ export const products: Product[] = [
     "sizeRange": "S/Xl",
     "curve": "2-3-3-1",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White (Wt)",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Tennis",
     "silhouette": "Skirt",
@@ -32665,7 +33382,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 220
+    "generalOrder": 220,
+    "displayOrder": 220
   },
   {
     "id": 719,
@@ -32693,14 +33411,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aa9",
     "colorDescription": "Neptune Grey / Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32711,7 +33429,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 113
+    "generalOrder": 113,
+    "displayOrder": 113
   },
   {
     "id": 720,
@@ -32734,14 +33453,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As",
     "colorDescription": "Boylston Grey / Red Velvet / Light Shadow Blue",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32752,7 +33471,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 114
+    "generalOrder": 114,
+    "displayOrder": 114
   },
   {
     "id": 721,
@@ -32780,14 +33500,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32798,7 +33518,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 115
+    "generalOrder": 115,
+    "displayOrder": 115
   },
   {
     "id": 722,
@@ -32821,14 +33542,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bgo",
     "colorDescription": "Boylston Grey",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32839,7 +33560,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 116
+    "generalOrder": 116,
+    "displayOrder": 116
   },
   {
     "id": 723,
@@ -32863,14 +33585,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32881,7 +33603,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 117
+    "generalOrder": 117,
+    "displayOrder": 117
   },
   {
     "id": 724,
@@ -32905,14 +33628,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32923,7 +33646,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 118
+    "generalOrder": 118,
+    "displayOrder": 118
   },
   {
     "id": 725,
@@ -32946,14 +33670,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cxp",
     "colorDescription": "Crystal Pink",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -32964,7 +33688,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 119
+    "generalOrder": 119,
+    "displayOrder": 119
   },
   {
     "id": 726,
@@ -32987,14 +33712,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "B3",
     "colorDescription": "Light Shadow Blue",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33005,7 +33730,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 120
+    "generalOrder": 120,
+    "displayOrder": 120
   },
   {
     "id": 727,
@@ -33028,14 +33754,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ms",
     "colorDescription": "Mushroom",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33046,7 +33772,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 121
+    "generalOrder": 121,
+    "displayOrder": 121
   },
   {
     "id": 728,
@@ -33070,14 +33797,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nny",
     "colorDescription": "Nb Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33088,7 +33815,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 122
+    "generalOrder": 122,
+    "displayOrder": 122
   },
   {
     "id": 729,
@@ -33111,14 +33839,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33129,7 +33857,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 134
+    "generalOrder": 134,
+    "displayOrder": 134
   },
   {
     "id": 730,
@@ -33152,14 +33881,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Mgt",
     "colorDescription": "Magnet",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33170,7 +33899,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 135
+    "generalOrder": 135,
+    "displayOrder": 135
   },
   {
     "id": 731,
@@ -33193,14 +33923,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nby",
     "colorDescription": "Nb Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33211,7 +33941,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 136
+    "generalOrder": 136,
+    "displayOrder": 136
   },
   {
     "id": 732,
@@ -33234,14 +33965,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nny",
     "colorDescription": "Nb Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33252,7 +33983,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 137
+    "generalOrder": 137,
+    "displayOrder": 137
   },
   {
     "id": 733,
@@ -33275,14 +34007,14 @@ export const products: Product[] = [
     "sizeRange": "M / L",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Chaleco",
@@ -33293,7 +34025,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 143
+    "generalOrder": 143,
+    "displayOrder": 143
   },
   {
     "id": 734,
@@ -33316,14 +34049,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33334,7 +34067,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 138
+    "generalOrder": 138,
+    "displayOrder": 138
   },
   {
     "id": 735,
@@ -33357,14 +34091,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Riñonera",
@@ -33375,7 +34109,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 144
+    "generalOrder": 144,
+    "displayOrder": 144
   },
   {
     "id": 736,
@@ -33398,14 +34133,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33416,7 +34151,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 123
+    "generalOrder": 123,
+    "displayOrder": 123
   },
   {
     "id": 737,
@@ -33439,14 +34175,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Mgt",
     "colorDescription": "Magnet",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33457,7 +34193,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 124
+    "generalOrder": 124,
+    "displayOrder": 124
   },
   {
     "id": 738,
@@ -33480,14 +34217,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nby",
     "colorDescription": "Nb Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33498,7 +34235,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 125
+    "generalOrder": 125,
+    "displayOrder": 125
   },
   {
     "id": 739,
@@ -33521,14 +34259,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nny",
     "colorDescription": "Nb Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33539,7 +34277,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 126
+    "generalOrder": 126,
+    "displayOrder": 126
   },
   {
     "id": 740,
@@ -33562,14 +34301,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nwg",
     "colorDescription": "Nightwatch Green",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33580,7 +34319,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 127
+    "generalOrder": 127,
+    "displayOrder": 127
   },
   {
     "id": 741,
@@ -33603,14 +34343,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bgo",
     "colorDescription": "Boylston Grey / Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33621,7 +34361,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 139
+    "generalOrder": 139,
+    "displayOrder": 139
   },
   {
     "id": 742,
@@ -33644,14 +34385,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33662,7 +34403,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 140
+    "generalOrder": 140,
+    "displayOrder": 140
   },
   {
     "id": 743,
@@ -33686,14 +34428,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -33704,7 +34446,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 141
+    "generalOrder": 141,
+    "displayOrder": 141
   },
   {
     "id": 744,
@@ -33735,14 +34478,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33753,7 +34496,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 128
+    "generalOrder": 128,
+    "displayOrder": 128
   },
   {
     "id": 745,
@@ -33776,14 +34520,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Pex",
     "colorDescription": "Pear Extract",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33794,7 +34538,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 129
+    "generalOrder": 129,
+    "displayOrder": 129
   },
   {
     "id": 746,
@@ -33821,14 +34566,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -33839,7 +34584,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 130
+    "generalOrder": 130,
+    "displayOrder": 130
   },
   {
     "id": 747,
@@ -33862,14 +34608,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Riñonera",
@@ -33880,7 +34626,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 145
+    "generalOrder": 145,
+    "displayOrder": 145
   },
   {
     "id": 748,
@@ -33908,14 +34655,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Riñonera",
@@ -33926,7 +34673,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 146
+    "generalOrder": 146,
+    "displayOrder": 146
   },
   {
     "id": 749,
@@ -33952,14 +34700,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Riñonera",
@@ -33970,7 +34718,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 147
+    "generalOrder": 147,
+    "displayOrder": 147
   },
   {
     "id": 750,
@@ -33993,14 +34742,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Abg",
     "colorDescription": "Stucco",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Bolso",
@@ -34011,7 +34760,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 142
+    "generalOrder": 142,
+    "displayOrder": 142
   },
   {
     "id": 751,
@@ -34040,14 +34790,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aa9",
     "colorDescription": "Neptune Grey",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -34058,7 +34808,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 131
+    "generalOrder": 131,
+    "displayOrder": 131
   },
   {
     "id": 752,
@@ -34081,14 +34832,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As",
     "colorDescription": "Boylston Grey / Red Velvet / Light Shadow Blue",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -34099,7 +34850,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 132
+    "generalOrder": 132,
+    "displayOrder": 132
   },
   {
     "id": 753,
@@ -34126,14 +34878,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Mochila",
@@ -34144,7 +34896,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 133
+    "generalOrder": 133,
+    "displayOrder": 133
   },
   {
     "id": 754,
@@ -34167,14 +34920,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Abg",
     "colorDescription": "Stucco",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34185,7 +34938,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 148
+    "generalOrder": 148,
+    "displayOrder": 148
   },
   {
     "id": 755,
@@ -34208,14 +34962,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As7",
     "colorDescription": "Sea Salt / Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34226,7 +34980,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 149
+    "generalOrder": 149,
+    "displayOrder": 149
   },
   {
     "id": 756,
@@ -34249,14 +35004,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bul",
     "colorDescription": "Blue Oasis",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34267,7 +35022,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 150
+    "generalOrder": 150,
+    "displayOrder": 150
   },
   {
     "id": 757,
@@ -34290,14 +35046,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bxl",
     "colorDescription": "Black / Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34308,7 +35064,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 151
+    "generalOrder": 151,
+    "displayOrder": 151
   },
   {
     "id": 758,
@@ -34331,14 +35088,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34349,7 +35106,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 152
+    "generalOrder": 152,
+    "displayOrder": 152
   },
   {
     "id": 759,
@@ -34372,14 +35130,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night / Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34390,7 +35148,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 153
+    "generalOrder": 153,
+    "displayOrder": 153
   },
   {
     "id": 760,
@@ -34413,14 +35172,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt / Nb Navy / True Red",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Tote Bag",
@@ -34431,7 +35190,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 154
+    "generalOrder": 154,
+    "displayOrder": 154
   },
   {
     "id": 761,
@@ -34454,14 +35214,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Muñequera",
@@ -34472,7 +35232,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 155
+    "generalOrder": 155,
+    "displayOrder": 155
   },
   {
     "id": 762,
@@ -34495,14 +35256,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Muñequera",
@@ -34513,7 +35274,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 156
+    "generalOrder": 156,
+    "displayOrder": 156
   },
   {
     "id": 763,
@@ -34536,14 +35298,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Vincha",
@@ -34554,7 +35316,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 157
+    "generalOrder": 157,
+    "displayOrder": 157
   },
   {
     "id": 764,
@@ -34577,14 +35340,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Vincha",
@@ -34595,7 +35358,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 158
+    "generalOrder": 158,
+    "displayOrder": 158
   },
   {
     "id": 765,
@@ -34619,14 +35383,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Vincha",
@@ -34637,7 +35401,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 159
+    "generalOrder": 159,
+    "displayOrder": 159
   },
   {
     "id": 766,
@@ -34660,14 +35425,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bb0",
     "colorDescription": "Back Bay / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34678,7 +35443,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 72
+    "generalOrder": 72,
+    "displayOrder": 72
   },
   {
     "id": 767,
@@ -34701,14 +35467,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey / Team Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34719,7 +35485,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 73
+    "generalOrder": 73,
+    "displayOrder": 73
   },
   {
     "id": 768,
@@ -34742,14 +35509,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34760,7 +35527,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 74
+    "generalOrder": 74,
+    "displayOrder": 74
   },
   {
     "id": 769,
@@ -34783,14 +35551,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora / Dark Ivy Vine",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34801,7 +35569,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 75
+    "generalOrder": 75,
+    "displayOrder": 75
   },
   {
     "id": 770,
@@ -34824,14 +35593,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / Sea Salt",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34842,7 +35611,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 76
+    "generalOrder": 76,
+    "displayOrder": 76
   },
   {
     "id": 771,
@@ -34865,14 +35635,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Glw",
     "colorDescription": "Glow Worm / Sea Salt",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34883,7 +35653,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 77
+    "generalOrder": 77,
+    "displayOrder": 77
   },
   {
     "id": 772,
@@ -34906,14 +35677,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aax",
     "colorDescription": "Cloud Blue",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34924,7 +35695,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 78
+    "generalOrder": 78,
+    "displayOrder": 78
   },
   {
     "id": 773,
@@ -34950,14 +35722,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -34968,7 +35740,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 79
+    "generalOrder": 79,
+    "displayOrder": 79
   },
   {
     "id": 774,
@@ -34991,14 +35764,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Era",
     "colorDescription": "Electric Red",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35009,7 +35782,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 80
+    "generalOrder": 80,
+    "displayOrder": 80
   },
   {
     "id": 775,
@@ -35032,14 +35806,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35050,7 +35824,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 81
+    "generalOrder": 81,
+    "displayOrder": 81
   },
   {
     "id": 776,
@@ -35075,14 +35850,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt / Nb Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35093,7 +35868,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 82
+    "generalOrder": 82,
+    "displayOrder": 82
   },
   {
     "id": 777,
@@ -35116,14 +35892,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora / Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35134,7 +35910,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 83
+    "generalOrder": 83,
+    "displayOrder": 83
   },
   {
     "id": 778,
@@ -35157,14 +35934,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35175,7 +35952,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 84
+    "generalOrder": 84,
+    "displayOrder": 84
   },
   {
     "id": 779,
@@ -35198,14 +35976,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Mss",
     "colorDescription": "Mustard Seed / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35216,7 +35994,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 85
+    "generalOrder": 85,
+    "displayOrder": 85
   },
   {
     "id": 780,
@@ -35240,14 +36019,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35258,7 +36037,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 86
+    "generalOrder": 86,
+    "displayOrder": 86
   },
   {
     "id": 781,
@@ -35281,14 +36061,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35299,7 +36079,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 87
+    "generalOrder": 87,
+    "displayOrder": 87
   },
   {
     "id": 782,
@@ -35322,14 +36103,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora / Iron Oxide",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35340,7 +36121,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 88
+    "generalOrder": 88,
+    "displayOrder": 88
   },
   {
     "id": 783,
@@ -35363,14 +36145,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / Pink Light",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35381,7 +36163,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 89
+    "generalOrder": 89,
+    "displayOrder": 89
   },
   {
     "id": 784,
@@ -35404,14 +36187,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ex",
     "colorDescription": "Pear Extract",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35422,7 +36205,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 90
+    "generalOrder": 90,
+    "displayOrder": 90
   },
   {
     "id": 785,
@@ -35445,14 +36229,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / Boylston Grey / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35463,7 +36247,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 91
+    "generalOrder": 91,
+    "displayOrder": 91
   },
   {
     "id": 786,
@@ -35487,14 +36272,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Glide / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35505,7 +36290,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 92
+    "generalOrder": 92,
+    "displayOrder": 92
   },
   {
     "id": 787,
@@ -35528,14 +36314,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35546,7 +36332,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 93
+    "generalOrder": 93,
+    "displayOrder": 93
   },
   {
     "id": 788,
@@ -35569,14 +36356,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Abg",
     "colorDescription": "Stucco",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35587,7 +36374,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 94
+    "generalOrder": 94,
+    "displayOrder": 94
   },
   {
     "id": 789,
@@ -35610,14 +36398,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35628,7 +36416,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 95
+    "generalOrder": 95,
+    "displayOrder": 95
   },
   {
     "id": 790,
@@ -35651,14 +36440,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gle",
     "colorDescription": "Glide",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35669,7 +36458,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 96
+    "generalOrder": 96,
+    "displayOrder": 96
   },
   {
     "id": 791,
@@ -35692,14 +36482,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black / Light Boylston Grey",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35710,7 +36500,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 97
+    "generalOrder": 97,
+    "displayOrder": 97
   },
   {
     "id": 792,
@@ -35733,14 +36524,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy / White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35751,7 +36542,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 98
+    "generalOrder": 98,
+    "displayOrder": 98
   },
   {
     "id": 793,
@@ -35774,14 +36566,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White / Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35792,7 +36584,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 99
+    "generalOrder": 99,
+    "displayOrder": 99
   },
   {
     "id": 794,
@@ -35815,14 +36608,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey / Zinc Blue / Back Bay",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35833,7 +36626,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 100
+    "generalOrder": 100,
+    "displayOrder": 100
   },
   {
     "id": 795,
@@ -35856,14 +36650,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb0",
     "colorDescription": "Cambridge Burgundy / Electric Red / Black",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35874,7 +36668,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 101
+    "generalOrder": 101,
+    "displayOrder": 101
   },
   {
     "id": 796,
@@ -35897,14 +36692,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Era",
     "colorDescription": "Electric Red / Racer / Meyer Lemon",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35915,7 +36710,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 102
+    "generalOrder": 102,
+    "displayOrder": 102
   },
   {
     "id": 797,
@@ -35938,14 +36734,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -35956,7 +36752,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 103
+    "generalOrder": 103,
+    "displayOrder": 103
   },
   {
     "id": 798,
@@ -35982,14 +36779,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36000,7 +36797,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 104
+    "generalOrder": 104,
+    "displayOrder": 104
   },
   {
     "id": 799,
@@ -36023,14 +36821,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36041,7 +36839,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 105
+    "generalOrder": 105,
+    "displayOrder": 105
   },
   {
     "id": 800,
@@ -36064,14 +36863,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine / Glow Worm",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36082,7 +36881,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 106
+    "generalOrder": 106,
+    "displayOrder": 106
   },
   {
     "id": 801,
@@ -36105,14 +36905,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Iox",
     "colorDescription": "Iron Oxide / Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36123,7 +36923,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 107
+    "generalOrder": 107,
+    "displayOrder": 107
   },
   {
     "id": 802,
@@ -36146,14 +36947,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lsu",
     "colorDescription": "Light Coconut Sugar / Sea Salt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36164,7 +36965,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 108
+    "generalOrder": 108,
+    "displayOrder": 108
   },
   {
     "id": 803,
@@ -36187,14 +36989,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Mss",
     "colorDescription": "Mustard Seed / Team Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36205,7 +37007,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 109
+    "generalOrder": 109,
+    "displayOrder": 109
   },
   {
     "id": 804,
@@ -36231,14 +37034,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Nny",
     "colorDescription": "Nb Navy Nny",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36249,7 +37052,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 110
+    "generalOrder": 110,
+    "displayOrder": 110
   },
   {
     "id": 805,
@@ -36275,14 +37079,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tag",
     "colorDescription": "Team Away Grey Tag",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36293,7 +37097,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 111
+    "generalOrder": 111,
+    "displayOrder": 111
   },
   {
     "id": 806,
@@ -36319,14 +37124,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Cap",
@@ -36337,7 +37142,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 112
+    "generalOrder": 112,
+    "displayOrder": 112
   },
   {
     "id": 807,
@@ -36360,14 +37166,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bgo",
     "colorDescription": "Boylston Grey",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Vincha",
@@ -36378,7 +37184,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 160
+    "generalOrder": 160,
+    "displayOrder": 160
   },
   {
     "id": 808,
@@ -36404,14 +37211,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Vincha",
@@ -36422,7 +37229,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 161
+    "generalOrder": 161,
+    "displayOrder": 161
   },
   {
     "id": 809,
@@ -36445,14 +37253,14 @@ export const products: Product[] = [
     "sizeRange": "Único",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cld",
     "colorDescription": "Cloud Blue",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Vincha",
@@ -36463,7 +37271,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 162
+    "generalOrder": 162,
+    "displayOrder": 162
   },
   {
     "id": 810,
@@ -36486,14 +37295,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As",
     "colorDescription": "White / Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -36504,7 +37313,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 1
+    "generalOrder": 1,
+    "displayOrder": 1
   },
   {
     "id": 811,
@@ -36527,14 +37337,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As",
     "colorDescription": "White / Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -36545,7 +37355,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 2
+    "generalOrder": 2,
+    "displayOrder": 2
   },
   {
     "id": 812,
@@ -36568,14 +37379,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36586,7 +37397,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 3
+    "generalOrder": 3,
+    "displayOrder": 3
   },
   {
     "id": 813,
@@ -36609,14 +37421,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36627,7 +37439,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 4
+    "generalOrder": 4,
+    "displayOrder": 4
   },
   {
     "id": 814,
@@ -36650,14 +37463,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Era",
     "colorDescription": "Electric Red",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36668,7 +37481,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 5
+    "generalOrder": 5,
+    "displayOrder": 5
   },
   {
     "id": 815,
@@ -36691,14 +37505,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lup",
     "colorDescription": "Lucent Pink",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36709,7 +37523,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 6
+    "generalOrder": 6,
+    "displayOrder": 6
   },
   {
     "id": 816,
@@ -36732,14 +37547,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Pex",
     "colorDescription": "Pear Extract",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36750,7 +37565,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 7
+    "generalOrder": 7,
+    "displayOrder": 7
   },
   {
     "id": 817,
@@ -36773,14 +37589,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36791,7 +37607,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 8
+    "generalOrder": 8,
+    "displayOrder": 8
   },
   {
     "id": 818,
@@ -36814,14 +37631,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora / Dark Ivy Vine / Cambridge Burgundy",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Bipack",
@@ -36832,7 +37649,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 9
+    "generalOrder": 9,
+    "displayOrder": 9
   },
   {
     "id": 819,
@@ -36855,14 +37673,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Asi",
     "colorDescription": "Dark Ivy Vine / Dark Night",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Bipack",
@@ -36873,7 +37691,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 10
+    "generalOrder": 10,
+    "displayOrder": 10
   },
   {
     "id": 820,
@@ -36896,14 +37715,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36914,7 +37733,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 11
+    "generalOrder": 11,
+    "displayOrder": 11
   },
   {
     "id": 821,
@@ -36937,14 +37757,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36955,7 +37775,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 12
+    "generalOrder": 12,
+    "displayOrder": 12
   },
   {
     "id": 822,
@@ -36978,14 +37799,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Pex",
     "colorDescription": "Pear Extract",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -36996,7 +37817,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 13
+    "generalOrder": 13,
+    "displayOrder": 13
   },
   {
     "id": 823,
@@ -37019,14 +37841,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37037,7 +37859,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 14
+    "generalOrder": 14,
+    "displayOrder": 14
   },
   {
     "id": 824,
@@ -37060,14 +37883,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37078,7 +37901,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 15
+    "generalOrder": 15,
+    "displayOrder": 15
   },
   {
     "id": 825,
@@ -37101,14 +37925,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37119,7 +37943,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 16
+    "generalOrder": 16,
+    "displayOrder": 16
   },
   {
     "id": 826,
@@ -37142,14 +37967,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Gle",
     "colorDescription": "Glide",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37160,7 +37985,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 17
+    "generalOrder": 17,
+    "displayOrder": 17
   },
   {
     "id": 827,
@@ -37183,14 +38009,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37201,7 +38027,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 18
+    "generalOrder": 18,
+    "displayOrder": 18
   },
   {
     "id": 828,
@@ -37225,14 +38052,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37243,7 +38070,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 22
+    "generalOrder": 22,
+    "displayOrder": 22
   },
   {
     "id": 829,
@@ -37266,14 +38094,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Dnt",
     "colorDescription": "Dark Night / Glide",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37284,7 +38112,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 23
+    "generalOrder": 23,
+    "displayOrder": 23
   },
   {
     "id": 830,
@@ -37307,14 +38136,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37325,7 +38154,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 24
+    "generalOrder": 24,
+    "displayOrder": 24
   },
   {
     "id": 831,
@@ -37348,14 +38178,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy / Boylston Grey",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37366,7 +38196,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 25
+    "generalOrder": 25,
+    "displayOrder": 25
   },
   {
     "id": 832,
@@ -37389,14 +38220,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37407,7 +38238,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 26
+    "generalOrder": 26,
+    "displayOrder": 26
   },
   {
     "id": 833,
@@ -37430,14 +38262,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As6",
     "colorDescription": "Dijon / Cambridge Burgundy / Dark Night",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -37448,7 +38280,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 27
+    "generalOrder": 27,
+    "displayOrder": 27
   },
   {
     "id": 834,
@@ -37471,14 +38304,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Agt",
     "colorDescription": "Athletic Grey Heather / Cherry Blast",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37489,7 +38322,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 28
+    "generalOrder": 28,
+    "displayOrder": 28
   },
   {
     "id": 835,
@@ -37512,14 +38346,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37530,7 +38364,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 29
+    "generalOrder": 29,
+    "displayOrder": 29
   },
   {
     "id": 836,
@@ -37553,14 +38388,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Sst",
     "colorDescription": "Sea Salt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37571,7 +38406,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 30
+    "generalOrder": 30,
+    "displayOrder": 30
   },
   {
     "id": 837,
@@ -37594,14 +38430,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37612,7 +38448,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 31
+    "generalOrder": 31,
+    "displayOrder": 31
   },
   {
     "id": 838,
@@ -37635,14 +38472,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37653,7 +38490,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 32
+    "generalOrder": 32,
+    "displayOrder": 32
   },
   {
     "id": 839,
@@ -37676,14 +38514,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Era",
     "colorDescription": "Electric Red",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37694,7 +38532,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 33
+    "generalOrder": 33,
+    "displayOrder": 33
   },
   {
     "id": 840,
@@ -37717,14 +38556,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Lup",
     "colorDescription": "Lucent Pink",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37735,7 +38574,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 34
+    "generalOrder": 34,
+    "displayOrder": 34
   },
   {
     "id": 841,
@@ -37758,14 +38598,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Pex",
     "colorDescription": "Pear Extract",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37776,7 +38616,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 35
+    "generalOrder": 35,
+    "displayOrder": 35
   },
   {
     "id": 842,
@@ -37799,14 +38640,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -37817,7 +38658,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 36
+    "generalOrder": 36,
+    "displayOrder": 36
   },
   {
     "id": 843,
@@ -37840,14 +38682,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ac1",
     "colorDescription": "Dark Ivy Vine / Boylston Grey / Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -37858,7 +38700,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 37
+    "generalOrder": 37,
+    "displayOrder": 37
   },
   {
     "id": 844,
@@ -37881,14 +38724,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Aga",
     "colorDescription": "Angora",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -37899,7 +38742,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 38
+    "generalOrder": 38,
+    "displayOrder": 38
   },
   {
     "id": 845,
@@ -37922,14 +38766,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As1",
     "colorDescription": "Linen / Arid Stone / Earth Shadow",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -37940,7 +38784,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 39
+    "generalOrder": 39,
+    "displayOrder": 39
   },
   {
     "id": 846,
@@ -37963,14 +38808,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -37981,7 +38826,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 40
+    "generalOrder": 40,
+    "displayOrder": 40
   },
   {
     "id": 847,
@@ -38004,14 +38850,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38022,7 +38868,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 41
+    "generalOrder": 41,
+    "displayOrder": 41
   },
   {
     "id": 848,
@@ -38045,14 +38892,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Agt",
     "colorDescription": "Athletic Grey Heather",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38063,7 +38910,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 42
+    "generalOrder": 42,
+    "displayOrder": 42
   },
   {
     "id": 849,
@@ -38086,14 +38934,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38104,7 +38952,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 43
+    "generalOrder": 43,
+    "displayOrder": 43
   },
   {
     "id": 850,
@@ -38127,14 +38976,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38145,7 +38994,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 44
+    "generalOrder": 44,
+    "displayOrder": 44
   },
   {
     "id": 851,
@@ -38168,14 +39018,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As2",
     "colorDescription": "Dark Night / Burnt Toast / Slate Grey",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38186,7 +39036,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 45
+    "generalOrder": 45,
+    "displayOrder": 45
   },
   {
     "id": 852,
@@ -38209,14 +39060,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Cb6",
     "colorDescription": "Cambridge Burgundy / Angora / Glide",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38227,7 +39078,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 46
+    "generalOrder": 46,
+    "displayOrder": 46
   },
   {
     "id": 853,
@@ -38250,14 +39102,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Dark Ivy Vine / Angora / Dark Night",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38268,7 +39120,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 47
+    "generalOrder": 47,
+    "displayOrder": 47
   },
   {
     "id": 854,
@@ -38291,14 +39144,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ac1",
     "colorDescription": "Angora / Boylston Grey / Cambridge Burgundy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38309,7 +39162,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 48
+    "generalOrder": 48,
+    "displayOrder": 48
   },
   {
     "id": 855,
@@ -38332,14 +39186,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As1",
     "colorDescription": "Linen / Arid Stone / Earth Shadow",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38350,7 +39204,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 49
+    "generalOrder": 49,
+    "displayOrder": 49
   },
   {
     "id": 856,
@@ -38373,14 +39228,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38391,7 +39246,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 50
+    "generalOrder": 50,
+    "displayOrder": 50
   },
   {
     "id": 857,
@@ -38414,14 +39270,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38432,7 +39288,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 51
+    "generalOrder": 51,
+    "displayOrder": 51
   },
   {
     "id": 858,
@@ -38455,14 +39312,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bg0",
     "colorDescription": "Boylston Grey / Angora",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38473,7 +39330,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 52
+    "generalOrder": 52,
+    "displayOrder": 52
   },
   {
     "id": 859,
@@ -38496,14 +39354,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Div",
     "colorDescription": "Angora / Dark Ivy Vine",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38514,7 +39372,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 53
+    "generalOrder": 53,
+    "displayOrder": 53
   },
   {
     "id": 860,
@@ -38537,14 +39396,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Abg",
     "colorDescription": "Stucco",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38555,7 +39414,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 54
+    "generalOrder": 54,
+    "displayOrder": 54
   },
   {
     "id": 861,
@@ -38578,14 +39438,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Tnv",
     "colorDescription": "Team Navy / Mustard Seed",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias",
@@ -38596,7 +39456,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 55
+    "generalOrder": 55,
+    "displayOrder": 55
   },
   {
     "id": 862,
@@ -38619,14 +39480,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As",
     "colorDescription": "White / Dark Night / Glide",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38637,7 +39498,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 56
+    "generalOrder": 56,
+    "displayOrder": 56
   },
   {
     "id": 863,
@@ -38660,14 +39522,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White Wt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38678,7 +39540,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 60
+    "generalOrder": 60,
+    "displayOrder": 60
   },
   {
     "id": 864,
@@ -38702,14 +39565,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Agt",
     "colorDescription": "Athletic Grey Heather",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38720,7 +39583,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 61
+    "generalOrder": 61,
+    "displayOrder": 61
   },
   {
     "id": 865,
@@ -38743,14 +39607,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38761,7 +39625,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 62
+    "generalOrder": 62,
+    "displayOrder": 62
   },
   {
     "id": 866,
@@ -38784,14 +39649,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White Wt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38802,7 +39667,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 63
+    "generalOrder": 63,
+    "displayOrder": 63
   },
   {
     "id": 867,
@@ -38825,14 +39691,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38843,7 +39709,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 64
+    "generalOrder": 64,
+    "displayOrder": 64
   },
   {
     "id": 868,
@@ -38866,14 +39733,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White Wt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38884,7 +39751,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 65
+    "generalOrder": 65,
+    "displayOrder": 65
   },
   {
     "id": 869,
@@ -38907,14 +39775,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "As6",
     "colorDescription": "Sea Salt / Black / Boylston Grey",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38925,7 +39793,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 66
+    "generalOrder": 66,
+    "displayOrder": 66
   },
   {
     "id": 870,
@@ -38948,14 +39817,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ac1",
     "colorDescription": "Lilac Air / Light Raspberry / Team Navy",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -38966,7 +39835,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 67
+    "generalOrder": 67,
+    "displayOrder": 67
   },
   {
     "id": 871,
@@ -38989,14 +39859,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Ac2",
     "colorDescription": "Angora / Dark Ivy Vine / Dark Night",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -39007,7 +39877,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 68
+    "generalOrder": 68,
+    "displayOrder": 68
   },
   {
     "id": 872,
@@ -39032,14 +39903,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bk",
     "colorDescription": "Black Bk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -39050,7 +39921,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 69
+    "generalOrder": 69,
+    "displayOrder": 69
   },
   {
     "id": 873,
@@ -39078,14 +39950,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wm",
     "colorDescription": "White Multi Wm",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -39096,7 +39968,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 70
+    "generalOrder": 70,
+    "displayOrder": 70
   },
   {
     "id": 874,
@@ -39119,14 +39992,14 @@ export const products: Product[] = [
     "sizeRange": "M (37-40) -L (41-44)",
     "curve": "1-ene",
     "unitsPerCurve": 1,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Wt",
     "colorDescription": "White Wt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Medias Tripack",
@@ -39137,7 +40010,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 71
+    "generalOrder": 71,
+    "displayOrder": 71
   },
   {
     "id": 875,
@@ -39160,14 +40034,14 @@ export const products: Product[] = [
     "sizeRange": "S | M | L | Xl",
     "curve": "1 -2 -4 - 2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Bkk",
     "colorDescription": "Black / Black Bkk",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Underwear",
@@ -39178,7 +40052,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 163
+    "generalOrder": 163,
+    "displayOrder": 163
   },
   {
     "id": 876,
@@ -39201,14 +40076,14 @@ export const products: Product[] = [
     "sizeRange": "S | M | L | Xl",
     "curve": "1 -2 -4 - 2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Blk",
     "colorDescription": "Black Cement",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Underwear",
@@ -39219,7 +40094,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 164
+    "generalOrder": 164,
+    "displayOrder": 164
   },
   {
     "id": 877,
@@ -39242,14 +40118,14 @@ export const products: Product[] = [
     "sizeRange": "S | M | L | Xl",
     "curve": "1 -2 -4 - 2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Fng",
     "colorDescription": "Frost Grey Fng",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Underwear",
@@ -39260,7 +40136,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 165
+    "generalOrder": 165,
+    "displayOrder": 165
   },
   {
     "id": 878,
@@ -39283,14 +40160,14 @@ export const products: Product[] = [
     "sizeRange": "S | M | L | Xl",
     "curve": "1 -2 -4 - 2",
     "unitsPerCurve": 9,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "Vct",
     "colorDescription": "Vivid Cobalt",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "Underwear",
@@ -39301,7 +40178,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 166
+    "generalOrder": 166,
+    "displayOrder": 166
   },
   {
     "id": 879,
@@ -39324,14 +40202,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Edge",
     "silhouette": "",
@@ -39341,7 +40219,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 79
+    "generalOrder": 79,
+    "displayOrder": 79
   },
   {
     "id": 880,
@@ -39364,14 +40243,14 @@ export const products: Product[] = [
     "sizeRange": "39-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -39382,7 +40261,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 135
+    "generalOrder": 135,
+    "displayOrder": 135
   },
   {
     "id": 881,
@@ -39405,14 +40285,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "",
     "silhouette": "",
@@ -39423,7 +40303,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 136
+    "generalOrder": 136,
+    "displayOrder": 136
   },
   {
     "id": 882,
@@ -39446,14 +40327,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Classics",
     "silhouette": "",
@@ -39464,7 +40345,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 275
+    "generalOrder": 275,
+    "displayOrder": 275
   },
   {
     "id": 883,
@@ -39487,14 +40369,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Classics",
     "silhouette": "",
@@ -39505,7 +40387,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 258
+    "generalOrder": 258,
+    "displayOrder": 258
   },
   {
     "id": 884,
@@ -39528,14 +40411,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Classics",
     "silhouette": "",
@@ -39546,7 +40429,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 259
+    "generalOrder": 259,
+    "displayOrder": 259
   },
   {
     "id": 885,
@@ -39569,14 +40453,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -39587,7 +40471,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 238
+    "generalOrder": 238,
+    "displayOrder": 238
   },
   {
     "id": 886,
@@ -39610,14 +40495,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Shifted",
     "silhouette": "",
@@ -39628,7 +40513,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 187
+    "generalOrder": 187,
+    "displayOrder": 187
   },
   {
     "id": 887,
@@ -39651,14 +40537,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Shifted",
     "silhouette": "",
@@ -39669,7 +40555,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 188
+    "generalOrder": 188,
+    "displayOrder": 188
   },
   {
     "id": 888,
@@ -39692,14 +40579,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Shifted",
     "silhouette": "",
@@ -39709,7 +40596,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 189
+    "generalOrder": 189,
+    "displayOrder": 189
   },
   {
     "id": 889,
@@ -39732,14 +40620,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Shifted",
     "silhouette": "",
@@ -39749,7 +40637,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 190
+    "generalOrder": 190,
+    "displayOrder": 190
   },
   {
     "id": 890,
@@ -39772,14 +40661,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Shifted",
     "silhouette": "",
@@ -39790,7 +40679,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 176
+    "generalOrder": 176,
+    "displayOrder": 176
   },
   {
     "id": 891,
@@ -39813,14 +40703,14 @@ export const products: Product[] = [
     "sizeRange": "35-41",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "Si",
-    "northStar": "",
+    "marketingLaunch": true,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Shifted",
     "silhouette": "",
@@ -39831,7 +40721,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 210
+    "generalOrder": 210,
+    "displayOrder": 210
   },
   {
     "id": 892,
@@ -39854,14 +40745,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "New",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -39872,7 +40763,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 239
+    "generalOrder": 239,
+    "displayOrder": 239
   },
   {
     "id": 893,
@@ -39899,14 +40791,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -39917,7 +40809,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 240
+    "generalOrder": 240,
+    "displayOrder": 240
   },
   {
     "id": 894,
@@ -39944,14 +40837,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -39962,7 +40855,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 241
+    "generalOrder": 241,
+    "displayOrder": 241
   },
   {
     "id": 895,
@@ -39985,14 +40879,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -40003,7 +40897,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 242
+    "generalOrder": 242,
+    "displayOrder": 242
   },
   {
     "id": 896,
@@ -40026,14 +40921,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -40044,7 +40939,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 243
+    "generalOrder": 243,
+    "displayOrder": 243
   },
   {
     "id": 897,
@@ -40077,14 +40973,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -40095,7 +40991,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 244
+    "generalOrder": 244,
+    "displayOrder": 244
   },
   {
     "id": 898,
@@ -40129,14 +41026,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -40147,7 +41044,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 245
+    "generalOrder": 245,
+    "displayOrder": 245
   },
   {
     "id": 899,
@@ -40177,14 +41075,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -40195,7 +41093,8 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 246
+    "generalOrder": 246,
+    "displayOrder": 246
   },
   {
     "id": 900,
@@ -40218,14 +41117,14 @@ export const products: Product[] = [
     "sizeRange": "35-45",
     "curve": "Libre",
     "unitsPerCurve": 12,
-    "marketingLaunch": "",
-    "northStar": "",
+    "marketingLaunch": false,
+    "northStar": false,
     "date": "",
     "origin": "Argentina",
     "colorCode": "",
     "colorDescription": "",
     "status": "C/O",
-    "segmentation": [],
+    "segmentation": "",
     "campaignLook": "",
     "driver": "Running 2000's",
     "silhouette": "",
@@ -40236,6 +41135,7 @@ export const products: Product[] = [
       "Septiembre",
       "Noviembre"
     ],
-    "generalOrder": 247
+    "generalOrder": 247,
+    "displayOrder": 247
   }
 ];
