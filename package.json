@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "npm install && vite build && node -e \"const fs=require('fs'); if(fs.existsSync('src/assets')){fs.cpSync('src/assets', 'dist/src/assets', {recursive:true});}\" && esbuild server.ts --bundle --platform=node --format=esm --packages=external --outfile=server.js",
+    "build": "vite build && node -e \"const fs=require('fs'); if(fs.existsSync('src/assets')){fs.cpSync('src/assets', 'dist/src/assets', {recursive:true});}\" && esbuild server.ts --bundle --platform=node --format=esm --packages=external --outfile=server.js",
     "start": "node server.js",
     "lint": "tsc"
   },
