@@ -5,7 +5,6 @@ import {
   Check, 
   Layers, 
   Plus,
-  Sparkles,
   Camera,
   Eye
 } from 'lucide-react';
@@ -14,7 +13,6 @@ import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 import { getProxiedUrl } from './mediaHelper';
 import { getSingleMannequinImageForLook } from './mannequinSimulationHelper';
-import { RealProductMannequinAssembly } from './RealProductMannequinAssembly';
 import { ProductDetailModal } from './ProductDetailModal';
 
 interface RealisticLookMannequinMountProps {
@@ -106,7 +104,7 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
     : look.totalPublicPrice;
 
   return (
-    <div className={`relative bg-stone-950 text-white rounded-2xl overflow-hidden border border-stone-800 shadow-2xl flex flex-col ${className}`}>
+    <div className={`relative bg-white text-stone-900 rounded-2xl overflow-hidden border border-stone-200 shadow-2xl flex flex-col ${className}`}>
       {/* Toast Notification */}
       {addedToast && (
         <div className="absolute top-4 left-1/2 -translate-x-1/2 z-50 bg-emerald-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg flex items-center gap-2 animate-bounce">
@@ -116,23 +114,23 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
       )}
 
       {/* Top Header Bar */}
-      <div className="px-4 py-3 bg-stone-900/90 border-b border-stone-800 flex flex-wrap items-center justify-between gap-3 shrink-0 z-20">
+      <div className="px-4 py-3 bg-stone-50 border-b border-stone-200 flex flex-wrap items-center justify-between gap-3 shrink-0 z-20">
         <div className="flex items-center gap-2.5 min-w-0">
-          <div className="p-2 bg-red-600/20 text-[#CF0A2C] rounded-lg border border-red-600/30">
+          <div className="p-2 bg-red-100 text-[#CF0A2C] rounded-lg border border-red-200">
             <Camera className="w-4 h-4" />
           </div>
           <div className="min-w-0">
             <div className="flex items-center gap-2">
               <span className={`text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded ${
-                isFemale ? 'bg-pink-950/80 text-pink-300 border border-pink-800/40' : 'bg-blue-950/80 text-blue-300 border border-blue-800/40'
+                isFemale ? 'bg-pink-100 text-pink-800 border border-pink-300' : 'bg-blue-100 text-blue-800 border border-blue-300'
               }`}>
                 {isFemale ? '♀ Maniquí Mujer' : '♂ Maniquí Hombre'}
               </span>
-              <span className="text-[10px] font-bold text-stone-400">
+              <span className="text-[10px] font-bold text-stone-500">
                 {look.driver} • {look.colorInfo.spanishName || look.colorInfo.name} ({look.colorCode})
               </span>
             </div>
-            <h3 className="text-sm sm:text-base font-black text-white truncate max-w-md">
+            <h3 className="text-sm sm:text-base font-black text-stone-950 truncate max-w-md">
               {look.title}
             </h3>
           </div>
@@ -141,13 +139,13 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
         {/* Header Right: Layer toggle badge & Close button */}
         <div className="flex items-center gap-2 ml-auto">
           {photoAsset.hasLayerOption && (
-            <div className="flex items-center bg-stone-950 p-1 rounded-xl border border-stone-800 gap-1">
+            <div className="flex items-center bg-stone-200/80 p-1 rounded-xl border border-stone-300 gap-1">
               <button
                 onClick={() => handleSetShowLayer(true)}
                 className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
                   showLayer 
                     ? 'bg-purple-600 text-white shadow-xs' 
-                    : 'text-stone-400 hover:text-white'
+                    : 'text-stone-700 hover:text-stone-950'
                 }`}
                 title="Ver maniquí con campera / abrigo puesto"
               >
@@ -158,8 +156,8 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
                 onClick={() => handleSetShowLayer(false)}
                 className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
                   !showLayer 
-                    ? 'bg-red-600 text-white shadow-xs' 
-                    : 'text-stone-400 hover:text-white'
+                    ? 'bg-[#CF0A2C] text-white shadow-xs' 
+                    : 'text-stone-700 hover:text-stone-950'
                 }`}
                 title="Ver maniquí con solo la remera / top base"
               >
@@ -173,7 +171,7 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
           {onClose && (
             <button
               onClick={onClose}
-              className="p-1.5 text-stone-400 hover:text-white bg-stone-800/60 hover:bg-stone-800 rounded-lg transition-colors cursor-pointer text-xs font-bold px-3"
+              className="p-1.5 text-stone-600 hover:text-stone-950 bg-stone-200/70 hover:bg-stone-300 rounded-lg transition-colors cursor-pointer text-xs font-bold px-3"
               title="Cerrar vista maniquí"
             >
               ✕ Cerrar
@@ -182,30 +180,16 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
         </div>
       </div>
 
-      {/* Main Body: Single Mannequin Photo on the left, Garment Breakdown on the right */}
-      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden" style={{ minHeight: typeof height === 'number' ? `${height}px` : height }}>
+      {/* Main Body: Photographic Mannequin Display on the left, Garment Breakdown on the right */}
+      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden bg-stone-50" style={{ minHeight: typeof height === 'number' ? `${height}px` : height }}>
         
-        {/* LEFT: Realistic Photographic Showcase Display */}
-        <div className="flex-1 relative flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-stone-900 via-neutral-950 to-stone-950 p-3 sm:p-5 select-none min-h-[460px]">
+        {/* LEFT: Photographic Mannequin Display */}
+        <div className="flex-1 relative flex flex-col items-center justify-center overflow-hidden bg-stone-100 p-3 sm:p-5 select-none min-h-[460px]">
           
-          {/* Spotlight Ambient Glow */}
-          <div 
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              background: 'radial-gradient(ellipse 70% 60% at 50% 20%, rgba(255,255,255,0.06) 0%, transparent 75%)'
-            }}
-          />
-
-          {/* Color Tint Aura */}
-          <div 
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[340px] h-[520px] rounded-full pointer-events-none opacity-20 filter blur-3xl"
-            style={{ backgroundColor: look.colorInfo.hex || '#CF0A2C' }}
-          />
-
           {/* Interactive Layer Switcher Float Banner (for layered looks) */}
           {photoAsset.hasLayerOption && (
-            <div className="mb-3 z-20 flex items-center bg-stone-900/90 backdrop-blur-md px-3 py-1.5 rounded-xl border border-stone-700 shadow-md gap-2">
-              <span className="text-[11px] font-bold text-stone-300">
+            <div className="mb-3 z-20 flex items-center bg-white/90 backdrop-blur-md px-3 py-1.5 rounded-xl border border-stone-200 shadow-md gap-2">
+              <span className="text-[11px] font-bold text-stone-700">
                 Prenda exterior:
               </span>
               <button
@@ -213,7 +197,7 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
                 className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all flex items-center gap-1 cursor-pointer ${
                   showLayer
                     ? 'bg-purple-600 text-white shadow-xs'
-                    : 'bg-stone-800 text-stone-300 hover:bg-stone-700'
+                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
                 }`}
               >
                 <span>🧥 Con Campera / Abrigo</span>
@@ -222,8 +206,8 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
                 onClick={() => handleSetShowLayer(false)}
                 className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all flex items-center gap-1 cursor-pointer ${
                   !showLayer
-                    ? 'bg-red-600 text-white shadow-xs'
-                    : 'bg-stone-800 text-stone-300 hover:bg-stone-700'
+                    ? 'bg-[#CF0A2C] text-white shadow-xs'
+                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
                 }`}
               >
                 <span>👕 Solo Remera / Top Base</span>
@@ -231,20 +215,20 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
             </div>
           )}
 
-          {/* Photo Frame Container with Real Product Mannequin Assembly */}
+          {/* Photo Frame Container with Actual Mannequin Photo */}
           <div className="relative w-full h-full max-w-md flex flex-col items-center justify-center">
-            <div className="relative rounded-2xl overflow-hidden border border-stone-800 shadow-2xl h-[440px] w-full flex items-center justify-center bg-stone-950">
-              <RealProductMannequinAssembly
-                look={look}
-                showLayer={showLayer}
-                onToggleLayer={handleSetShowLayer}
-                variant="modal"
+            <div className="relative rounded-2xl overflow-hidden border border-stone-200 shadow-xl h-[440px] w-full flex items-center justify-center bg-white">
+              <img 
+                src={photoAsset.image} 
+                alt={look.title}
+                className="w-full h-full object-contain object-center hover:scale-105 transition-transform duration-500 ease-out"
+                loading="eager"
               />
             </div>
 
-            {/* Bottom Merchandising Caption - placed cleanly below photo frame */}
-            <div className="mt-3 w-full bg-stone-900/90 backdrop-blur-md p-2.5 rounded-xl border border-stone-800 text-center">
-              <p className="text-[11px] text-stone-300">
+            {/* Bottom Merchandising Caption */}
+            <div className="mt-3 w-full bg-white/90 backdrop-blur-md p-2.5 rounded-xl border border-stone-200 shadow-sm text-center">
+              <p className="text-[11px] font-medium text-stone-700">
                 {photoAsset.themeDescription}
               </p>
             </div>
@@ -254,13 +238,13 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
 
         {/* RIGHT: Garment Breakdown Sidebar */}
         {showDetailsSidebar && (
-          <div className="w-full lg:w-[380px] bg-stone-900 border-t lg:border-t-0 lg:border-l border-stone-800 p-4 flex flex-col justify-between overflow-y-auto max-h-[620px]">
+          <div className="w-full lg:w-[380px] bg-white border-t lg:border-t-0 lg:border-l border-stone-200 p-4 flex flex-col justify-between overflow-y-auto max-h-[620px]">
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-black uppercase tracking-wider text-stone-400">
+                <span className="text-[10px] font-black uppercase tracking-wider text-stone-500">
                   Prendas del Look ({totalMountedItems} prendas)
                 </span>
-                <span className="text-xs font-bold text-emerald-400">
+                <span className="text-xs font-bold text-emerald-600">
                   {cartItems.length > 0 ? 'Pedido en curso' : 'Listo para armar'}
                 </span>
               </div>
@@ -269,15 +253,15 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
               {look.layer && (
                 <div 
                   onClick={() => setSelectedProduct(look.layer!)}
-                  className={`p-2.5 rounded-xl border transition-all cursor-pointer group hover:border-purple-500/70 hover:scale-[1.01] ${
-                    showLayer ? 'bg-stone-950/90 border-purple-800/50' : 'bg-stone-950/40 border-stone-800 opacity-60 hover:opacity-90'
+                  className={`p-2.5 rounded-xl border transition-all cursor-pointer group hover:border-purple-500 hover:scale-[1.01] ${
+                    showLayer ? 'bg-purple-50/60 border-purple-200 shadow-2xs' : 'bg-stone-50 border-stone-200 opacity-60 hover:opacity-90'
                   }`}
                   title="Click para ver ficha del producto"
                 >
                   <div className="flex items-center justify-between mb-1">
-                    <span className="text-[9px] font-black uppercase tracking-wider bg-purple-950 text-purple-300 border border-purple-800 px-1.5 py-0.5 rounded flex items-center gap-1">
+                    <span className="text-[9px] font-black uppercase tracking-wider bg-purple-100 text-purple-800 border border-purple-300 px-1.5 py-0.5 rounded flex items-center gap-1">
                       <span>ABRIGO / LAYER</span>
-                      <Eye className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100 text-purple-400" />
+                      <Eye className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100 text-purple-600" />
                     </span>
                     <button
                       type="button"
@@ -285,20 +269,20 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
                         e.stopPropagation();
                         handleSetShowLayer(!showLayer);
                       }}
-                      className="text-[10px] text-purple-400 hover:underline cursor-pointer font-bold"
+                      className="text-[10px] text-purple-700 hover:underline cursor-pointer font-bold"
                     >
-                      {showLayer ? 'Ocultar en maniquí' : 'Mostrar en maniquí'}
+                      {showLayer ? 'Ocultar en foto' : 'Mostrar en foto'}
                     </button>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform">
+                    <div className="w-12 h-12 bg-stone-100 rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform border border-stone-200">
                       <img src={getProductImage(look.layer)} alt={look.layer.name} className="w-full h-full object-contain" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-xs font-bold text-white truncate group-hover:text-purple-300 transition-colors">{look.layer.name}</p>
-                      <p className="text-[10px] font-mono text-stone-400">{look.layer.sku} • {look.layer.sizeRange}</p>
+                      <p className="text-xs font-bold text-stone-900 truncate group-hover:text-purple-700 transition-colors">{look.layer.name}</p>
+                      <p className="text-[10px] font-mono text-stone-500">{look.layer.sku} • {look.layer.sizeRange}</p>
                       <div className="flex items-center justify-between mt-1">
-                        <span className="text-xs font-black text-purple-200">${(look.layer.price || 0).toLocaleString('es-AR')}</span>
+                        <span className="text-xs font-black text-purple-900">${(look.layer.price || 0).toLocaleString('es-AR')}</span>
                         <button
                           type="button"
                           onClick={(e) => handleAddProduct(look.layer!, e)}
@@ -318,34 +302,34 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
               {/* 2. Top Base Card */}
               <div 
                 onClick={() => setSelectedProduct(look.top)}
-                className="p-2.5 bg-stone-950/90 rounded-xl border border-stone-800 hover:border-red-600/70 hover:scale-[1.01] transition-all cursor-pointer group"
+                className="p-2.5 bg-stone-50 rounded-xl border border-stone-200 hover:border-red-500 hover:scale-[1.01] transition-all cursor-pointer group shadow-2xs"
                 title="Click para ver ficha del producto"
               >
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-[9px] font-black uppercase tracking-wider bg-stone-800 text-stone-300 px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span className="text-[9px] font-black uppercase tracking-wider bg-stone-200 text-stone-700 px-1.5 py-0.5 rounded flex items-center gap-1">
                     <span>{look.layer ? (showLayer ? 'TOP BASE (Interior)' : 'TOP BASE (Visible en foto)') : 'TOP / PARTE SUPERIOR'}</span>
                     <Eye className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100 text-[#CF0A2C]" />
                   </span>
                   {topCart.inCart && (
-                    <span className="text-[10px] font-bold text-emerald-400 flex items-center gap-1">
+                    <span className="text-[10px] font-bold text-emerald-600 flex items-center gap-1">
                       <Check className="w-3 h-3 stroke-[3]" /> {topCart.quantity} en pedido
                     </span>
                   )}
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform border border-stone-200">
                     <img src={getProductImage(look.top)} alt={look.top.name} className="w-full h-full object-contain" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-xs font-bold text-white truncate group-hover:text-red-400 transition-colors">{look.top.name}</p>
-                    <p className="text-[10px] font-mono text-stone-400">{look.top.sku} • {look.top.sizeRange}</p>
+                    <p className="text-xs font-bold text-stone-900 truncate group-hover:text-[#CF0A2C] transition-colors">{look.top.name}</p>
+                    <p className="text-[10px] font-mono text-stone-500">{look.top.sku} • {look.top.sizeRange}</p>
                     <div className="flex items-center justify-between mt-1">
-                      <span className="text-xs font-black text-white">${(look.top.price || 0).toLocaleString('es-AR')}</span>
+                      <span className="text-xs font-black text-stone-950">${(look.top.price || 0).toLocaleString('es-AR')}</span>
                       <button
                         type="button"
                         onClick={(e) => handleAddProduct(look.top, e)}
                         className={`px-2 py-0.5 rounded text-[10px] font-bold flex items-center gap-1 cursor-pointer ${
-                          topCart.inCart ? 'bg-emerald-600 text-white' : 'bg-red-600 hover:bg-red-700 text-white'
+                          topCart.inCart ? 'bg-emerald-600 text-white' : 'bg-[#CF0A2C] hover:bg-red-700 text-white'
                         }`}
                       >
                         <Plus className="w-2.5 h-2.5" />
@@ -359,34 +343,34 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
               {/* 3. Bottom Card */}
               <div 
                 onClick={() => setSelectedProduct(look.bottom)}
-                className="p-2.5 bg-stone-950/90 rounded-xl border border-stone-800 hover:border-red-600/70 hover:scale-[1.01] transition-all cursor-pointer group"
+                className="p-2.5 bg-stone-50 rounded-xl border border-stone-200 hover:border-red-500 hover:scale-[1.01] transition-all cursor-pointer group shadow-2xs"
                 title="Click para ver ficha del producto"
               >
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-[9px] font-black uppercase tracking-wider bg-stone-800 text-stone-300 px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span className="text-[9px] font-black uppercase tracking-wider bg-stone-200 text-stone-700 px-1.5 py-0.5 rounded flex items-center gap-1">
                     <span>BOTTOM / PANTALÓN O SHORT</span>
                     <Eye className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100 text-[#CF0A2C]" />
                   </span>
                   {bottomCart.inCart && (
-                    <span className="text-[10px] font-bold text-emerald-400 flex items-center gap-1">
+                    <span className="text-[10px] font-bold text-emerald-600 flex items-center gap-1">
                       <Check className="w-3 h-3 stroke-[3]" /> {bottomCart.quantity} en pedido
                     </span>
                   )}
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform border border-stone-200">
                     <img src={getProductImage(look.bottom)} alt={look.bottom.name} className="w-full h-full object-contain" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-xs font-bold text-white truncate group-hover:text-red-400 transition-colors">{look.bottom.name}</p>
-                    <p className="text-[10px] font-mono text-stone-400">{look.bottom.sku} • {look.bottom.sizeRange}</p>
+                    <p className="text-xs font-bold text-stone-900 truncate group-hover:text-[#CF0A2C] transition-colors">{look.bottom.name}</p>
+                    <p className="text-[10px] font-mono text-stone-500">{look.bottom.sku} • {look.bottom.sizeRange}</p>
                     <div className="flex items-center justify-between mt-1">
-                      <span className="text-xs font-black text-white">${(look.bottom.price || 0).toLocaleString('es-AR')}</span>
+                      <span className="text-xs font-black text-stone-950">${(look.bottom.price || 0).toLocaleString('es-AR')}</span>
                       <button
                         type="button"
                         onClick={(e) => handleAddProduct(look.bottom, e)}
                         className={`px-2 py-0.5 rounded text-[10px] font-bold flex items-center gap-1 cursor-pointer ${
-                          bottomCart.inCart ? 'bg-emerald-600 text-white' : 'bg-red-600 hover:bg-red-700 text-white'
+                          bottomCart.inCart ? 'bg-emerald-600 text-white' : 'bg-[#CF0A2C] hover:bg-red-700 text-white'
                         }`}
                       >
                         <Plus className="w-2.5 h-2.5" />
@@ -400,36 +384,36 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
               {/* 4. Shoes Card */}
               <div 
                 onClick={() => setSelectedProduct(look.footwear)}
-                className="p-2.5 bg-stone-950/90 rounded-xl border border-stone-800 hover:border-red-600/70 hover:scale-[1.01] transition-all cursor-pointer group"
+                className="p-2.5 bg-stone-50 rounded-xl border border-stone-200 hover:border-red-500 hover:scale-[1.01] transition-all cursor-pointer group shadow-2xs"
                 title="Click para ver ficha del producto"
               >
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-[9px] font-black uppercase tracking-wider bg-red-950 text-red-300 border border-red-800 px-1.5 py-0.5 rounded flex items-center gap-1">
+                  <span className="text-[9px] font-black uppercase tracking-wider bg-red-100 text-red-800 border border-red-300 px-1.5 py-0.5 rounded flex items-center gap-1">
                     <span>CALZADO NEW BALANCE</span>
                     <Eye className="w-2.5 h-2.5 opacity-60 group-hover:opacity-100 text-[#CF0A2C]" />
                   </span>
                   {shoesCart.inCart && (
-                    <span className="text-[10px] font-bold text-emerald-400 flex items-center gap-1">
+                    <span className="text-[10px] font-bold text-emerald-600 flex items-center gap-1">
                       <Check className="w-3 h-3 stroke-[3]" /> {shoesCart.quantity} en pedido
                     </span>
                   )}
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 bg-white rounded-lg p-1 shrink-0 overflow-hidden group-hover:scale-105 transition-transform border border-stone-200">
                     <img src={getProductImage(look.footwear)} alt={look.footwear.name} className="w-full h-full object-contain" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-xs font-bold text-white truncate group-hover:text-red-400 transition-colors">{look.footwear.name}</p>
-                    <p className="text-[10px] font-mono text-stone-400">{look.footwear.sku} • {look.footwear.sizeRange}</p>
+                    <p className="text-xs font-bold text-stone-900 truncate group-hover:text-[#CF0A2C] transition-colors">{look.footwear.name}</p>
+                    <p className="text-[10px] font-mono text-stone-500">{look.footwear.sku} • {look.footwear.sizeRange}</p>
                     <div className="flex items-center justify-between mt-1">
-                      <span className="text-xs font-black text-white">
+                      <span className="text-xs font-black text-stone-950">
                         {look.footwear.price && look.footwear.price > 0 ? `$${look.footwear.price.toLocaleString('es-AR')}` : 'A consultar'}
                       </span>
                       <button
                         type="button"
                         onClick={(e) => handleAddProduct(look.footwear, e)}
                         className={`px-2 py-0.5 rounded text-[10px] font-bold flex items-center gap-1 cursor-pointer ${
-                          shoesCart.inCart ? 'bg-emerald-600 text-white' : 'bg-red-600 hover:bg-red-700 text-white'
+                          shoesCart.inCart ? 'bg-emerald-600 text-white' : 'bg-[#CF0A2C] hover:bg-red-700 text-white'
                         }`}
                       >
                         <Plus className="w-2.5 h-2.5" />
@@ -442,12 +426,12 @@ export const RealisticLookMannequinMount: React.FC<RealisticLookMannequinMountPr
             </div>
 
             {/* Bottom Total & Full Look CTA */}
-            <div className="mt-4 pt-3 border-t border-stone-800 space-y-2.5">
+            <div className="mt-4 pt-3 border-t border-stone-200 space-y-2.5">
               <div className="flex items-baseline justify-between">
-                <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wider">
+                <span className="text-[10px] font-bold text-stone-500 uppercase tracking-wider">
                   Total Look ({totalMountedItems} prendas):
                 </span>
-                <span className="text-base font-black text-white">
+                <span className="text-base font-black text-stone-950">
                   ${currentTotalPublicPrice.toLocaleString('es-AR')}
                 </span>
               </div>
