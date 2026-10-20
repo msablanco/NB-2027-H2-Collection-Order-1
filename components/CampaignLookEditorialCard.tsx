@@ -166,6 +166,17 @@ export const CampaignLookEditorialCard: React.FC<CampaignLookEditorialCardProps>
             <img 
               src={currentPhoto}
               alt={look.title}
+              onError={(e) => {
+                const target = e.currentTarget;
+                if (!target.dataset.triedFallback1) {
+                  target.dataset.triedFallback1 = 'true';
+                  const filename = target.src.split('/').pop() || '';
+                  target.src = `/images/mannequins/${filename}`;
+                } else if (!target.dataset.triedFallback2 && look.top?.imageUrl) {
+                  target.dataset.triedFallback2 = 'true';
+                  target.src = look.top.imageUrl;
+                }
+              }}
               className="max-h-[360px] sm:max-h-[420px] w-auto object-contain rounded-xl drop-shadow-md group-hover:scale-102 transition-transform duration-300"
             />
           </div>

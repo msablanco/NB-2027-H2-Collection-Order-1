@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build",
+    "build": "vite build && node -e \"const fs=require('fs'); if(fs.existsSync('src/assets')){fs.cpSync('src/assets', 'dist/src/assets', {recursive:true});}\"",
     "start": "tsx server.ts",
     "lint": "tsc"
   },

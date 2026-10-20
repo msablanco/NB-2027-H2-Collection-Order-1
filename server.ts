@@ -9,6 +9,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 import express from "express";
 import path from "path";
+import fs from "fs";
 import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 import multer from "multer";
@@ -493,6 +494,31 @@ async function startServer() {
     });
   });
 
+  // Serve static assets from src/assets, public, and images directly across all environments
+  app.use('/src/assets', express.static(path.join(process.cwd(), 'src', 'assets')));
+  app.use('/assets', express.static(path.join(process.cwd(), 'src', 'assets')));
+  app.use('/public', express.static(path.join(process.cwd(), 'public')));
+  app.use('/images', express.static(path.join(process.cwd(), 'public', 'images')));
+
+  // Smart fallback for image files (.jpg, .jpeg, .png, .webp, .svg)
+  app.get(/\.(jpg|jpeg|png|webp|svg|gif)$/i, (req, res, next) => {
+    const filename = path.basename(req.path);
+    const candidatePaths = [
+      path.join(process.cwd(), 'src', 'assets', 'images', filename),
+      path.join(process.cwd(), 'public', 'images', 'mannequins', filename),
+      path.join(process.cwd(), 'public', 'images', filename),
+      path.join(process.cwd(), 'src', 'assets', req.path.replace(/^\/(src\/)?assets\//, '')),
+      path.join(process.cwd(), 'public', req.path.replace(/^\/public\//, ''))
+    ];
+
+    for (const candidate of candidatePaths) {
+      if (fs.existsSync(candidate) && fs.statSync(candidate).isFile()) {
+        return res.sendFile(candidate);
+      }
+    }
+    next();
+  });
+
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
@@ -504,7 +530,7 @@ async function startServer() {
     const distPath = path.join(process.cwd(), 'dist');
     app.use(express.static(distPath));
     app.use((req, res, next) => {
-      if (req.method === 'GET' && !req.path.startsWith('/api')) {
+      if (req.method === 'GET' && !req.path.startsWith('/api') && !req.path.match(/\.(jpg|jpeg|png|webp|svg|gif|ico|json|css|js|map)$/i)) {
         res.sendFile(path.join(distPath, 'index.html'));
       } else {
         next();
