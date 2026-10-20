@@ -159,7 +159,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         >
           {product.marketingLaunch && (
             <motion.div 
-              className={`absolute top-2 ${product.northStar ? 'left-9' : campaignLook ? 'left-24' : 'left-2'} text-xl z-10 drop-shadow-md origin-bottom`} 
+              className={`absolute top-2 ${product.northStar ? 'left-9' : 'left-2'} text-xl z-10 drop-shadow-md origin-bottom`} 
               title="Lanzamiento"
               animate={isHovered ? { y: [0, -4, 0], rotate: [0, 8, -8, 0] } : { y: 0, rotate: 0 }}
               transition={{ repeat: isHovered ? Infinity : 0, duration: 1.5, ease: "easeInOut" }}
@@ -169,7 +169,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           )}
           {product.northStar && (
             <div 
-              className={`absolute top-2 ${product.marketingLaunch ? 'left-2' : 'left-2'} text-xl z-10 drop-shadow-md`}
+              className={`absolute top-2 ${product.marketingLaunch ? 'left-9' : 'left-2'} text-xl z-10 drop-shadow-md`}
               title="North Star"
             >
               🌟
@@ -209,10 +209,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
                 e.stopPropagation();
                 onOpenMannequinModal?.(campaignLook);
               }}
-              className="absolute top-2 left-2 z-10 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9px] font-bold tracking-tight bg-slate-900/90 hover:bg-black text-amber-300 border border-amber-400/40 shadow-xs backdrop-blur-xs transition-all hover:scale-105 cursor-pointer"
+              className="absolute bottom-2 left-2 z-10 inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold tracking-tight bg-slate-900/90 hover:bg-black text-amber-300 border border-amber-400/40 shadow-md backdrop-blur-xs transition-all hover:scale-105 cursor-pointer"
               title={`Ver look completo en Maniquí: ${campaignLook.campaignCode || 'Look de Campaña'}`}
             >
-              <Sparkles className="w-2.5 h-2.5 text-amber-400 shrink-0" />
+              <Sparkles className="w-3 h-3 text-amber-400 shrink-0" />
               <span>{campaignLook.campaignCode || 'Look'}</span>
             </button>
           )}
