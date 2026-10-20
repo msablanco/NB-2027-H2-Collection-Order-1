@@ -494,11 +494,17 @@ async function startServer() {
     });
   });
 
+  // Cache options for assets to handle high concurrent traffic
+  const staticCacheOptions = {
+    maxAge: '7d',
+    immutable: true
+  };
+
   // Serve static assets from src/assets, public, and images directly across all environments
-  app.use('/src/assets', express.static(path.join(process.cwd(), 'src', 'assets')));
-  app.use('/assets', express.static(path.join(process.cwd(), 'src', 'assets')));
-  app.use('/public', express.static(path.join(process.cwd(), 'public')));
-  app.use('/images', express.static(path.join(process.cwd(), 'public', 'images')));
+  app.use('/src/assets', express.static(path.join(process.cwd(), 'src', 'assets'), staticCacheOptions));
+  app.use('/assets', express.static(path.join(process.cwd(), 'src', 'assets'), staticCacheOptions));
+  app.use('/public', express.static(path.join(process.cwd(), 'public'), staticCacheOptions));
+  app.use('/images', express.static(path.join(process.cwd(), 'public', 'images'), staticCacheOptions));
 
   // Smart fallback for image files (.jpg, .jpeg, .png, .webp, .svg)
   app.get(/\.(jpg|jpeg|png|webp|svg|gif)$/i, (req, res, next) => {
@@ -513,6 +519,7 @@ async function startServer() {
 
     for (const candidate of candidatePaths) {
       if (fs.existsSync(candidate) && fs.statSync(candidate).isFile()) {
+        res.setHeader('Cache-Control', 'public, max-age=604800, immutable');
         return res.sendFile(candidate);
       }
     }
@@ -528,7 +535,16 @@ async function startServer() {
     app.use(vite.middlewares);
   } else {
     const distPath = path.join(process.cwd(), 'dist');
-    app.use(express.static(distPath));
+    app.use(express.static(distPath, {
+      maxAge: '1d',
+      setHeaders: (res, pathUrl) => {
+        if (pathUrl.endsWith('.html')) {
+          res.setHeader('Cache-Control', 'no-cache');
+        } else {
+          res.setHeader('Cache-Control', 'public, max-age=604800, immutable');
+        }
+      }
+    }));
     app.use((req, res, next) => {
       if (req.method === 'GET' && !req.path.startsWith('/api') && !req.path.match(/\.(jpg|jpeg|png|webp|svg|gif|ico|json|css|js|map)$/i)) {
         res.sendFile(path.join(distPath, 'index.html'));
